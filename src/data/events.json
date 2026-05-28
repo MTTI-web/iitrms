@@ -1,0 +1,80 @@
+[
+  [
+    {
+      "id": "10",
+      "image": "/events/event1.jpg",
+      "height": "1",
+      "description": "Team IITRMS participated in FSUK 2023, held at Silverstone, UK. After a decade, the team returned to FSUK and secured 1st position among the Asian teams in the Engineering Design Event and Indian teams in the Cost and Manufacturing Event."
+    }
+  ],
+  [
+    {
+      "id": "20",
+      "image": "/events/event2-1.jpeg",
+      "height": "0",
+      "description": "The team presented the newly manufactured RMSE23 to the Governor of Uttarakhand at the National Technology Day event organized at IIT Roorkee."
+    },
+    {
+      "id": "30",
+      "image": "/events/event3-1.jpg",
+      "height": "0",
+      "description": "After a year of hard work, sweat, and dedication from the team, we finally unveiled RMSE 23, our brand-new formula-style race car. The honorable Director of IIT Roorkee graced the ceremony. We demonstrated the car's capability by performing a test run around the Main Building."
+    }
+  ],
+  [
+    {
+      "id": "40",
+      "image": "/events/E24_Awards.jpg",
+      "height": "0",
+      "description": "The team participated in static events in Formula Bharat 2023 and won the MathWorks Modelling Award. The team secured 3rd position in Concept, Goals, and Management Report (CGMR) Presentation and 6th position in Business Plan Presentation (BPP)."
+    },
+    {
+      "id": "50",
+      "image": "/events/event5-1.png",
+      "height": "0",
+      "description": "The team participated in the Uttarakhand Udyog Mahotsav (UKUM) 2023, where we showcased our vehicles to different college students from all over Uttarakhand. We won the award for the “Most Electrifying Presenter,” which was presented to us by the esteemed director of IIT Roorkee."
+    }
+  ],
+  [
+    {
+      "id": "60",
+      "image": "/events/event6-1.jpg",
+      "height": "0",
+      "description": "IITRMS Team developed an in-house race car style stimulator, presented it at Thomso 2022, and gave a large crowd the thrilling experience of virtually driving a Formula-style race car."
+    },
+    {
+      "id": "70",
+      "image": "/events/event7-1.jpg",
+      "height": "0",
+      "description": "The team participated in Formula Bharat victuals 2021. We were first in business plan presentation, third in Engineering Design and third overall."
+    }
+  ],
+  [
+    {
+      "id": "80",
+      "image": "/events/event8-1.jpg",
+      "height": "0",
+      "description": "Our previous car RMSE19 was converted into a racing simulator and was open for public during our cultural fest Thomso’22"
+    },
+    {
+      "id": "90",
+      "image": "/events/event8-2.png",
+      "height": "0",
+      "description": "Members of the team participated in the tenth edition of inter IIT tech meet and won the gold medal in “powered bonnet for electric vehicle” problem"
+    }
+  ],
+  [
+    {
+      "id": "100",
+      "image": "/events/event9-1.jpg",
+      "height": "0",
+      "description": "The team participated in FSEV 21-22 and were third in team management event."
+    },
+    {
+      "id": "110",
+      "image": "/events/event9-2.png",
+      "height": "0",
+      "description": "Cognizance’22 was the first offline event after the campus reopened. Our team converted our last car RMSE19 into a racing simulator and exhibited it for the public to try."
+    }
+  ]
+]

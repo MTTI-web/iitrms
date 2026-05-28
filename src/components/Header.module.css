@@ -1,0 +1,77 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 clamp(1.5rem, 4vw, 4rem);
+  z-index: 100;
+  box-sizing: border-box;
+
+  /* State 1: Completely invisible background over your hero section */
+  background-color: transparent;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-bottom: 1px solid transparent;
+
+  transition:
+    background-color 0.4s ease,
+    backdrop-filter 0.4s ease,
+    border-color 0.4s ease;
+}
+
+/* State 2: Elegant translucent glass blur activated exclusively on scroll tracking */
+.header.scrolled {
+  background-color: rgba(5, 5, 5, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logoImage {
+  width: auto;
+  height: clamp(35px, 3.5vw, 50px);
+  object-fit: contain;
+}
+
+.navigation {
+  display: flex;
+  gap: clamp(0.75rem, 1.8vw, 2rem);
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  min-width: 0;
+  padding-left: 2rem;
+}
+
+.navLink {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: clamp(0.85rem, 1vw, 0.95rem);
+  font-weight: 500;
+  opacity: 0.85;
+  white-space: nowrap;
+  transition:
+    opacity 0.2s ease,
+    color 0.2s ease;
+}
+
+.navLink:hover {
+  opacity: 1;
+  color: #bc1c1c;
+}
+
+@media (max-width: 950px) {
+  .navigation {
+    display: none;
+  }
+}
