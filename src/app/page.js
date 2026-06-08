@@ -1,5 +1,6 @@
 import EventsCarousel from "../components/EventsCarousel";
 import AchievementsList from "../components/AchievementsList";
+import SponsorsGrid from "../components/SponsorsGrid";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -30,6 +31,14 @@ export default function Home() {
           <h2 className={styles.sectionHeader}>Our Legacy</h2>
         </div>
         <AchievementsList />
+      </section>
+
+      {/* SECTION 4: SPONSORS (DENSE ORGANIC LAYOUT) */}
+      <section className={styles.sponsorsSection}>
+        <div className={styles.sectionHeaderWrapper}>
+          <h2 className={styles.sectionHeader}>Our Partners</h2>
+        </div>
+        <SponsorsGrid />
       </section>
     </main>
   );

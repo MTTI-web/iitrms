@@ -1,0 +1,62 @@
+[
+  {
+    "name": "/sponsors/enepaq.png",
+    "id": "1",
+    "link": "https://enepaq.com"
+  },
+  {
+    "name": "/sponsors/carigar.png",
+    "id": "2",
+    "link": "https://carigartools.com/"
+  },
+  {
+    "name": "/sponsors/goodluck.png",
+    "id": "3",
+    "link": "https://www.goodluckindia.com/"
+  },
+  {
+    "name": "/sponsors/infineon.png",
+    "id": "4",
+    "link": "https://www.infineon.com/"
+  },
+  {
+    "name": "/sponsors/lapp.png",
+    "id": "5",
+    "link": "https://e.lapp.com/in/"
+  },
+  {
+    "name": "/sponsors/lifeaugmented.png",
+    "id": "6",
+    "link": "https://www.st.com/content/st_com/en.html"
+  },
+  {
+    "name": "/sponsors/littelfuse.png",
+    "id": "7",
+    "link": "https://www.littelfuse.com/"
+  },
+  {
+    "name": "/sponsors/norton.png",
+    "id": "8",
+    "link": "https://www.nortonabrasives.com/en-in"
+  },
+  {
+    "name": "/sponsors/pcbpower.png",
+    "id": "9",
+    "link": "https://www.pcbpower.com/"
+  },
+  {
+    "name": "/sponsors/relx.png",
+    "id": "10",
+    "link": "https://www.reliancecomposites.com/"
+  },
+  {
+    "name": "/sponsors/vicor.png",
+    "id": "11",
+    "link": "https://www.vicorpower.com/"
+  },
+  {
+    "name": "/sponsors/vishay.png",
+    "id": "12",
+    "link": "https://www.vishay.com/"
+  }
+]
