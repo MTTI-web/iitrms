@@ -1,0 +1,169 @@
+{
+  "RMSE 23": {
+    "image": "/cars/rsme23.jpeg",
+    "desc": "We aim to build a faster, lighter, and more reliable car this year compared to our previous projects. The primary goals to focus on this year were Reliability, Competitiveness, Improved Manufacturability, and Components Reusability. With RMS23, the team participated in Formula Student UK held at Silverstone Circuit, United Kingdom, in July 2023.",
+    "id": "0",
+    "achievements": [
+      "1st among the Asian teams in the Engineering Design Event",
+      "1st  among Indian teams in the Cost and Manufacturing Event",
+      "3rd position Overall among Asian teams"
+    ],
+    "technicalspecifications": [
+      "Maximum Power System Voltage: 537.6 V",
+      "Battery Box Energy: 8.3 kWh",
+      "Peak Motor Power: 100 kW",
+      "Peak Motor Torque: 240 Nm",
+      "Maximum Speed: 140 kmph",
+      "Acceleration 0-100 kmph in 2.9 s",
+      "Deceleration 72-0 kmph in 1.4 s",
+      "Weight (without driver): 249 kg",
+      "Minimum Turning Radius: 3 m",
+      "CG Height: 0.271 m",
+      "Front track width: 1.173 m",
+      "Rear track width: 1.130 m",
+      "Wheel base: 1.530 m",
+      "In-house developed Battery Management System can manage up to 16 cells and supports Passive Cell Balancing",
+      "Optimized HV Pre-charge flow by reducing the number of PCBs and utilizing MCU  capacitors",
+      "Achieve 50 front, 50 rear weight distribution.",
+      "Implemented aerodynamic devices for the first time.",
+      "Efficient and compact packaging.",
+      "Several structural and non-structural components have been fabricated from Carbon Fibre Reinforced Plastic to reduce weight"
+    ]
+  },
+  "RMSE 21": {
+    "image": "/cars/rsme21.jpg",
+    "desc": "Due to COVID-19, Formula Bharat 2021 was organized virtually. The car was designed and stimulated but not manufactured for the event.",
+    "id": "1",
+    "achievements": [
+      "1st in  Business Plan Presentation",
+      "2nd in Team Management",
+      "3rd in Engineering Design Report",
+      "3rd overall among all Electric Teams"
+    ],
+    "technicalspecifications": []
+  },
+  "RMSE 19": {
+    "image": "/cars/rsme19b.png",
+    "desc": "With an aim to improve the overall design and focus on the electric powertrain, the team developed its’ third electric racecar, RMSE19. It is ergonomically designed, safe and durable for track racing. With a 100kW motor, RMSE19 can accelerate from 0-100kmph in just 3.8 seconds and reach a maximum speed of 140kmph. With RMSE19, the team participated in Formula Green 2020 held at Kari Motor Speedway, Coimbatore, in February 2020.",
+    "id": "2",
+    "achievements": [
+      "1st in Acceleration",
+      "2nd in Cost and Manufacturing",
+      "2nd in Business Plan Presentation",
+      "3rd in Engineering Design Report",
+      "3rd position Overall"
+    ],
+    "technicalspecifications": [
+      "Maximum Power System Voltage: 537.6 V",
+      " Battery Box Energy: 7.1 kWh",
+      " Peak Motor Power: 100 kW",
+      " Peak Motor Torque: 230 Nm",
+      " Maximum Speed: 140 kmph",
+      " Acceleration 0-100 kmph in 3.8 s",
+      " Deceleration 72-0 kmph in 0.9 s",
+      " Weight (without driver): 270 kg",
+      " Minimum Turning Radius: 2.8 m",
+      " Bodyworks: Glass Fibre Reinforced Plastic",
+      " In house developed Battery Management System, which can manage up to 16 cells and supports Passive Cell Balancing.",
+      " State of the art Data Acquisition system, from which the data acquired can be logged online through Wi-Fi.",
+      " Light and ergonomic carbon fibre steering wheel.",
+      " Water-propelled cooling system for motor and motor controller.",
+      " Air-cooled battery box."
+    ]
+  },
+  "SABAR": {
+    "image": "/cars/saber.png",
+    "desc": "The team showcased its ability again by building an entirely electric racecar to run across the tracks of Formula Green 2017 in Coimbatore. Due to its unbeatable design and incredible technical support, SABER was able to beat the fastest team in the competition by a gap of 31 seconds in a friendly run. The panel was so impressed by its unique cooling system, cost-effectiveness, hard work, and dedication that they gave the team an honorary entry in the following Formula Green Competition.",
+    "id": "3",
+    "achievements": [
+      "The only team at the competition with an Air cooling system.",
+      "Completed one lap in 2 min 17 sec, beating the fastest lap of 2 min 48 sec in a friendly test run."
+    ],
+    "technicalspecifications": [
+      "Maximum Power System Voltage: 91.2 V",
+      "DC Nominal Power System Voltage: 76.8 V",
+      "DC Control System Voltage: 12 V DC, 24 V DC, 5 V DC",
+      "Accumulator Configuration: 24S 1P",
+      "Total Accumulator Capacity: 90 AH",
+      "Motor Type: BLDC",
+      "Number of Motors: 1",
+      "Peak Motor Power: 30KW",
+      "Continous Motor Power: 12 KW",
+      "Peak Stall Torque: 90 Nm"
+    ]
+  },
+  "BOLT": {
+    "image": "/cars/bolt-b.png",
+    "desc": "With the automotive industry shifting towards electric vehicles and increasing climate change concerns, we developed an all-electric vehicle - BOLT in 2015 and participated in FSAE Australasia, held in Melbourne (Australia).  The long-term aim of the team was to advance the technology of electric vehicles so that they may become cheaper and more efficient compared to gasoline-powered conventional cars. The car design was finalized after rigorous simulation and analysis of mechanical and electrical systems using software like Ansys, SolidWorks, ADAMS, MATLAB, Lapsim, and Multisim. After all this hard work and patience, the team finally got its reward, the number one Indian team in the Formula Student electric rankings.",
+    "id": "4",
+    "achievements": [
+      "2nd in Cost",
+      "4th in Design",
+      "4th in Business Presentation",
+      "4th position Overall",
+      "Winner of the ‘CAMS Inspiring Motorsports Award’ from CAMS(Confederation of Australian Motorsports) for Best Design among first-year electric teams.",
+      "IIT Roorkee Motorsports became the highest-ranked Formula Student Electric Team in India after this competition till 2019"
+    ],
+    "technicalspecifications": [
+      "Top Speed: 100 kmph",
+      "Acceleration: 0-60 kmph in 7.6 s",
+      "Range: 35-40 km",
+      "Type of Cells: Lithium Yttrium polymer",
+      "Battery Specs: 78.6 V, 8.6 kWh, 90 Ah",
+      "Peak Motor Power: 30 kW ",
+      "Peak Motor Torque: 90 Nm",
+      "Weight (without driver): 240 kg ",
+      "Turning Radius: 1.2 m",
+      "Wheelbase: 1550 mm",
+      "Frame/Chassis: AISI 1080 TIG-welded tubular frame"
+    ]
+  },
+  "RMSE 13": {
+    "image": "/cars/rsme13.png",
+    "desc": "Taking a step further from IC Engine car, the team developed a plug-in series hybrid electric powertrain-based race car and successfully participated at the international level in the Formula Student UK held at the Silverstone F1 Racetrack, UK 5-7 July 2013. It was organized by the Institution of Mechanical Engineers (IMechE) in association with Jaguar Land Rover, Mercedes AMG, Shell, etc. A total of 149 international teams from prestigious universities around the globe were registered in the event, and IIT Roorkee Motorsports was the only team with a hybrid electric vehicle in the competition.",
+    "id": "5",
+    "achievements": [
+      "The only hybrid car in FS UK 2013",
+      "Winner IMechE Formula Student award of 2500 GBP",
+      "1st in Cost and Business Presentation among Indian Teams",
+      "2nd overall as well as design among Indian Teams"
+    ],
+    "technicalspecifications": [
+      "Wheelbase: 1550 mm",
+      "Rear Track Width: 1275 mm",
+      "Front Track Width: 1325 mm",
+      "Weight (without driver): 300 kg",
+      "Weight Distribution (Front : Rear): 52:48",
+      "Battery Specs: 72 V, 8 kW, 48 Ah",
+      "Engine Type: Bajaj Discover 125 cc Carburetor Engine",
+      "Compression Ratio: 9.81",
+      "Peak Engine RPM: 8000",
+      "Motor: Motenergy ME0913 BLDC",
+      "Continuous Motor Power: 12 kW",
+      "Peak Motor Power: 30 kW",
+      "Frame/Chassis: AISI 1020 TIG-welded tubular frame"
+    ]
+  },
+  "FIITR-11": {
+    "image": "/cars/fiitr11.png",
+    "desc": "With hearts filled with passion and an aim to fabricate a formula-style racecar, FIITR-11, our first IC engine car was launched in 2011. The team participated in Formula SAE Australasia 2011 held in Melbourne in December and was the only Indian team among the 30 registered international teams to participate in the event. IIT Roorkee Motorsports became the first Indian Team to complete the endurance event. The car was also exhibited in the Design Pavillion of AUTO EXPO 2012, New Delhi.",
+    "id": "6",
+    "achievements": [
+      "1st position in Fuel Economy",
+      "7th position in Cost Presentation",
+      "1st Indian Team to finish final 32-lap race in Australia"
+    ],
+    "technicalspecifications": [
+      "Wheelbase: 1700 mm",
+      "Track Width: Front 1400 mm",
+      "Track Width: Rear 1350 mm",
+      "Weight (with driver): 327 kg",
+      "Engine Used: Royal Enfield 500cc Electra Unit Construction ",
+      "Frame/Chassis: AISI 1020 TIG-welded tubular frame",
+      "Tire: 13 R25B Hoosier (20x7)",
+      "Suspension: Double unequal A-arm",
+      "Front Actuation: Pull Rod",
+      "Rear Actuation: Push Rod"
+    ]
+  }
+}
