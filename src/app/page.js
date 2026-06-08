@@ -1,6 +1,7 @@
 import EventsCarousel from "../components/EventsCarousel";
 import AchievementsList from "../components/AchievementsList";
 import SponsorsGrid from "../components/SponsorsGrid";
+import Footer from "../components/Footer";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -40,6 +41,9 @@ export default function Home() {
         </div>
         <SponsorsGrid />
       </section>
+
+      {/* SECTION 5: FOOTER */}
+      <Footer />
     </main>
   );
 }
