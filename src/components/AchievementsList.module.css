@@ -1,0 +1,105 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  flex: 1;
+  min-height: 0; /* Important for flex children strictly abiding to height */
+  box-sizing: border-box;
+  display: flex;
+}
+
+.listContainer {
+  display: flex;
+  flex: 1;
+  gap: 2rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 10px 0 20px 0;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: #333 transparent;
+  min-height: 0;
+  /* Hides horizontal scrollbar on mobile to make it look cleaner if buttons are used */
+  -ms-overflow-style: none;
+}
+
+/* Custom Scrollbar for Webkit */
+.listContainer::-webkit-scrollbar {
+  height: 8px;
+}
+
+.listContainer::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.listContainer::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 4px;
+}
+
+.listContainer::-webkit-scrollbar-thumb:hover {
+  background: #bc1c1c;
+}
+
+/* --- Navigation Controls (Copied from EventsCarousel) --- */
+.navButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #111;
+  border: 1px solid #333;
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 4px;
+  transition:
+    background-color 0.2s,
+    border-color 0.2s;
+}
+
+.navButton:hover {
+  background-color: #bc1c1c;
+  border-color: #bc1c1c;
+}
+
+.navButton svg {
+  display: block;
+}
+
+/* Tucked slightly outwards over the slide safety padding area */
+.prevButton {
+  left: -10px;
+}
+
+.nextButton {
+  right: -10px;
+}
+
+@media (max-width: 1200px) {
+  .prevButton {
+    left: 10px;
+  }
+  .nextButton {
+    right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .listContainer {
+    gap: 1.5rem;
+    scrollbar-width: none; /* Often preferred to hide scrollbar on touch devices */
+  }
+  .listContainer::-webkit-scrollbar {
+    display: none;
+  }
+  /* Optional: Hide navigation buttons on mobile if you strictly want swipe-only */
+  /*
+  .navButton {
+    display: none;
+  }
+  */
+}

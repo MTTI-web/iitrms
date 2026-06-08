@@ -1,0 +1,139 @@
+[
+  {
+    "id": "1",
+    "image": "/cars/rsme23.jpeg",
+    "about": [],
+    "rank": [
+      {
+        "position": "1st",
+        "desc": "Engineering Design event among Asian teams"
+      },
+      {
+        "position": "1st",
+        "desc": "Cost and Manufacturing Event among Indian teams"
+      },
+      {
+        "position": "3rd",
+        "desc": "Overall among Asian teams"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "image": "/cars/rsme21.jpg",
+    "about": [],
+    "rank": [
+      {
+        "position": "1st",
+        "desc": "Business Plan Presentation"
+      },
+      {
+        "position": "2nd",
+        "desc": "Team Management"
+      },
+      {
+        "position": "3rd",
+        "desc": "Engineering Design Report"
+      },
+      {
+        "position": "3rd",
+        "desc": "Among all Electric Teams"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "image": "/cars/rsme19.png",
+    "about": [
+      {
+        "heading": "Formula Green",
+        "desc": "Coimbatore, 2020"
+      }
+    ],
+    "rank": [
+      {
+        "position": "1st",
+        "desc": "Accleration event"
+      },
+      {
+        "position": "3rd",
+        "desc": "Among all the teams"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "image": "/cars/saber.png",
+    "about": [
+      {
+        "heading": "Formula Green",
+        "desc": "Coimbatore, 2017"
+      },
+      {
+        "heading": "Best Lap Time",
+        "desc": "Among all the teams"
+      }
+    ],
+    "rank": []
+  },
+  {
+    "id": "5",
+    "image": "/cars/bolt.png",
+    "about": [
+      {
+        "heading": "FSAE Australasia",
+        "desc": "Malbourne, 2015"
+      },
+      {
+        "heading": "Best Lap Time",
+        "desc": "Among all the teams"
+      }
+    ],
+    "rank": [
+      {
+        "position": "4th",
+        "desc": "Among all the teams"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "image": "/cars/rsme13.png",
+    "about": [
+      {
+        "heading": "FS UK",
+        "desc": "Silverstone, 2013"
+      },
+      {
+        "heading": "2500 GBP",
+        "desc": "iMechE award winnner"
+      }
+    ],
+    "rank": [
+      {
+        "position": "2nd",
+        "desc": "Among all the teams"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "image": "/cars/fiitr11.png",
+    "about": [
+      {
+        "heading": "FSAE Australasia",
+        "desc": "Silverstone, 2013"
+      },
+      {
+        "heading": "Only Indian car",
+        "desc": "to complete the Edurance Run"
+      }
+    ],
+    "rank": [
+      {
+        "position": "1st",
+        "desc": "in Fuel Economy"
+      }
+    ]
+  }
+]

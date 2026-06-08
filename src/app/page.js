@@ -1,4 +1,5 @@
 import EventsCarousel from "../components/EventsCarousel";
+import AchievementsList from "../components/AchievementsList";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -21,6 +22,14 @@ export default function Home() {
           <h2 className={styles.sectionHeader}>Recent Events</h2>
         </div>
         <EventsCarousel />
+      </section>
+
+      {/* SECTION 3: ACHIEVEMENTS */}
+      <section className={styles.eventsSection}>
+        <div className={styles.sectionHeaderWrapper}>
+          <h2 className={styles.sectionHeader}>Our Legacy</h2>
+        </div>
+        <AchievementsList />
       </section>
     </main>
   );
