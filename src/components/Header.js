@@ -9,25 +9,28 @@ export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
-    const heroSection = document.getElementById("hero-section");
-    if (!heroSection) {
-      setIsScrolled(true);
-      return;
-    }
+    const handleScroll = () => {
+      // Find your home page's specific scroll container if it exists
+      const mainScroll = document.getElementById("main-scroll-container");
 
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        // If the hero section is in view, keep background completely transparent.
-        // As soon as it passes out of view, turn the translucent blur on.
-        setIsScrolled(!entry.isIntersecting);
-      },
-      {
-        threshold: 0.8, // Triggers immediately as the section starts snapping away
-      },
-    );
+      // If we are on the home page, read its scrollTop. Otherwise, fallback to window.scrollY (for /cars)
+      const scrollTop = mainScroll ? mainScroll.scrollTop : window.scrollY;
 
-    observer.observe(heroSection);
-    return () => observer.disconnect();
+      if (scrollTop > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    // 'true' activates the capture phase, enabling the window to intercept
+    // scroll events triggered by deep internal components like #main-scroll-container
+    window.addEventListener("scroll", handleScroll, true);
+
+    // Check immediately on component mount
+    handleScroll();
+
+    return () => window.removeEventListener("scroll", handleScroll, true);
   }, []);
 
   return (
