@@ -58,11 +58,14 @@ export default function Header() {
         <Link href="/cars" className={styles.navLink}>
           Cars
         </Link>
+        <Link href="/cars" className={styles.navLink}>
+          Autonomous
+        </Link>
         <Link href="#" className={styles.navLink}>
           Sponsors
         </Link>
-        <Link href="#" className={styles.navLink}>
-          Teams
+        <Link href="/team" className={styles.navLink}>
+          Team
         </Link>
         <Link href="#" className={styles.navLink}>
           Alumni

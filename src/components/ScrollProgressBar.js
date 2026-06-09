@@ -1,38 +1,61 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation"; // Tracks route changes across Next.js layout transitions
 import styles from "./ScrollProgressBar.module.css";
 
 export default function ScrollProgressBar() {
   const [progress, setProgress] = useState(0);
+  const pathname = usePathname(); // Listens to URL path changes
 
   useEffect(() => {
-    const container = document.getElementById("main-scroll-container");
-    if (!container) return;
-
     const handleScroll = () => {
-      const scrollTop = container.scrollTop;
-      const scrollHeight = container.scrollHeight - container.clientHeight;
+      const container = document.getElementById("main-scroll-container");
 
-      if (scrollHeight <= 0) return;
+      let scrollTop = 0;
+      let scrollHeight = 0;
+
+      // 1. Dynamically toggle tracking based on the current page context
+      if (container) {
+        scrollTop = container.scrollTop;
+        scrollHeight = container.scrollHeight - container.clientHeight;
+      } else {
+        // Fallback for regular pages like /cars, /team, and any future standard pages
+        scrollTop = window.scrollY;
+        scrollHeight =
+          document.documentElement.scrollHeight - window.innerHeight;
+      }
+
+      if (scrollHeight <= 0) {
+        setProgress(0);
+        return;
+      }
 
       const currentProgress = (scrollTop / scrollHeight) * 100;
       setProgress(currentProgress);
     };
 
-    container.addEventListener("scroll", handleScroll, { passive: true });
+    // 2. Attach using capture phase 'true' so window catches any nested element scrolling
+    window.addEventListener("scroll", handleScroll, {
+      capture: true,
+      passive: true,
+    });
     window.addEventListener("resize", handleScroll);
 
+    // Initial calculation when mounting or arriving on a new route
     handleScroll();
 
-    return () => {
-      container.removeEventListener("scroll", handleScroll);
-      window.removeEventListener("resize", handleScroll);
-    };
-  }, []);
+    // Small execution delay to catch dynamic Next.js DOM adjustments or scroll restorations
+    const timeoutId = setTimeout(handleScroll, 50);
 
-  // Updated to match the new 68px width of the scaled-up car
-  // so it perfectly parks at the right edge without overflowing.
+    return () => {
+      window.removeEventListener("scroll", handleScroll, { capture: true });
+      window.removeEventListener("resize", handleScroll);
+      clearTimeout(timeoutId);
+    };
+  }, [pathname]); // Fires cleanup and re-binding every time the user shifts routes
+
+  // Formatted offset so the car sits exactly on the track line boundary without clipping
   const positionOffset = `calc(${progress}% - ${68 * (progress / 100)}px)`;
 
   return (
@@ -40,7 +63,6 @@ export default function ScrollProgressBar() {
       <div className={styles.fill} style={{ width: positionOffset }} />
 
       <div className={styles.carWrapper} style={{ left: positionOffset }}>
-        {/* SVG width and height scaled up, while viewBox preserves the exact car shape */}
         <svg
           width="68"
           height="20"

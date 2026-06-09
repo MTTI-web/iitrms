@@ -1,0 +1,261 @@
+/* --- KILL CORE SCROLL LOCK CONSTRAINTS --- */
+:global(html),
+:global(body) {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  height: auto !important;
+  scroll-snap-type: none !important; /* Explicitly clears full-screen snap systems */
+  scroll-behavior: smooth !important;
+}
+
+.layoutContainer {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 80px; /* Header Offset space clearance */
+  background-color: #050505;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+/* --- STATIONARY LEFT BAR SIDEBAR --- */
+.sidebar {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 280px;
+  height: calc(100vh - 80px);
+  flex-shrink: 0;
+  border-right: 1px solid #141414;
+  padding: 3rem 2rem;
+  box-sizing: border-box;
+  background-color: #050505;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarTitle {
+  font-size: 1.1rem;
+  color: #555555;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #141414;
+  padding-bottom: 1rem;
+}
+
+.navMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.navLink {
+  position: relative;
+  color: #888888;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition:
+    color 0.25s ease,
+    padding-left 0.25s ease;
+}
+
+.navLink:hover {
+  color: #ffffff;
+}
+
+.navLink.active {
+  color: #bc1c1c;
+  font-weight: 600;
+  padding-left: 14px;
+}
+
+.navLink.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 3px;
+  height: 50%;
+  background-color: #bc1c1c;
+}
+
+/* --- MAIN SCROLL CONTENT ZONE --- */
+.contentArea {
+  flex: 1;
+  margin-left: 280px; /* Matches static sidebar width bounds */
+  display: flex;
+  flex-direction: column;
+  background-color: #050505;
+  box-sizing: border-box;
+}
+
+.deptSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5rem 6rem 5rem 4rem;
+  border-bottom: 1px solid #141414;
+  box-sizing: border-box;
+}
+
+.deptSection:last-child {
+  padding-bottom: 20rem; /* Bottom viewport target layout pad */
+}
+
+.deptHeading {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 3rem 0;
+  letter-spacing: 0.02em;
+  border-left: 4px solid #bc1c1c;
+  padding-left: 1rem;
+  line-height: 1;
+}
+
+/* --- MEMBERS LAYOUT GRID --- */
+.membersGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 2.5rem;
+  width: 100%;
+}
+
+.memberCard {
+  background-color: #0a0a0a;
+  border: 1px solid #141414;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition:
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.memberCard:hover {
+  border-color: #bc1c1c;
+  transform: translateY(-4px);
+}
+
+.avatarStage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  background-color: #111111;
+  overflow: hidden;
+}
+
+.avatarImage {
+  object-fit: cover;
+  object-position: center;
+}
+
+.cardOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(5, 5, 5, 0) 70%,
+    rgba(5, 5, 5, 0.6) 100%
+  );
+}
+
+.metaZone {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  background-color: #0a0a0a;
+}
+
+.memberName {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.memberRole {
+  font-size: 0.85rem;
+  color: #bc1c1c;
+  margin: 0 0 0.2rem 0;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.socialBar {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.4rem;
+  border-top: 1px solid #141414;
+  padding-top: 0.8rem;
+}
+
+.socialLink {
+  color: #555555;
+  transition:
+    color 0.2s,
+    transform 0.2s;
+  display: inline-flex;
+  align-items: center;
+}
+
+.socialLink:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+.emptyNotice {
+  padding: 3rem;
+  border: 1px dashed #222;
+  color: #666;
+}
+
+/* --- MOBILE RESPONSIVE ADAPTATIONS --- */
+@media (max-width: 1200px) {
+  .deptSection {
+    padding: 4rem 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .layoutContainer {
+    flex-direction: column;
+  }
+  .sidebar {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid #141414;
+    padding: 2rem 1.5rem;
+  }
+  .navMenu {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .navLink.active {
+    padding-left: 0;
+  }
+  .navLink.active::before {
+    display: none;
+  }
+  .contentArea {
+    margin-left: 0;
+  }
+  .deptSection {
+    padding: 3rem 1.5rem;
+  }
+  .deptHeading {
+    font-size: 1.8rem;
+  }
+}
