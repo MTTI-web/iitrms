@@ -1,0 +1,475 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Common Text Styling */
+.cardDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #dcdcdc;
+  margin: 0;
+}
+
+/* --- HERO SECTION --- */
+.heroSection {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  min-height: 400px;
+  background-color: #000000;
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.3), #000000),
+    radial-gradient(circle at 80% 20%, #110303 0%, #000000 60%);
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  border-bottom: 1px solid #141414;
+  box-sizing: border-box;
+}
+
+.heroContent {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  color: #ffffff;
+  margin: 0 0 1rem 0;
+  letter-spacing: -1px;
+  font-weight: 700;
+}
+
+.heroSubtext {
+  font-size: 1.25rem;
+  color: #888888;
+  margin: 0 0 2rem 0;
+  letter-spacing: 1px;
+}
+
+.titleAccent {
+  height: 4px;
+  width: 80px;
+  background-color: #bc1c1c;
+}
+
+/* --- ABOUT SECTION --- */
+.aboutSection {
+  padding: 5rem 2rem;
+  background-color: #000000;
+  border-bottom: 1px solid #141414;
+  display: flex;
+  padding-top: 0rem !important;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.sectionInner {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sectionLabel {
+  font-size: 0.9rem;
+  color: #bc1c1c;
+  letter-spacing: 3px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.aboutText {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #ffffff;
+  max-width: 900px;
+  margin: 0;
+  font-weight: 300;
+}
+
+/* --- FEATURES SECTION --- */
+.featuresSection {
+  background-color: #000000;
+  border-bottom: 1px solid #141414;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.featuresGrid {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+.featureColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.featureHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.featureIcon {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.featureTitle {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.featureDescription {
+  font-size: 0.95rem;
+  color: #888888;
+  margin: 0;
+  line-height: 1.5;
+  padding-left: 1.8rem;
+}
+
+/* --- GRID SECTIONS (VERTICALS & EVENTS) --- */
+.gridSection {
+  padding: 6rem 2rem;
+  background-color: #080808;
+  border-bottom: 1px solid #141414;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.sectionHeaderCombined {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3.5rem;
+  width: 100%;
+}
+
+.sectionHeaderWrapper {
+  flex: 0 0 auto;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+  align-self: flex-start;
+}
+
+.sectionHeader {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  white-space: nowrap;
+}
+
+.sectionHeader::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background-color: #bc1c1c;
+}
+
+.headerLine {
+  height: 1px;
+  flex: 1;
+  background-color: #141414;
+}
+
+/* Verticals Dynamic Grid Layout */
+.verticalsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.verticalCard {
+  background-color: #000000;
+  border: 1px solid #141414;
+  padding: 3rem 2.5rem;
+  position: relative;
+  transition:
+    border-color 0.4s ease,
+    transform 0.4s ease;
+}
+
+.verticalCard:hover {
+  border-color: #bc1c1c;
+  transform: translateY(-2px);
+}
+
+.verticalCard:hover .cardCornerAccent {
+  width: 100%;
+}
+
+.cardNumber {
+  display: block;
+  font-size: 0.85rem;
+  color: #bc1c1c;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+}
+
+/* Events Dynamic Grid Layout */
+.eventsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  width: 100%;
+}
+
+.eventCard {
+  background-color: #080808;
+  border: 1px solid #141414;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: border-color 0.4s ease;
+}
+
+.eventCard:hover {
+  border-color: #bc1c1c;
+}
+
+.eventMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.eventTypeTag {
+  background-color: #141414;
+  color: #bc1c1c;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  letter-spacing: 0.5px;
+}
+
+.eventDateTag {
+  color: #888888;
+  font-size: 0.85rem;
+}
+
+.eventCardTitle {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 0;
+  font-weight: 500;
+}
+
+.eventLocation {
+  font-size: 0.9rem;
+  color: #dcdcdc;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.linkContainer {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.actionLink {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.actionLink span {
+  transition: transform 0.3s ease;
+}
+
+.actionLink:hover {
+  color: #bc1c1c;
+}
+
+.actionLink:hover span {
+  transform: translateX(4px);
+}
+
+/* --- FOOTER SECTION --- */
+.footerSection {
+  background-color: #050505;
+  border-top: 1px solid #141414;
+  padding: 4rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.footerContent {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.footerBrand {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footerLogoPlaceholder {
+  width: 80px;
+  height: 40px;
+  border: 1px solid #bc1c1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bc1c1c;
+  font-weight: bold;
+}
+
+.footerHeading {
+  color: #ffffff;
+  font-size: 1.25rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.footerSubtextTitle {
+  color: #888888;
+  font-size: 0.9rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contactList li {
+  display: flex;
+  gap: 1rem;
+  color: #dcdcdc;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.contactIcon {
+  color: #bc1c1c;
+  font-size: 1.2rem;
+}
+
+.footerCopyright {
+  width: 100%;
+  text-align: center;
+  color: #555555;
+  font-size: 0.8rem;
+  border-top: 1px solid #141414;
+  padding-top: 2rem;
+}
+
+/* --- RESPONSIVE DESKTOP VIEWPORT (1024px+) --- */
+@media (min-width: 1024px) {
+  .heroSection {
+    height: 60vh;
+    padding: 0 10%;
+  }
+
+  .heroTitle {
+    font-size: 4.5rem;
+  }
+
+  .aboutSection {
+    padding: 7rem 10%;
+  }
+
+  .aboutText {
+    font-size: 1.75rem;
+  }
+
+  .featuresSection {
+    padding: 4rem 10%;
+  }
+
+  .featuresGrid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+
+  .gridSection {
+    padding: 7rem 10%;
+  }
+
+  /* Grid Layout: 3 Columns for Verticals */
+  .verticalsGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  /* Grid Layout: 2 Columns for Events */
+  .eventsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+
+  .footerSection {
+    padding: 6rem 10% 2rem 10%;
+  }
+
+  .footerContent {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footerBrand,
+  .footerContact {
+    flex: 0 0 40%;
+  }
+}

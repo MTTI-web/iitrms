@@ -56,7 +56,7 @@
 .navLink {
   color: #ffffff;
   text-decoration: none;
-  font-size: clamp(0.85rem, 1vw, 0.95rem);
+  font-size: clamp(1rem, 1vw, 0.95rem);
   font-weight: 500;
   opacity: 0.85;
   white-space: nowrap;

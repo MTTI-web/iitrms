@@ -1,10 +1,10 @@
 /* --- NATIVE VIEWPORT SCROLLBAR FORCING ACCENTS --- */
-:global(html),
+/* :global(html),
 :global(body) {
   overflow-y: auto !important;
   overflow-x: hidden !important;
   height: auto !important;
-}
+} */
 
 :global(::-webkit-scrollbar) {
   width: 12px !important;
@@ -51,6 +51,17 @@
   z-index: 10;
   display: flex;
   flex-direction: column;
+  /* ADDED SMOOTH TRANSITION PARAMETERS */
+  transition:
+    transform 0.45s cubic-bezier(0.25, 1, 0.5, 1),
+    opacity 0.4s ease;
+}
+
+/* NEW OVERLAY MUTING LAYER */
+.sidebarHidden {
+  transform: translateX(-102%); /* Translates safely off-canvas to the left */
+  opacity: 0;
+  pointer-events: none; /* Disables stray clicks on hidden options */
 }
 
 .sidebarTitle {
@@ -137,8 +148,8 @@
 
 .imageStage {
   position: relative;
-  flex: 0 0 55%; /* Increased from 45% to prevent early image cutoff */
-  height: 440px; /* Elevated height slightly to frame wider aspect values */
+  flex: 0 0 55%;
+  height: 440px;
   background-color: #000000;
   overflow: hidden;
 }
@@ -172,7 +183,7 @@
 }
 
 .carHeading {
-  font-size: 2.6rem; /* Reduced from 3.5rem for a sleeker profile */
+  font-size: 2.6rem;
   font-weight: 700;
   color: #ffffff;
   margin: 0 0 1rem 0;
@@ -180,7 +191,7 @@
 }
 
 .carDesc {
-  font-size: 1rem; /* Slightly reduced from 1.1rem for dense clarity */
+  font-size: 1rem;
   line-height: 1.6;
   color: #cccccc;
   margin: 0;

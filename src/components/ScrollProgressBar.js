@@ -10,21 +10,16 @@ export default function ScrollProgressBar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const container = document.getElementById("main-scroll-container");
+      const container = null;
 
       let scrollTop = 0;
       let scrollHeight = 0;
 
       // 1. Dynamically toggle tracking based on the current page context
-      if (container) {
-        scrollTop = container.scrollTop;
-        scrollHeight = container.scrollHeight - container.clientHeight;
-      } else {
-        // Fallback for regular pages like /cars, /team, and any future standard pages
-        scrollTop = window.scrollY;
-        scrollHeight =
-          document.documentElement.scrollHeight - window.innerHeight;
-      }
+
+      // Fallback for regular pages like /cars, /team, and any future standard pages
+      scrollTop = window.scrollY;
+      scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
 
       if (scrollHeight <= 0) {
         setProgress(0);

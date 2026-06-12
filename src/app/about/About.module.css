@@ -1,0 +1,234 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Typography Defaults */
+.description {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #dcdcdc;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* --- HERO SECTION --- */
+.heroSection {
+  position: relative;
+  width: 100%;
+  height: 55vh;
+  min-height: 500px;
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 1px solid #141414;
+}
+
+.heroImageWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.heroImage {
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0.8) 80%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.heroTitleContainer {
+  position: relative;
+  z-index: 1;
+  padding: 3rem 2rem;
+  padding-bottom: 0rem !important;
+  width: 100%;
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.titleAccent {
+  height: 4px;
+  width: 60px;
+  background-color: #bc1c1c;
+}
+
+/* --- ABOUT US TEXT SECTION --- */
+.textSection {
+  padding: 3rem 2rem;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.contentContainer {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* --- FORMULA BHARAT SPLIT SECTION --- */
+.splitSection {
+  display: flex;
+  flex-direction: column;
+  background-color: #080808;
+  border-top: 1px solid #141414;
+  border-bottom: 1px solid #141414;
+  width: 100%; /* Add this to ensure it stays within bounds */
+  box-sizing: border-box; /* Trap borders inside */
+}
+
+.splitMedia {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  box-sizing: border-box; /* Trap borders inside */
+}
+
+.image {
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.7s cubic-bezier(0.15, 1, 0.3, 1);
+}
+
+.splitSection:hover .image {
+  transform: scale(1.03);
+}
+
+.imageOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(8, 8, 8, 0.6) 100%
+  );
+  pointer-events: none;
+}
+
+.splitContent {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  box-sizing: border-box; /* CRITICAL: This forces the padding to stay inside the 50% width on desktop */
+}
+
+.sectionHeading {
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: 1.5px;
+}
+
+/* --- EVENTS TEXT SECTION (Notion-style) --- */
+.eventsTextSection {
+  padding: 3rem 2rem;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #141414;
+}
+
+.eventsTable {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.eventColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.eventHeading {
+  color: #ffffff;
+  font-size: 1.4rem;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+  display: inline-block;
+  align-self: flex-start;
+}
+
+/* --- DESKTOP VIEWPORT --- */
+@media (min-width: 1024px) {
+  .heroTitleContainer {
+    padding: 4rem 10%;
+  }
+
+  .textSection,
+  .cardsSection {
+    padding: 5rem 10%;
+  }
+
+  .splitSection {
+    flex-direction: row;
+  }
+
+  .splitMedia {
+    flex: 0 0 50%;
+    height: auto;
+    min-height: 500px;
+  }
+
+  .splitContent {
+    flex: 0 0 50%;
+    padding: 5rem;
+    border-left: 1px solid #141414;
+  }
+
+  .cardGrid {
+    flex-direction: row;
+  }
+
+  .eventCard {
+    flex: 1;
+  }
+
+  .footerSection {
+    padding: 5rem 10% 2rem 10%;
+  }
+
+  .footerContent {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footerBrand {
+    flex: 0 0 40%;
+  }
+
+  .footerContact {
+    flex: 0 0 40%;
+  }
+}

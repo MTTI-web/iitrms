@@ -1,6 +1,48 @@
 [
   {
     "id": "1",
+    "image": "/cars/rmse25.png",
+    "about": [],
+    "rank": [
+      {
+        "position": "1st",
+        "desc": "Cost & Manufacturing Event"
+      },
+      {
+        "position": "1st",
+        "desc": "Mathematical modelling award"
+      },
+      {
+        "position": "1st",
+        "desc": "Ansys Simulation challenge"
+      },
+      {
+        "position": "6th",
+        "desc": "Overall among all teams"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "image": "/cars/rmse24.png",
+    "about": [],
+    "rank": [
+      {
+        "position": "1st",
+        "desc": "MATLAB modelling award"
+      },
+      {
+        "position": "1st",
+        "desc": "Altair Simulation challenge"
+      },
+      {
+        "position": "11th",
+        "desc": "Overall among all the Teams"
+      }
+    ]
+  },
+  {
+    "id": "3",
     "image": "/cars/rsme23.jpeg",
     "about": [],
     "rank": [
@@ -10,7 +52,7 @@
       },
       {
         "position": "1st",
-        "desc": "Cost and Manufacturing Event among Indian teams"
+        "desc": "Cost & Manufacturing Event among Indian Teams"
       },
       {
         "position": "3rd",
@@ -19,7 +61,7 @@
     ]
   },
   {
-    "id": "2",
+    "id": "4",
     "image": "/cars/rsme21.jpg",
     "about": [],
     "rank": [
@@ -42,7 +84,7 @@
     ]
   },
   {
-    "id": "3",
+    "id": "5",
     "image": "/cars/rsme19.png",
     "about": [
       {
@@ -53,7 +95,7 @@
     "rank": [
       {
         "position": "1st",
-        "desc": "Accleration event"
+        "desc": "Acceleration event"
       },
       {
         "position": "3rd",
@@ -62,7 +104,7 @@
     ]
   },
   {
-    "id": "4",
+    "id": "6",
     "image": "/cars/saber.png",
     "about": [
       {
@@ -77,7 +119,7 @@
     "rank": []
   },
   {
-    "id": "5",
+    "id": "7",
     "image": "/cars/bolt.png",
     "about": [
       {
@@ -97,7 +139,7 @@
     ]
   },
   {
-    "id": "6",
+    "id": "8",
     "image": "/cars/rsme13.png",
     "about": [
       {
@@ -117,7 +159,7 @@
     ]
   },
   {
-    "id": "7",
+    "id": "9",
     "image": "/cars/fiitr11.png",
     "about": [
       {
@@ -126,7 +168,7 @@
       },
       {
         "heading": "Only Indian car",
-        "desc": "to complete the Edurance Run"
+        "desc": "to complete the Endurance Run"
       }
     ],
     "rank": [

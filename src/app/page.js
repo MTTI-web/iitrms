@@ -6,7 +6,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main id="main-scroll-container" className={styles.main}>
+    <main id="main-scroll-container" className={styles.home}>
       {/* SECTION 1: HERO CONTAINER WITH TARGET ID */}
       <section id="hero-section" className={styles.heroSection}>
         <div className={styles.overlay} />
@@ -35,15 +35,12 @@ export default function Home() {
       </section>
 
       {/* SECTION 4: SPONSORS (DENSE ORGANIC LAYOUT) */}
-      <section className={styles.sponsorsSection}>
+      <section className={styles.sponsorsSection} id="sponsors">
         <div className={styles.sectionHeaderWrapper}>
           <h2 className={styles.sectionHeader}>Our Partners</h2>
         </div>
         <SponsorsGrid />
       </section>
-
-      {/* SECTION 5: FOOTER */}
-      <Footer />
     </main>
   );
 }

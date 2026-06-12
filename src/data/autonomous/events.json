@@ -1,0 +1,32 @@
+[
+  {
+    "title": "SynapseDrive - 25",
+    "type": "15 Day Hackathon",
+    "date": "Dec 13 - Dec 28",
+    "description": "Participate for an exciting experience! Top performers will get access to direct interviews during club recruitments.",
+    "links": [
+      {
+        "type": "website",
+        "url": "https://synapsedrivecountdown.framer.website/"
+      }
+    ]
+  },
+  {
+    "title": "ERROR 404: Human Driver not Found!",
+    "type": "Hands-on Workshop",
+    "date": "5 Nov",
+    "time": "4:15PM",
+    "location": "APJ-205",
+    "description": "A hands on workshop designed just right for 1st year students",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/DSGxRMS/Autonomous_Workshop_I"
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/DSGxRMS/Autonomous_Workshop_II"
+      }
+    ]
+  }
+]

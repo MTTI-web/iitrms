@@ -1,0 +1,1433 @@
+{
+  "Year 2023": [
+    {
+      "id": "1",
+      "image": "",
+      "name": "Shubham Raut",
+      "position": "",
+      "company": "",
+      "links": {
+        "facebook": "",
+        "linkedin": ""
+      }
+    },
+    {
+      "id": "2",
+      "image": "",
+      "name": "Shreyam Bansal",
+      "position": "Executive Trainee",
+      "company": "Tata Projects limited",
+      "links": {
+        "facebook": "",
+        "linkedin": "https://www.linkedin.com/in/shreyam-bansal-2a1b17190/"
+      }
+    },
+    {
+      "id": "3",
+      "image": "",
+      "name": "Arjav Jain",
+      "position": "GET EV Powertrain",
+      "company": "Jaguar Land Rover",
+      "links": {
+        "facebook": "https://www.facebook.com/arjav.jain.961?mibextid=D4KYlr",
+        "linkedin": "https://www.linkedin.com/in/arjav-jain-0311281a3"
+      }
+    },
+    {
+      "id": "4",
+      "image": "",
+      "name": "Gautam Shetty",
+      "position": "",
+      "company": "",
+      "links": {
+        "facebook": "",
+        "linkedin": ""
+      }
+    },
+    {
+      "id": "5",
+      "image": "",
+      "name": "Sujaan Kumar",
+      "position": "",
+      "company": "",
+      "links": {
+        "facebook": "",
+        "linkedin": ""
+      }
+    },
+    {
+      "id": "6",
+      "image": "",
+      "name": "Rijuta Singh",
+      "position": "",
+      "company": "",
+      "links": {
+        "facebook": "",
+        "linkedin": ""
+      }
+    },
+    {
+      "id": "7",
+      "image": "",
+      "name": "Aditya Sharma",
+      "position": "Associate Engineer",
+      "company": "Qualcomm India Pvt. Ltd.",
+      "links": {
+        "facebook": "",
+        "linkedin": "https://www.linkedin.com/in/aditya-sharma-13ab531a2"
+      }
+    },
+    {
+      "id": "8",
+      "image": "",
+      "name": "Jaswant Singh",
+      "position": "",
+      "company": "",
+      "links": {
+        "facebook": "",
+        "linkedin": ""
+      }
+    },
+    {
+      "id": "9",
+      "image": "",
+      "name": "Anurag Patra",
+      "position": "",
+      "company": "",
+      "links": {
+        "facebook": "",
+        "linkedin": ""
+      }
+    },
+    {
+      "id": "10",
+      "image": "",
+      "name": "Rajat Raj",
+      "position": "",
+      "company": "",
+      "links": {
+        "facebook": "",
+        "linkedin": ""
+      }
+    },
+    {
+      "id": "11",
+      "image": "",
+      "name": "Aditi Dubey",
+      "position": "",
+      "company": "",
+      "links": {
+        "facebook": "",
+        "linkedin": ""
+      }
+    },
+    {
+      "id": "12",
+      "image": "",
+      "name": "Harsiddh Desai",
+      "position": "",
+      "company": "",
+      "links": {
+        "facebook": "",
+        "linkedin": ""
+      }
+    }
+  ],
+  "Year 2022": [
+    {
+      "name": "Roshan Raja Samuel",
+      "position": "Hardware Engineer",
+      "company": "Nvidia",
+      "image": "/alumini/2022/Roshan Raja Samuel.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/ROSHAN.RAJASAMUEL",
+        "linkedin": "https://www.linkedin.com/in/roshan-raja-samuel-a-581431192/"
+      }
+    },
+    {
+      "name": "Rishabh Bakshi",
+      "position": "Assistant Manager",
+      "company": "ITC Limited",
+      "image": "/alumini/2022/Rishabh Bakshi.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/rishabhbakshi99",
+        "linkedin": "https://www.linkedin.com/in/rishabh-bakshi-6497b3174/"
+      }
+    },
+    {
+      "name": "Amogh Tandon",
+      "position": "Assistant Manger",
+      "company": "ITC Limited",
+      "image": "/alumini/2022/Amogh Tandon.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/amogh.tandon.9",
+        "linkedin": "https://www.linkedin.com/in/amogh-tandon-553603184/"
+      }
+    },
+    {
+      "name": "Sangeet Yadav",
+      "position": "GTE",
+      "company": "Bajaj Auto Limited",
+      "image": "/alumini/2022/Sangeet Yadav.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/sangeet.yadav.505523",
+        "linkedin": "https://www.linkedin.com/in/sangeet-yadav/"
+      }
+    },
+    {
+      "name": "Abhinav Bhatnagar",
+      "position": "Mechatronics Engineer",
+      "company": "Jaguar Land Rover",
+      "image": "/alumini/2022/Abhinav_Bhatnagar.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/abhinav.bhatnagar.543",
+        "linkedin": "https://www.linkedin.com/in/abhinav-bhatnagar-b3395a174/"
+      }
+    },
+    {
+      "name": "Tanisha Sahu",
+      "position": "Software Engineer",
+      "company": "Google",
+      "image": "/alumini/2022/Tanisha Sahu.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/tanisha390",
+        "linkedin": "https://www.linkedin.com/in/tanisha-sahu-7b2b7a11b/"
+      }
+    },
+    {
+      "name": "Kodakandla Dheeraj",
+      "position": "Software Engineer",
+      "company": "Zomato",
+      "image": "/alumini/2022/Kodakandla Dheeraj.JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/kodakandla.dheeraj",
+        "linkedin": "https://www.linkedin.com/in/dheeraj-kodakandla-696549170/"
+      }
+    }
+  ],
+  "Year 2021": [
+    {
+      "name": "Rahesh Hudiya",
+      "position": "Data Analyst",
+      "company": "Acko",
+      "image": "/alumini/2021/Rahesh Hudiya.png",
+      "links": {
+        "facebook": "https://www.facebook.com/rahesh.hudiya.3",
+        "linkedin": "https://www.linkedin.com/in/rahesh-hudiya/"
+      }
+    },
+    {
+      "name": "Shivendru Mathur",
+      "position": "Assistant Manager",
+      "company": "ITC Limited",
+      "image": "/alumini/2021/Shivendru Mathur.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/ShivendruMathur",
+        "linkedin": "https://www.linkedin.com/in/shivendru-mathur-a47293184/"
+      }
+    },
+    {
+      "name": "Omkar Raj",
+      "position": "GET",
+      "company": "Sterlite",
+      "image": "/alumini/2021/Omkar Raj.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/omkarraj02",
+        "linkedin": "https://www.linkedin.com/in/rajomkar02/"
+      }
+    },
+    {
+      "name": "Mohit Gupta",
+      "position": "Assistant Manager",
+      "company": "ITC Limited",
+      "image": "/alumini/2021/Mohit Kumar Gupta.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/profile.php?id=100013203939940",
+        "linkedin": "https://www.linkedin.com/in/mkgupt/"
+      }
+    },
+    {
+      "name": "Pratikesh Thakur",
+      "position": "Technlogist",
+      "company": "LG Ads",
+      "image": "/alumini/2021/Pratikesh Thakur.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/pratikesh.thakur.5",
+        "linkedin": "https://www.linkedin.com/in/pratikesh-thakur/"
+      }
+    },
+    {
+      "name": "Prakhar Mishra",
+      "position": "GET",
+      "company": "Sterlite",
+      "image": "/alumini/2021/Prakhar Mishra.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/prakhar.mishra.161214",
+        "linkedin": "https://www.linkedin.com/in/prakhar-mishra-409a66174/"
+      }
+    },
+    {
+      "name": "Dheeraj Etta",
+      "position": "PhD Student",
+      "company": "Cornell University",
+      "image": "/alumini/2021/Dheeraj Etta.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/profile.php?id=100018402732417",
+        "linkedin": "https://www.linkedin.com/in/dheeraj-etta-77a61714a/"
+      }
+    },
+    {
+      "name": "Gautam Rawat",
+      "position": "GMET",
+      "company": "Jaguar Land Rover",
+      "image": "/alumini/2021/Gautam Rawat.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/GautamRawat2512",
+        "linkedin": "https://www.linkedin.com/in/gautam-rawat-635935143/"
+      }
+    },
+    {
+      "name": "Shivam Nirmal",
+      "position": "GEET",
+      "company": "Jaguar Land Rover",
+      "image": "/alumini/2021/Shivam Nirmal.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/profile.php?id=100005453106904",
+        "linkedin": "https://www.linkedin.com/in/shivam-nirmal-446b59169/"
+      }
+    },
+    {
+      "name": "Raj Narnoli",
+      "position": "Senior Engineer",
+      "company": "Samsung Semiconductors",
+      "image": "/alumini/2021/Raj Namoli.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/rajnarnoli",
+        "linkedin": "https://www.linkedin.com/in/raj-narnoli-aa6a0b162/"
+      }
+    },
+    {
+      "name": "Utkarsh Mishra",
+      "position": "Graduate Research",
+      "company": "Georgia Institute of Technology",
+      "image": "/alumini/2021/Utkarsh Mishra.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/in/utkarshamishra/"
+      }
+    },
+    {
+      "name": "Abhishek Yadav",
+      "position": "Mechanical Lead",
+      "company": "Lenek Tech Pvt Ltd",
+      "image": "/alumini/2021/Abhishek Yadav.jfif",
+      "links": {
+        "facebook": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/in/abhishek-yadav-669578166/"
+      }
+    }
+  ],
+  "Year 2020": [
+    {
+      "name": "Mohd Sharib ",
+      "position": "Consultant ",
+      "company": "EXL Services",
+      "image": "/alumini/2020/Mohd Sharib-drive.jfif",
+      "links": {
+        "facebook": "https://www.facebook.com/mohd.sharib.100",
+        "linkedin": "https://www.linkedin.com/in/sharib-mohd-024ab312a"
+      }
+    },
+    {
+      "name": "Ujjwal Gupta",
+      "position": "Research Assistant",
+      "company": " Technion ",
+      "image": "/alumini/2020/Ujjwal Gupta-drive (1).jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/ujjwal.gupta.37625843",
+        "linkedin": "https://www.linkedin.com/in/ujjwal-gupta-1362a7141"
+      }
+    },
+    {
+      "name": "Tahir Mans",
+      "position": "Software Developer",
+      "company": "SAP Labs",
+      "image": "/alumini/2020/Mohd Tahir-Linkedin.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/tahir.mans",
+        "linkedin": "https://www.linkedin.com/in/mohd-tahir-3b1053158/"
+      }
+    },
+    {
+      "name": "Shivam Chopra",
+      "position": "",
+      "company": "",
+      "image": "/alumini/2020/Shivam Chopra -fb.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/shivam.chopra.104",
+        "linkedin": "https://www.linkedin.com/in/shivam-chopra-5763b9133"
+      }
+    },
+    {
+      "name": "Rachit Semalty",
+      "position": "Graduate Engineer Trainee",
+      "company": "Bajaj auto Pune",
+      "image": "/alumini/2020/Rachit Semalty-drive.JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/profile.php?id=100013118258538",
+        "linkedin": "https://www.linkedin.com/in/rachitsemalty1998"
+      }
+    },
+    {
+      "name": "Akash Dangee",
+      "position": "Associate Product Manager",
+      "company": "Powerplay",
+      "image": "/alumini/2020/Akash Dangee-drive.JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/akashdangee",
+        "linkedin": "https://www.linkedin.com/in/akash-dangee-69b008129/"
+      }
+    },
+    {
+      "name": "Jayant Teotia",
+      "position": "Research Associate",
+      "company": "ARTPARK, IISc",
+      "image": "/alumini/2020/Jayant Teotia- drive.JPG",
+      "links": {
+        "facebook": "#",
+        "linkedin": "https://www.linkedin.com/in/jayant-teotia-63a0b2127"
+      }
+    },
+    {
+      "name": "Meghan Patel",
+      "position": "Graduate Engineer Trainee",
+      "company": "Bajaj Auto",
+      "image": "/alumini/2020/Meghan Patel-drive.JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/meghan.patel.90",
+        "linkedin": "https://www.linkedin.com/in/meghan-patel-47342a143/"
+      }
+    },
+    {
+      "name": "Aby Jose",
+      "position": "Teachnical Leadership trainee",
+      "company": "Nestlé",
+      "image": "/alumini/2020/Aby Jose-drive.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/aby.jose.92",
+        "linkedin": "https://www.linkedin.com/in/aby-jose-74691b13a"
+      }
+    },
+    {
+      "name": "Anshul Suri",
+      "position": "Management Trainee Technical",
+      "company": "Tata Steel",
+      "image": "/alumini/2020/Anshul Suri-drive.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/anshul.suri.94",
+        "linkedin": "https://www.linkedin.com/in/anshul-suri-102284152"
+      }
+    },
+    {
+      "name": "Utkarsh Gupta ",
+      "position": "Graduate Engineer Trainee",
+      "company": " Bajaj Auto",
+      "image": "/alumini/2020/Utkarsh Gupta-drive.JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/utkarsh.gupta.549221",
+        "linkedin": "https://www.linkedin.com/in/utkarsh-gupta-ab1220136"
+      }
+    },
+    {
+      "name": "Swastik Sinha",
+      "position": "Product Designer",
+      "company": "Cleartrip",
+      "image": "/alumini/2020/Swastik Sinha-drive.JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/swastik.sinha.0805",
+        "linkedin": "https://www.linkedin.com/in/swastik-sinha-44a448139/"
+      }
+    },
+    {
+      "name": "Aditya Dhanraj Singh",
+      "position": "",
+      "company": "",
+      "image": "/alumini/2020/Aditya Dhanraj- drive.jfif",
+      "links": {
+        "facebook": "https://www.facebook.com/adityadrs98",
+        "linkedin": "https://www.linkedin.com/in/adityadrs/"
+      }
+    },
+    {
+      "name": "Kashish Garg",
+      "position": "Risk Analyst",
+      "company": "American Express",
+      "image": "/alumini/2020/Kashish Garg- fb.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/kashishgarg30",
+        "linkedin": "https://www.linkedin.com/in/kashish-garg/"
+      }
+    },
+    {
+      "name": "Rahul Gaur",
+      "position": "Consultant",
+      "company": "KPMG",
+      "image": "/alumini/2020/Rahul Gaur-drive.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/gaurrahul",
+        "linkedin": "https://www.linkedin.com/in/gaur-rahul94/"
+      }
+    },
+    {
+      "name": "Abhishek Soni",
+      "position": "Senior Managment Trainee",
+      "company": "HCL Technologies",
+      "image": "/alumini/2020/Abhishek Soni-drive.jpeg",
+      "links": {
+        "facebook": "https://www.facebook.com/abhishek.soni.98229",
+        "linkedin": "https://www.linkedin.com/in/shrikrishna-abhishek-soni/"
+      }
+    },
+    {
+      "name": "Shaurya Mishra",
+      "position": "Associate",
+      "company": "Axtria - Ingenious Insights",
+      "image": "/alumini/2020/Shaurya Mishra-drive.jpeg",
+      "links": {
+        "facebook": "https://www.facebook.com/shaurya.mishra.106",
+        "linkedin": "http://linkedin.com/in/skmengg"
+      }
+    }
+  ],
+  "Year 2019": [
+    {
+      "name": "Harshit Singh",
+      "position": "",
+      "company": "",
+      "image": "/alumini/2019/Harshit Singh-LinkedIn.jpg",
+      "links": {
+        "facebook": "#",
+        "linkedin": "https://www.linkedin.com/in/harshit-singh-040193107"
+      }
+    },
+    {
+      "name": "Chirag Agrawal",
+      "position": "Research Assistant ",
+      "company": "IIT Kanpur",
+      "image": "/alumini/2019/Chirag Agrawal-drive.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/chirag.agrawal.967",
+        "linkedin": "https://www.linkedin.com/in/chirag-agrawal-59b624100"
+      }
+    },
+    {
+      "name": "Aseem Routray",
+      "position": "Developer Trainee",
+      "company": "KPIT",
+      "image": "/alumini/2019/Aseem Routray-LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/aseemkumar.routray",
+        "linkedin": "https://www.linkedin.com/in/aseem-routray-564b02135"
+      }
+    },
+    {
+      "name": "Gaurav Kumar",
+      "position": "Senior Hardware Engineer ",
+      "company": "Samsung Semiconductor India R&D Centre",
+      "image": "/alumini/2019/Gaurav Kumar-fb(2017).jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/profile.php?id=100009069053431",
+        "linkedin": "https://www.linkedin.com/in/gaurav-kumar-819b24149"
+      }
+    },
+    {
+      "name": "Utkarsh Srivastava",
+      "position": "ASIC Development Engineer ",
+      "company": "Western Digital",
+      "image": "/alumini/2019/Copy of Utkarsh Shrivastava.JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/utkarsh.iitr",
+        "linkedin": "https://www.linkedin.com/in/utkarsh-srivastava-iitr"
+      }
+    },
+    {
+      "name": "Amarendra Mishra",
+      "position": "Analog Engineer ",
+      "company": "Texas Instruments",
+      "image": "/alumini/2019/Copy of Amarendra Mishra.JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/amarendra.mishra.58",
+        "linkedin": "https://www.linkedin.com/in/amarendra-mishra-64109b114"
+      }
+    },
+    {
+      "name": "Nitish Dhanalia",
+      "position": "Mechanical Engineer ",
+      "company": "Log 9 Materials",
+      "image": "/alumini/2019/Copy of Nitish kumar - Structural.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/profile.php?id=100009833199840",
+        "linkedin": "https://www.linkedin.com/in/nitishkumar97/"
+      }
+    },
+    {
+      "name": "Abhishek Gupta",
+      "position": "PhD,Mechanical Engineering ",
+      "company": " University of  Wisconsin-Madison ",
+      "image": "/alumini/2019/Copy of Abhishek Gupta.JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/profile.php?id=100010425450901",
+        "linkedin": "https://www.linkedin.com/in/abhishek-gupta-64437b125"
+      }
+    },
+    {
+      "name": "Ayush Sharma",
+      "position": "",
+      "company": "",
+      "image": "/alumini/2019/Copy of Ayush Sharma.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/people/Ayush-Sharma/100002873214355",
+        "linkedin": "https://www.linkedin.com/in/ayush-sharma-660831125"
+      }
+    },
+    {
+      "name": "Atulya Tibrewal",
+      "position": "Application Architect",
+      "company": "HSBC ",
+      "image": "/alumini/2019/Atulya Tibrewal.JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/atulya.tibrewal",
+        "linkedin": "https://www.linkedin.com/in/atulya-tibrewal-6b7089128"
+      }
+    },
+    {
+      "name": "Dhruv Vishwakarma",
+      "position": "Full Stack Developer",
+      "company": "Pine Labs",
+      "image": "/alumini/2019/Copy of Dhruv Vishwakarma.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/dhruv.vishwakarma",
+        "linkedin": "https://www.linkedin.com/in/dhruv-vishwakarma-877956126/"
+      }
+    },
+    {
+      "name": "Shailesh Lelran",
+      "position": "Executive Product Manager",
+      "company": "Ameyo",
+      "image": "/alumini/2019/Copy of Shailesh Lelran.jpg",
+      "links": {
+        "facebook": "#",
+        "linkedin": "https://www.linkedin.com/in/shaileshlelran"
+      }
+    },
+    {
+      "name": "Shubham Dhaker",
+      "position": "",
+      "company": "",
+      "image": "/alumini/2019/Shubham Dhanker- LinkedIn.JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/shubham.dhaker",
+        "linkedin": "https://www.linkedin.com/in/shubham-dhaker-892003129/"
+      }
+    }
+  ],
+  "Year 2018": [
+    {
+      "name": "Vivek Kumar",
+      "position": "Summer Intern ",
+      "company": " ICICI",
+      "image": "/alumini/2018/Vivek Kumar (fb-2016) (copy).jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/vivekkmr2706",
+        "linkedin": "https://www.linkedin.com/in/vivekkmr2706/"
+      }
+    },
+    {
+      "name": "Vishnu Naman",
+      "position": "Scientist",
+      "company": "ISRO Satellite Center,Bangalore",
+      "image": "/alumini/2018/Vishnu Naman (fb-2016).jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/vishnu.naman",
+        "linkedin": "https://www.linkedin.com/in/jai-vishnu-naman-468b19b5/"
+      }
+    },
+    {
+      "name": "Yash Goel",
+      "position": "Master Thesis Student ",
+      "company": "Robert Bosch Research",
+      "image": "/alumini/2018/Yash Goel.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/goelyash24/",
+        "linkedin": "https://www.linkedin.com/in/yash-goel-06b743a3/"
+      }
+    },
+    {
+      "name": "Sanyam Gupta ",
+      "position": "Senior Engineer",
+      "company": "Robert Bosch Engineering and Business Solutions",
+      "image": "/alumini/2018/Sanyam Gupta (Linkedin).jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/sanyam.gupta.96",
+        "linkedin": "https://www.linkedin.com/in/sanyam-gupta-bb2a92a4/"
+      }
+    },
+    {
+      "name": "Abhishek Kumar",
+      "position": "Product Strategy Associate ",
+      "company": "IDFC First Bank",
+      "image": "/alumini/2018/Abhishek Kumar (Linkedin).jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/911abhi",
+        "linkedin": "https://www.linkedin.com/in/abhishek-kumar-ba9a78113/"
+      }
+    },
+    {
+      "name": "Dipanshu Mittal ",
+      "position": "",
+      "company": "ISRO",
+      "image": "/alumini/2018/Dipanshu Mittal (Linkedin).jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/profile.php?id=100006263537187",
+        "linkedin": "https://www.linkedin.com/in/dipanshu-mittal-b25a16112/"
+      }
+    },
+    {
+      "name": "Mohit Yadav ",
+      "position": "ASIC Engineer ",
+      "company": "Nvidia",
+      "image": "/alumini/2018/Mohit Yadav (Linkedin).jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/mohity005",
+        "linkedin": "https://www.linkedin.com/in/mohit-yadav-836426b8/"
+      }
+    },
+    {
+      "name": "Nikunj Agrawal ",
+      "position": "Analyst",
+      "company": "Goldman Sachs",
+      "image": "/alumini/2018/Nikunj Agrawal (fb-2015).jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/nikunj.agrawal.7503?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/nikunj-agrawal-a5334599/"
+      }
+    },
+    {
+      "name": "Rishabh Bhawar",
+      "position": "Senior Manager",
+      "company": "Tata Motors",
+      "image": "/alumini/2018/Rishabh Bhawar (Linkedin).jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/profile.php?id=100001425739218",
+        "linkedin": "https://www.linkedin.com/in/rishabh-bhawar-50343a121/"
+      }
+    },
+    {
+      "name": "Sai Kalyan ",
+      "position": "Analog Applications Engineer",
+      "company": " Texas Instruments",
+      "image": "/alumini/2018/Sai Kalyan (fb-2018).jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/sai.kalyan.3382?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/sai-kalyan-aa3ab9112/"
+      }
+    },
+    {
+      "name": "Saieshwar Myneni ",
+      "position": "Student",
+      "company": "University at Buffalo",
+      "image": "/alumini/2018/Saieshwar Myneni (fb-2020).jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/saieshwar.myneni",
+        "linkedin": "https://www.linkedin.com/in/sai-eshwar-myneni-a16955113"
+      }
+    },
+    {
+      "name": "Saket Gaur ",
+      "position": "Electrical Engineer ",
+      "company": " Mahindra and Mahindra Limited",
+      "image": "/alumini/2018/Saket Gaur (Linkedin).jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/profile.php?id=100006448746521&fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/saket-gaur-2b1aaab1/"
+      }
+    },
+    {
+      "name": "Kuldeep Kanaujia",
+      "position": "Product Manager",
+      "company": " Axis Bank",
+      "image": "/alumini/2018/Kuldeep Kanaujia (Linkedin).jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/kuldeep.kanaujia.92",
+        "linkedin": "https://www.linkedin.com/in/kuldeep-kanaujia-99135479"
+      }
+    },
+    {
+      "name": "Anuj Jain ",
+      "position": "Founder ",
+      "company": "Yojak",
+      "image": "/alumini/2018/Anuj Jain (Linkedin).jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/anujjain3700",
+        "linkedin": "https://www.linkedin.com/in/anuj-jain-72069279/"
+      }
+    }
+  ],
+  "Year 2017": [
+    {
+      "name": "Abhinav Garg",
+      "position": "ML Researcher",
+      "company": "University of Illinois",
+      "image": "/alumini/2017/Abhinav Garg-LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/abhinavgarg30?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/abhinav-garg-30/"
+      }
+    },
+    {
+      "name": "Abhishek Verma",
+      "position": "",
+      "company": "ExxonMobil Company India Pvt. Ltd",
+      "image": "/alumini/2016/Abhishek Verma-fb(2016).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/abhishekverma1111?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "#"
+      }
+    },
+    {
+      "name": "Ajinkya Patil",
+      "position": "Co-Founder & CEO",
+      "company": "Retnext",
+      "image": "/alumini/2017/Ajinkya Patil-fb(2016).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/Ajinkya.patil61?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/ajinkya-patil60/"
+      }
+    },
+    {
+      "name": "Akash Chandra",
+      "position": "",
+      "company": "",
+      "image": "/alumini/2017/Akash chandra-fb(2017).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/akash.chandra.564?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/akash-chandra-6440b48b/"
+      }
+    },
+    {
+      "name": "Akshay Kumar",
+      "position": "",
+      "company": "ONGC",
+      "image": "/alumini/2018/Akshay Kumar-fb(2018).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/profile.php?id=100004430532753&fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "#"
+      }
+    },
+    {
+      "name": "Angad Singh",
+      "position": "Manager of Institutional Product Line",
+      "company": "Fuzzy Logix",
+      "image": "/alumini/2017/Angad Singh-fb(2017).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/angsin1?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/angadsingh94/"
+      }
+    },
+    {
+      "name": "Aniket Kothawade",
+      "position": "Associate ",
+      "company": "Goldman Sachs",
+      "image": "/alumini/2017/Aniket kothawade-fb(2017).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/aniket.kothawade.9?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/aniket-kothawade/"
+      }
+    },
+    {
+      "name": "Anurag Bhargava",
+      "position": "Marketing Intern",
+      "company": "DailyRounds/ Marrows",
+      "image": "/alumini/2017/Anurag bhargava-LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/anurag.bhargava.547?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/anurag-bhargava-564b4b101/"
+      }
+    },
+    {
+      "name": "Anurag Mehta",
+      "position": "Staff Application Engineer - Transportation",
+      "company": "National Instruments",
+      "image": "/alumini/2017/Anurag Mehta-LinkedIn.jpg",
+      "links": {
+        "facebook": "https://m.facebook.com/anurag.mehta.39982",
+        "linkedin": "https://www.linkedin.com/in/anurag-mehta-6961a7a6/"
+      }
+    },
+    {
+      "name": "Bharat Gedela",
+      "position": "Software Engineer ",
+      "company": "IMImobile",
+      "image": "/alumini/2017/Bharat Gedela-fb(2017).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/Bharath722?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/bharath-gedela-0191aba6/"
+      }
+    },
+    {
+      "name": "Gaurav Sharma",
+      "position": "Business Analyst",
+      "company": " Quifers",
+      "image": "/alumini/2017/Gaurav Sharma-fb(2017).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/profile.php?id=100000889598936&fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/gaurav-sharma-66427884/"
+      }
+    },
+    {
+      "name": "Gaurav Wadhwani",
+      "position": "Founder",
+      "company": "Karkhana App",
+      "image": "/alumini/2017/Gaurav Wadhwani-fb(2017).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/gaurav.wadhwani.9887?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/gaurav-wadhwani-955a1078/"
+      }
+    },
+    {
+      "name": "Himanshu Shashank",
+      "position": "Software Developer ",
+      "company": "Oracle",
+      "image": "/alumini/2017/Himanshu Shashank-fb(2017).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/HsTheSilentKiller?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/himanshu-shashank-b91025102/"
+      }
+    },
+    {
+      "name": "Pratik Asai",
+      "position": "Data Engineer III ",
+      "company": " Fanatics, Inc.",
+      "image": "/alumini/2017/Pratik Asai- fb(2017).JPG",
+      "links": {
+        "facebook": "https://m.facebook.com/pratik.asai",
+        "linkedin": "https://www.linkedin.com/in/pratik-asai-822abaa0"
+      }
+    },
+    {
+      "name": "Pulkit Goyal",
+      "position": "",
+      "company": "Mahindra and Mahindra",
+      "image": "/alumini/2017/Pulkit Goyal-fb(2017).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/pulkitpg9?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/pulkitpg/"
+      }
+    },
+    {
+      "name": "Rohan Kansal",
+      "position": "Software Developer",
+      "company": "Wipro",
+      "image": "/alumini/2017/Rohan kansal-fb(2017).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/rohan.kansal.3?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/rohan-kansal-72442598/"
+      }
+    },
+    {
+      "name": "Sankalp Wagh",
+      "position": "Senior Member Technical ",
+      "company": "D. E. Shaw India Private Limited",
+      "image": "/alumini/2017/Sankalp Wagh-LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/sankalp.wagh.1?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/sankalp-wagh-8a0b9ba0/"
+      }
+    },
+    {
+      "name": "Subhrajit Mallick",
+      "position": " Associate Engineer ",
+      "company": "Virtusapolaris ",
+      "image": "/alumini/2017/Subhrajit Mallick-fb(2014).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/subhrajit.mallick.3?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/subhrajit-mallick-79440748/"
+      }
+    },
+    {
+      "name": "Utkarsh Narain",
+      "position": "MPP Candidate ",
+      "company": " LKY School of Public Policy",
+      "image": "/alumini/2017/Utkarsh Narain-LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/utkarsh.narain?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/utkarsh-narain-07068354/"
+      }
+    }
+  ],
+  "Year 2016": [
+    {
+      "name": "Abhishek Agarwal",
+      "position": "Manager Mechanical Maintenance",
+      "company": "Tata Steel",
+      "image": "/alumini/2016/Abhishek Agarwal-fb(2016).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/abhishek.aggrawal1?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/abhishek-agrawal-27664a61/"
+      }
+    },
+    {
+      "name": "Aditya Gupta",
+      "position": "Senior Manager",
+      "company": "HDFC",
+      "image": "/alumini/2016/Aditya Gupta-LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/profile.php?id=100001943179611&fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/aditya-gupta-4022188a/"
+      }
+    },
+    {
+      "name": "Akash Singh",
+      "position": "HW System Developer",
+      "company": "Scania Group",
+      "image": "/alumini/2016/Akash Singh-fb(2016).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/akash.singh.7568596?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/akashsingh1298/"
+      }
+    },
+    {
+      "name": "Aman Srivatava",
+      "position": "MBA candidate in Supply Chain & Logistics ",
+      "company": " NRTI",
+      "image": "/alumini/2016/Aman Srivatava-LinkedIn.jpg",
+      "links": {
+        "facebook": "#",
+        "linkedin": "https://www.linkedin.com/in/aman-srivastava-iitr/"
+      }
+    },
+    {
+      "name": "Amber Mishra",
+      "position": "Senior Business Manager ",
+      "company": "Merilytics",
+      "image": "/alumini/2016/Amber Mishra-fb(2018).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/amber.mishra.12?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/amber-mishra-23677598/"
+      }
+    },
+    {
+      "name": "Divy Bansal",
+      "position": "Senior Mechanical Engineer ",
+      "company": " iX Energy Private Limited",
+      "image": "/alumini/2016/Divy Bansal-fb(2016).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/Divy.Bansal21?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/divy21/"
+      }
+    },
+    {
+      "name": "Manmohan Singh",
+      "position": "",
+      "company": "",
+      "image": "/alumini/2016/Manmohan Singh- fb(2016).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/manmohan.singh.5201254?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/manmohan-05606165"
+      }
+    },
+    {
+      "name": "Nikhil Barodiya",
+      "position": "Strategy Analyst ",
+      "company": "Accenture ",
+      "image": "/alumini/2016/Nikhil Barodiya-LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/nikhil.barodiya?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/nikhil-barodiya-5a573754/"
+      }
+    },
+    {
+      "name": "Prerak Ujgare",
+      "position": "Co-Founder",
+      "company": "Iotrek",
+      "image": "/alumini/2016/Prerak Ujgare-fb.JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/prerak.ujgare?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "#"
+      }
+    },
+    {
+      "name": "Sachin goyal",
+      "position": "SDE II",
+      "company": "Dream 11",
+      "image": "/alumini/2016/Sachin goyal-fb(2016).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/sg136?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/sachiniitr/"
+      }
+    },
+    {
+      "name": "Shakti rana",
+      "position": "Probationer,IRSME Officer",
+      "company": "Ministry of Railways, Gov India",
+      "image": "/alumini/2016/Shakti rana-fb(2016).JPG",
+      "links": {
+        "facebook": "#",
+        "linkedin": "https://www.linkedin.com/in/iranashakti/"
+      }
+    },
+    {
+      "name": "Subhash Sahni",
+      "position": "Staff Engineer ",
+      "company": " Samsung Semiconductor",
+      "image": "/alumini/2016/Subhash Sahni-LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/subhash.sahni.50?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/subhash-sahni-7aaa4263/"
+      }
+    },
+    {
+      "name": "Suryajit Yadav",
+      "position": "Entrepreneur in Residence",
+      "company": "Wakefit",
+      "image": "/alumini/2016/Suryajit Yadav-fb(2016).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/suryay39?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/suryajit-yadav-7a07a488/"
+      }
+    },
+    {
+      "name": "Vinay Kumar",
+      "position": "SDO",
+      "company": "UHBVN",
+      "image": "/alumini/2016/Vinay Kumar-LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/vinay020295?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/vinaykumar02/"
+      }
+    },
+    {
+      "name": "Vishal Indra Meena",
+      "position": "Co-Founder",
+      "company": "Madguy Labs",
+      "image": "/alumini/2016/Vishal Indra Meena-fb(2018).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/vishal.meena?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/vishalindrameena"
+      }
+    }
+  ],
+  "Year 2015": [
+    {
+      "name": "Archit Patel",
+      "position": "Founder",
+      "company": "Happy Rolls",
+      "image": "/alumini/2015/Archit Patel-fb(2015).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/archit.patel.102?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/archit-patel-81a63458/"
+      }
+    },
+    {
+      "name": "Arjun Kholia",
+      "position": "Business Intelligence Engineer, Retail Operations and Initiatives",
+      "company": "Amazon",
+      "image": "/alumini/2015/Arjun Kholia- LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/arjun.kholia?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/arjunkholia/"
+      }
+    },
+    {
+      "name": "Kuldeep Kanaujia",
+      "position": "Product Manager",
+      "company": "Axis Bank",
+      "image": "/alumini/2015/Kuldeep Kanaujia-fb(2014).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/kuldeep.kanaujia.92?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/kuldeep-kanaujia-99135479/"
+      }
+    },
+    {
+      "name": "Pallav Ranjan",
+      "position": "PHD Student ",
+      "company": "University of Illinois",
+      "image": "/alumini/2015/Pallav Ranjan- fb(2013).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/pallav.ranjan.3/about?lst=100001940006322%3A100002629202760%3A1527401576&section=education",
+        "linkedin": "https://www.linkedin.com/in/pallavranjan/"
+      }
+    },
+    {
+      "name": "Rohit Gupta",
+      "position": "",
+      "company": "",
+      "image": "/alumini/2015/Rohit Gupta-LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/demonicROHIT?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/rohit-gupta-ba827557/"
+      }
+    },
+    {
+      "name": "Sai Sharan",
+      "position": "Computing",
+      "company": "University of New South Wales",
+      "image": "/alumini/2015/Sai  Sharan- (taken from newsletter ).JPG",
+      "links": { "facebook": "#", "linkedin": "" }
+    },
+    {
+      "name": "Saurabh Dudani",
+      "position": "Strategy | Project Management",
+      "company": "Bluesapling Technologies",
+      "image": "/alumini/2015/Saurabh Dudani-LinkedIn.jpg",
+      "links": {
+        "facebook": "#",
+        "linkedin": "https://www.linkedin.com/in/saurabh-dudani/"
+      }
+    },
+    {
+      "name": "Shirish Kumbhar",
+      "position": " ATPA Edventures Pvt Ltd",
+      "company": "CTO & Cofounder",
+      "image": "/alumini/2015/Shirish Kumbhar-LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/kool.sjk?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/shirish-kumbhar-09692560/"
+      }
+    },
+    {
+      "name": "Virendra Pratap Singh",
+      "position": "MBA",
+      "company": "University of Edinburg Business School",
+      "image": "/alumini/2015/Virendra Pratap Singh-linkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/virenderp3?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/virenderpratapsingh/"
+      }
+    },
+    {
+      "name": "Piyush Kumar",
+      "position": "Co-Founder",
+      "company": "Iotrek",
+      "image": "/alumini/2015/Piyush Kumar-fb(2014).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    },
+    {
+      "name": "Vipul Kumbhar",
+      "position": "Systems/Software Engineering Intern",
+      "company": "Aptiv",
+      "image": "/alumini/2015/Vipul Kumbhar-LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/in/kumbharvipul"
+      }
+    }
+  ],
+  "Year 2014": [
+    {
+      "name": "Amey Sahasrabuddhe",
+      "position": "Product Manager ",
+      "company": "Flipkart",
+      "image": "/alumini/2014/Amey S. - Fb(2013).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/amey93?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/amey-s-96a53b56/"
+      }
+    },
+    {
+      "name": "Debasmit Das",
+      "position": " Senior Machine Learning Researcher ",
+      "company": " Qualcomm AI",
+      "image": "/alumini/2014/Debasmit Das- fb.JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/debasmit.das?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/debasmitdas/"
+      }
+    },
+    {
+      "name": "Jainil Lakhani",
+      "position": " Associate,Market Risk",
+      "company": "Goldman Sachs",
+      "image": "/alumini/2014/Jainil Lakhani- fb(2014).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/Jainil.Lakhani.IIT.R?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/jainil-lakhani-3a15074a/"
+      }
+    },
+    {
+      "name": "Kartik Singh",
+      "position": " Data Analyst ",
+      "company": " OCS Ontario Cannabis Store",
+      "image": "/alumini/2014/Kartik Singh- LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/kartiksingh3112?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/kartiksingh31/"
+      }
+    },
+    {
+      "name": "Ketan Srivastava",
+      "position": "",
+      "company": "Nokia",
+      "image": "/alumini/2014/Ketan Srivastava- fb(2015).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/ketan.srivastava.39?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/ketan-srivastava-56847882/"
+      }
+    },
+    {
+      "name": "Ravichandra Banavat",
+      "position": "Co-Founder",
+      "company": "Eco Jivan",
+      "image": "/alumini/2014/Ravichandra Banavat-LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/ravichandra.banavat?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/ravichandra-banavat-48321664/"
+      }
+    },
+    {
+      "name": "Sanketh Shetty",
+      "position": "Senior Database Engineer",
+      "company": "Visa",
+      "image": "/alumini/2014/Sanketh Shetty- LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/sanketh.bangalore?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/sankethbangalore/"
+      }
+    },
+    {
+      "name": "Shekar Chandra",
+      "position": "",
+      "company": "",
+      "image": "/alumini/2014/Shekar Chandra- fb(2014).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/shekhar23?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/shekhar-chandra-a0263b8a/"
+      }
+    },
+    {
+      "name": "Rahul Yadav",
+      "position": "Physics Faculty",
+      "company": "Allen",
+      "image": "/alumini/2014/Rahul Yadav-fb(2015).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/yadavume",
+        "linkedin": "https://www.linkedin.com/in/rahul-yadav-14a58a4b"
+      }
+    }
+  ],
+
+  "Year 2013": [
+    {
+      "name": "Akshay Sarin",
+      "position": "Ph.D. candidate",
+      "company": "University of Michigan",
+      "image": "/alumini/2013/Akshay Sarin-  LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/akshay.sarin10?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/akshay-sarin-84259118/"
+      }
+    },
+    {
+      "name": "Deepak Diwaker",
+      "position": "",
+      "company": "",
+      "image": "/alumini/2013/Deepak Diwaker- LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/ddiwaker1?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/deepak-diwaker-18409b43/"
+      }
+    },
+    {
+      "name": "Digendra Rathore",
+      "position": "National Head(Supply Quality)",
+      "company": "Spinny",
+      "image": "/alumini/2013/Digendra Rathore- Fb(2013).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/dsr.iitr?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/dsriitr/"
+      }
+    },
+    {
+      "name": "Ravneet Singh",
+      "position": "CSR Project Advisor ",
+      "company": "Shell",
+      "image": "/alumini/2013/Ravneet Singh- Fb(2013).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/ravneetsinghjatt?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/ravneet-singh-31908429/"
+      }
+    },
+    {
+      "name": "Sanchit Raheja ",
+      "position": "Failure Analysis Engineer",
+      "company": "Intel",
+      "image": "/alumini/2013/Sanchit Raheja - Fb(2013).JPG",
+      "links": {
+        "facebook": "https://www.facebook.com/sanchit.raheja?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/sanchitraheja/"
+      }
+    },
+    {
+      "name": "Yadwinder Paul Singh ",
+      "position": "Software Engineer",
+      "company": " Schibsted",
+      "image": "/alumini/2013/Yadwinder Paul Singh- LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/yadwinderpaul?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/yadwinderpaul/"
+      }
+    },
+    {
+      "name": "Prashant Arora",
+      "position": "",
+      "company": "",
+      "image": "/alumini/2013/Prashant Arora.JPG",
+      "links": { "facebook": "#", "linkedin": "https://www.linkedin.com/in/" }
+    },
+    {
+      "name": "Sourabh Puri",
+      "position": "Data Scientist ",
+      "company": "Amazon",
+      "image": "/alumini/2013/Sourabh Puri-LinkedIn.jpg",
+      "links": {
+        "facebook": "#",
+        "linkedin": "https://www.linkedin.com/in/sourabhpuri"
+      }
+    },
+    {
+      "name": "Raman Goyal",
+      "position": "TEES Postdoctoral Researcher ",
+      "company": "Texas A&M University",
+      "image": "/alumini/2013/Raman Goyal-LinkedIn.jpg",
+      "links": {
+        "facebook": "#",
+        "linkedin": "https://www.linkedin.com/in/raman-goyal-279a9781"
+      }
+    }
+  ],
+  "Year 2012": [
+    {
+      "name": "Aneesh Mittal",
+      "position": "New Business Development",
+      "company": "Apex Auto,Ludhiana",
+      "image": "/alumini/2012/Anish Mittal- LinkedIn.jpg",
+      "links": {
+        "facebook": "#",
+        "linkedin": "https://www.linkedin.com/in/aneeshmittal10/"
+      }
+    },
+    {
+      "name": "Ashmeet Sidhu",
+      "position": "Senior Software Engineer",
+      "company": "Lane",
+      "image": "/alumini/2012/Ashmeet Sidhu- LinkedIn.jpg",
+      "links": {
+        "facebook": "https://www.facebook.com/heyAshmeet?fref=gm&dti=254475861357258&hc_location=group",
+        "linkedin": "https://www.linkedin.com/in/ashsidhu/"
+      }
+    }
+  ]
+}

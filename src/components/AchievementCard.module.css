@@ -47,6 +47,31 @@
     rgba(0, 0, 0, 0.8) 100%
   );
   pointer-events: none;
+  z-index: 1;
+}
+
+/* Absolute Positioned Car Badge */
+.carBadge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 2; /* Sits above the image and gradient overlay */
+  color: #ffffff;
+  background-color: rgba(
+    8,
+    8,
+    8,
+    0.75
+  ); /* Dark blur background for readability */
+  border: 1px solid #bc1c1c;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 0.4rem 0.75rem;
+  border-radius: 4px;
+  backdrop-filter: blur(4px); /* Adds a premium frosted glass effect */
+  pointer-events: none; /* Ensures it doesn't block image hovers/clicks */
 }
 
 .content {
@@ -119,7 +144,7 @@
   min-width: 45px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-top: 0.1rem; /* Aligns vertically with description text */
+  margin-top: 0.1rem;
 }
 
 .rankDesc {
@@ -132,5 +157,12 @@
 @media (max-width: 768px) {
   .content {
     padding: 1.5rem;
+  }
+
+  .carBadge {
+    top: 0.75rem;
+    right: 0.75rem;
+    font-size: 0.75rem;
+    padding: 0.3rem 0.6rem;
   }
 }

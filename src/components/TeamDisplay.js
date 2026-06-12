@@ -19,6 +19,10 @@ export default function TeamDisplay({ team }) {
     departments[0] ? createSafeId(departments[0]) : "",
   );
 
+  // State tracking whether the sidebar should fade out and slide left
+  const [isSidebarHidden, setIsSidebarHidden] = useState(false);
+
+  // EFFECT 1: Tracks current section for active navigation states
   useEffect(() => {
     if (departments.length === 0) return;
 
@@ -49,6 +53,43 @@ export default function TeamDisplay({ team }) {
     return () => observer.disconnect();
   }, [departments]);
 
+  // EFFECT 2: Detects page bottom approaches and directional scroll shifts
+  useEffect(() => {
+    let lastScrollY = window.scrollY;
+
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const scrollHeight = document.documentElement.scrollHeight;
+      const clientHeight = document.documentElement.clientHeight;
+
+      // Calculate the distance in pixels to the absolute bottom of the page
+      const distanceFromBottom = scrollHeight - clientHeight - currentScrollY;
+
+      // Distance threshold from the bottom (e.g., 650px) where the sidebar hides.
+      // Increase this value if you have a very tall Footer at the bottom.
+      const bottomThreshold = 650;
+
+      if (distanceFromBottom < bottomThreshold) {
+        if (currentScrollY < lastScrollY) {
+          // Scrolling UP near the bottom: reappear immediately
+          setIsSidebarHidden(false);
+        } else {
+          // Scrolling DOWN near the bottom: fade and slide out left
+          setIsSidebarHidden(true);
+        }
+      } else {
+        // Anywhere else high up on the page: remain fully visible
+        setIsSidebarHidden(false);
+      }
+
+      lastScrollY = currentScrollY;
+    };
+
+    // Use passive listener for optimized scrolling performance
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const scrollToDept = (e, deptName) => {
     e.preventDefault();
     const element = document.getElementById(`dept-${createSafeId(deptName)}`);
@@ -57,7 +98,6 @@ export default function TeamDisplay({ team }) {
     }
   };
 
-  // --- CRISP, UNIFORM FILLED MICRO VECTOR ICONS (FIXED TO EXACT 24x24 MATRIX) ---
   const renderSocialIcon = (platform) => {
     const icons = {
       linkedin: (
@@ -99,9 +139,6 @@ export default function TeamDisplay({ team }) {
 
   return (
     <div className={styles.layoutContainer}>
-      {/* PRECISION OVERRIDE STYLES
-        Locks link heights to a strict, matching 16px threshold while amplifying baseline brightness safely.
-      */}
       <style>{`
         .${styles.socialBar} {
           display: flex !important;
@@ -115,7 +152,7 @@ export default function TeamDisplay({ team }) {
           justify-content: center !important;
           width: 16px !important;
           height: 16px !important;
-          opacity: 0.75 !important; /* Amplified baseline visibility - bright and pristine */
+          opacity: 0.75 !important;
           color: #ffffff !important;
           transition: opacity 0.2s ease !important;
           transform: none !important;
@@ -131,8 +168,10 @@ export default function TeamDisplay({ team }) {
         }
       `}</style>
 
-      {/* FIXED SIDEBAR */}
-      <aside className={styles.sidebar}>
+      {/* FIXED SIDEBAR PINNED WITH CONDITIONAL TRANSITION HOOK */}
+      <aside
+        className={`${styles.sidebar} ${isSidebarHidden ? styles.sidebarHidden : ""}`}
+      >
         <h2 className={styles.sidebarTitle}>The Team</h2>
         <nav className={styles.navMenu}>
           {departments.map((dept) => {
@@ -170,7 +209,6 @@ export default function TeamDisplay({ team }) {
                 {members.map((member, index) => {
                   const name = member.Name || "Unknown Member";
 
-                  // Construct role cleanly based on Subsystem and Post fields
                   let role = "Team Member";
                   if (member.Subsystem) {
                     role =
@@ -183,7 +221,6 @@ export default function TeamDisplay({ team }) {
                     role = "Faculty Advisor";
                   }
 
-                  // --- IMAGE DISCOVERY TUNNEL WITH INLINE FALLBACK ROUTING ---
                   let imageSrc = null;
                   const rawPhotoLink = member["Photo link"];
                   const hasValidImage =
@@ -201,20 +238,15 @@ export default function TeamDisplay({ team }) {
                     }
                   }
 
-                  // --- PRECISION 30% OVERFLOW CROP FRAMING COORD DECK ---
                   const imageStyle = isFacultyDept
-                    ? {
-                        objectFit: "cover",
-                        objectPosition: "50% 30%", // 30% down from absolute top edge
-                      }
+                    ? { objectFit: "cover", objectPosition: "50% 30%" }
                     : {
                         objectFit: "cover",
-                        objectPosition: "70% 50%", // 30% inward from right edge (maps to visual top edge post-rotation)
+                        objectPosition: "70% 50%",
                         transform: "rotate(-90deg) scale(1.25)",
                         transformOrigin: "center",
                       };
 
-                  // Check, format and bundle social links cleanly
                   const socials = {};
                   if (member["LinkedIn link"]?.trim()) {
                     let ln = member["LinkedIn link"].trim();
@@ -258,7 +290,6 @@ export default function TeamDisplay({ team }) {
                             priority={index < 4}
                           />
                         ) : (
-                          /* MOTORSPORT HELMET SIDE PROFILE CROSS-SECTION */
                           <svg
                             viewBox="0 0 100 100"
                             fill="none"
@@ -273,24 +304,19 @@ export default function TeamDisplay({ team }) {
                               color: "var(--foreground, #ffffff)",
                             }}
                           >
-                            {/* Main Outer Shell & Spoiler */}
                             <path d="M 76,78 C 87,75 92,54 87,40 C 83,28 72,18 54,18 C 36,18 25,26 22,38 L 31,41 L 29,56 L 14,58 C 11,68 16,78 28,78 Z" />
-                            {/* Aerodynamic Back Edge / Neck Base Trim Cutout */}
                             <path
                               d="M 28,78 L 76,78 C 76,78 72,73 66,73 L 34,73 Z"
                               fill="currentColor"
                               fillOpacity="0.1"
                             />
-                            {/* Front-Facing Sleek Visor Assembly (Facing Left) */}
                             <path
                               d="M 22,38 C 11,43 11,52 29,56 Z"
                               fill="currentColor"
                               fillOpacity="0.2"
                             />
-                            {/* Visor Core Hinge Rotational Pivot Wheel */}
                             <circle cx="44" cy="48" r="3" fill="currentColor" />
                             <circle cx="44" cy="48" r="5" strokeWidth="1" />
-                            {/* Chin Ventilation Slots / Air Flow Intake Ports */}
                             <line
                               x1="20"
                               y1="65"
@@ -305,7 +331,6 @@ export default function TeamDisplay({ team }) {
                               y2="70"
                               strokeWidth="2"
                             />
-                            {/* Aerodynamic Top Exhaust Vent Detail Line */}
                             <path
                               d="M 48,22 C 56,20 64,22 68,25"
                               strokeWidth="1.5"

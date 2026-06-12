@@ -10,11 +10,8 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Find your home page's specific scroll container if it exists
-      const mainScroll = document.getElementById("main-scroll-container");
-
       // If we are on the home page, read its scrollTop. Otherwise, fallback to window.scrollY (for /cars)
-      const scrollTop = mainScroll ? mainScroll.scrollTop : window.scrollY;
+      const scrollTop = window.scrollY;
 
       if (scrollTop > 50) {
         setIsScrolled(true);
@@ -52,29 +49,23 @@ export default function Header() {
         <Link href="/" className={styles.navLink}>
           Home
         </Link>
-        <Link href="#" className={styles.navLink}>
+        <Link href="/about" className={styles.navLink}>
           About
         </Link>
         <Link href="/cars" className={styles.navLink}>
           Cars
         </Link>
-        <Link href="/cars" className={styles.navLink}>
+        <Link href="/autonomous" className={styles.navLink}>
           Autonomous
         </Link>
-        <Link href="#" className={styles.navLink}>
+        <Link href="/" className={styles.navLink}>
           Sponsors
         </Link>
         <Link href="/team" className={styles.navLink}>
           Team
         </Link>
-        <Link href="#" className={styles.navLink}>
+        <Link href="/alumini" className={styles.navLink}>
           Alumni
-        </Link>
-        <Link href="#" className={styles.navLink}>
-          Media
-        </Link>
-        <Link href="#" className={styles.navLink}>
-          Contact
         </Link>
       </nav>
     </header>

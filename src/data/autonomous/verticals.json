@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Perception",
+    "description": "Perception forms the core of our autonomous system, catering to LiDAR and Camera Inputs"
+  },
+  {
+    "name": "SLAM & Path Planning",
+    "description": "The brain of the car. This is where all the thinking happens."
+  },
+  {
+    "name": "Controls & Vehicle Dynamics",
+    "description": "This is where it all comes into play. From managing controllers to commands, this is how the car drives."
+  }
+]

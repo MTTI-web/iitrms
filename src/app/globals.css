@@ -4,9 +4,7 @@ body {
   padding: 0;
   height: 100%;
   background-color: #050505;
-  overflow: hidden; /* Prevent native window bounds from fighting with custom snapping layout */
 }
-
 /* Custom minimal scrollbar styling */
 ::-webkit-scrollbar {
   width: 6px;

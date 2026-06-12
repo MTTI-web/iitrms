@@ -10,6 +10,7 @@ export default function CarsDisplay({ cars }) {
   );
   const [activeId, setActiveId] = useState("");
   const [expandedSpecs, setExpandedSpecs] = useState({});
+  const [hideSidebar, setHideSidebar] = useState(false); // Track footer visibility
 
   useEffect(() => {
     const observerOptions = {
@@ -39,6 +40,27 @@ export default function CarsDisplay({ cars }) {
     return () => observer.disconnect();
   }, [carEntries]);
 
+  // --- FOOTER DETECTION OBSERVER ---
+  useEffect(() => {
+    const footer = document.querySelector("footer");
+    if (!footer) return;
+
+    const footerObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          setHideSidebar(entry.isIntersecting);
+        });
+      },
+      {
+        root: null,
+        threshold: 0, // Triggers immediately when the top of the footer enters the viewport
+      },
+    );
+
+    footerObserver.observe(footer);
+    return () => footerObserver.disconnect();
+  }, []);
+
   const scrollToCar = (e, targetId) => {
     e.preventDefault();
     const element = document.getElementById(`car-${targetId}`);
@@ -56,8 +78,10 @@ export default function CarsDisplay({ cars }) {
 
   return (
     <div className={styles.layoutContainer}>
-      {/* LEFT COLUMN: Fixed Navigation Sidebar */}
-      <aside className={styles.sidebar}>
+      {/* LEFT COLUMN: Fixed Navigation Sidebar with Hide Override */}
+      <aside
+        className={`${styles.sidebar} ${hideSidebar ? styles.sidebarHidden : ""}`}
+      >
         <h2 className={styles.sidebarTitle}>Our Fleet</h2>
         <nav className={styles.navMenu}>
           {carEntries.map(([carName, carData]) => (
@@ -95,7 +119,7 @@ export default function CarsDisplay({ cars }) {
                     alt={`${carName} Fleet Overview`}
                     fill
                     className={styles.carImage}
-                    sizes="(max-width: 960px) 100vw, 55vw" /* Updated layout width target */
+                    sizes="(max-width: 960px) 100vw, 55vw"
                     priority={carData.id === "0"}
                   />
                   <div className={styles.fadeMask}></div>
