@@ -207,22 +207,22 @@ export default function TeamDisplay({ team }) {
 
               <div className={styles.membersGrid}>
                 {members.map((member, index) => {
-                  const name = member.Name || "Unknown Member";
+                  const name = member.name || "Unknown Member";
 
                   let role = "Team Member";
-                  if (member.Subsystem) {
+                  if (member.subsystem) {
                     role =
-                      member.Post &&
-                      member.Post !== "Member" &&
-                      member.Post !== ""
-                        ? `${member.Subsystem} (${member.Post})`
-                        : member.Subsystem;
+                      member.post &&
+                      member.post !== "Member" &&
+                      member.post !== ""
+                        ? `${member.subsystem} (${member.post})`
+                        : member.subsystem;
                   } else if (isFacultyDept) {
                     role = "Faculty Advisor";
                   }
 
                   let imageSrc = null;
-                  const rawPhotoLink = member["Photo link"];
+                  const rawPhotoLink = member.image;
                   const hasValidImage =
                     rawPhotoLink && rawPhotoLink.trim() !== "";
 
@@ -234,34 +234,37 @@ export default function TeamDisplay({ team }) {
                     ) {
                       imageSrc = cleanLink;
                     } else {
-                      imageSrc = "/team/" + cleanLink + ".jpg";
+                      imageSrc =
+                        (member.Timestamp ? "/team/new/" : "/team/old/") +
+                        cleanLink;
                     }
                   }
 
-                  const imageStyle = isFacultyDept
-                    ? { objectFit: "cover", objectPosition: "50% 30%" }
-                    : {
-                        objectFit: "cover",
-                        objectPosition: "70% 50%",
-                        transform: "rotate(-90deg) scale(1.25)",
-                        transformOrigin: "center",
-                      };
+                  const imageStyle =
+                    isFacultyDept || member.Timestamp
+                      ? { objectFit: "cover", objectPosition: "50% 30%" }
+                      : {
+                          objectFit: "cover",
+                          objectPosition: "70% 50%",
+                          transform: "rotate(-90deg) scale(1.25)",
+                          transformOrigin: "center",
+                        };
 
                   const socials = {};
-                  if (member["LinkedIn link"]?.trim()) {
-                    let ln = member["LinkedIn link"].trim();
+                  if (member.linkedin?.trim()) {
+                    let ln = member.linkedin.trim();
                     socials.linkedin = ln.startsWith("http")
                       ? ln
                       : `https://${ln}`;
                   }
-                  if (member["Email id (iitr)"]?.trim()) {
-                    socials.email = `mailto:${member["Email id (iitr)"].trim()}`;
+                  if (member.email?.trim()) {
+                    socials.email = `mailto:${member.email.trim()}`;
                   }
                   if (member["Faculty Profile"]?.trim()) {
                     socials.website = member["Faculty Profile"].trim();
                   }
-                  if (member["FB profile link"]?.trim()) {
-                    socials.facebook = member["FB profile link"].trim();
+                  if (member.facebook?.trim()) {
+                    socials.facebook = member.facebook.trim();
                   }
 
                   return (

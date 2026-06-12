@@ -1,819 +1,1299 @@
 {
   "Faculty Advisors": [
     {
-      "Name": "Prof. Arup Kumar Das",
-      "Photo link": "Arup Kumar Das",
+      "name": "Prof. Arup Kumar Das",
+      "image": "1.jpg",
       "Faculty Profile": "https://www.iitr.ac.in/~ME/Das_Arup_Kumar"
     },
     {
-      "Name": "Prof. Amit Choudhary",
-      "Photo link": "Amit Choudhary",
+      "name": "Prof. Amit Choudhary",
+      "image": "2.jpg",
       "Faculty Profile": "https://iitr.ac.in/Departments/Mechanical%20and%20Industrial%20Engineering%20Department/People/Faculty/100943.html"
     },
     {
-      "Name": "Prof. Ajit Kumar Dubey",
-      "Photo link": "Ajit Kumar Dubey",
+      "name": "Prof. Ajit Kumar Dubey",
+      "image": "3.jpg",
       "Faculty Profile": "https://iitr.ac.in/Departments/Mechanical%20and%20Industrial%20Engineering%20Department/People/Faculty/100961.html"
     },
     {
-      "Name": "Prof. Pramod Agarwal",
-      "Photo link": "Pramod Agarwal",
+      "name": "Prof. Pramod Agarwal",
+      "image": "4.jpg",
       "Faculty Profile": "https://www.iitr.ac.in/~EE/pramgfee"
     }
   ],
   "Management": [
     {
-      "Name": "Ayan Shree",
-      "Subsystem": "Team Leader",
-      "Post": "",
+      "name": "Ayan Shree",
+      "subsystem": "Team Leader",
+      "post": "",
       "Phone": "9319158570",
-      "Email id (iitr)": "ayan_s@me.iitr.ac.in",
-      "Photo link": "Ayan Shree",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "email": "ayan_s@me.iitr.ac.in",
+      "image": "Ayan Shree.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Shrey Aggarwal",
-      "Subsystem": "Technical Lead",
-      "Post": "",
+      "name": "Shrey Aggarwal",
+      "subsystem": "Technical Lead",
+      "post": "",
       "Phone": "",
-      "Email id (iitr)": "shrey_a@ee.iitr.ac.in",
-      "Photo link": "Shrey Aggarwal",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "email": "shrey_a@ee.iitr.ac.in",
+      "image": "Shrey Aggarwal.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Kinshu Kumar",
-      "Subsystem": "Mechanical Lead",
-      "Post": "",
+      "name": "Kinshu Kumar",
+      "subsystem": "Mechanical Lead",
+      "post": "",
       "Phone": "8825127851",
-      "Email id (iitr)": "kinshu_k@me.iitr.ac.in",
-      "Photo link": "Kinshu Kumar",
-      "FB profile link": "https://www.facebook.com/kumar.kinshu.5/",
-      "LinkedIn link": "www.linkedin.com/in/kinshu7070"
+      "email": "kinshu_k@me.iitr.ac.in",
+      "image": "Kinshu Kumar.jpg",
+      "facebook": "https://www.facebook.com/kumar.kinshu.5/",
+      "linkedin": "www.linkedin.com/in/kinshu7070"
     },
     {
-      "Name": "Chaitanay Raghav",
-      "Subsystem": "Electrical Head",
-      "Post": "",
+      "name": "Chaitanay Raghav",
+      "subsystem": "Electrical Head",
+      "post": "",
       "Phone": "",
-      "Email id (iitr)": "chaitany_r@ee.iitr.ac.in",
-      "Photo link": "Chaitanay Raghav",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "email": "chaitany_r@ee.iitr.ac.in",
+      "image": "Chaitanay Raghav.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Priyangsi Dey",
-      "Subsystem": "Accumulator Head",
-      "Post": "",
+      "name": "Priyangsi Dey",
+      "subsystem": "Accumulator Head",
+      "post": "",
       "Phone": "9654722149",
-      "Email id (iitr)": "priyangsi_d@ee.iitr.ac.in",
-      "Photo link": "Priyangsi Dey",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "email": "priyangsi_d@ee.iitr.ac.in",
+      "image": "Priyangsi Dey.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Parth Sharma",
-      "Subsystem": "Vehicle Dynamics Head",
-      "Post": "",
+      "name": "Parth Sharma",
+      "subsystem": "Vehicle Dynamics Head",
+      "post": "",
       "Phone": "9301839899",
-      "Email id (iitr)": "parth_s@me.iitr.ac.in",
-      "Photo link": "Parth Sharma",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/parth-sharma-756a701b1/"
+      "email": "parth_s@me.iitr.ac.in",
+      "image": "Parth Sharma.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/parth-sharma-756a701b1/"
     },
     {
-      "Name": "Shubham Chittora",
-      "Subsystem": "Structural & Composites Head",
-      "Post": "",
+      "name": "Shubham Chittora",
+      "subsystem": "Structural & Composites Head",
+      "post": "",
       "Phone": "6375787755",
-      "Email id (iitr)": "shubham_c@me.iitr.ac.in",
-      "Photo link": "Shubham Chittora",
-      "FB profile link": "https://www.facebook.com/profile.php?id=100012736608214",
-      "LinkedIn link": "https://www.linkedin.com/in/shubham-chittora-945686201/"
+      "email": "shubham_c@me.iitr.ac.in",
+      "image": "Shubham Chittora.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=100012736608214",
+      "linkedin": "https://www.linkedin.com/in/shubham-chittora-945686201/"
     },
     {
-      "Name": "Ansh Saini",
-      "Subsystem": "Marketing Head",
-      "Post": "",
+      "name": "Ansh Saini",
+      "subsystem": "Marketing Head",
+      "post": "",
       "Phone": "8851018186",
-      "Email id (iitr)": "ansh_s@me.iitr.ac.in",
-      "Photo link": "Ansh Saini",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "email": "ansh_s@me.iitr.ac.in",
+      "image": "Ansh Saini.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Mukul Dhiman",
-      "Subsystem": "Design Head",
-      "Post": "",
+      "name": "Mukul Dhiman",
+      "subsystem": "Design Head",
+      "post": "",
       "Phone": "",
-      "Email id (iitr)": "mukul_d@ar.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "email": "mukul_d@ar.iitr.ac.in",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Sejal Singh",
-      "Subsystem": "Design Head",
-      "Post": "",
+      "name": "Sejal Singh",
+      "subsystem": "Design Head",
+      "post": "",
       "Phone": "",
-      "Email id (iitr)": "sejal_s@me.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "email": "sejal_s@me.iitr.ac.in",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
     }
   ],
   "Autonomous": [
     {
-      "Name": "Aditya Saurav",
-      "Subsystem": ""
+      "name": "Aditya Saurav",
+      "subsystem": ""
+    },
+    {
+      "post": "Member",
+      "grad_year": 2029,
+      "image": "Srijan Kumar.png",
+      "email": "srijan_k@ece.iitr.ac.in",
+      "subsystem": "Controls & Vehicle Dynamics",
+      "linkedin": "https://www.linkedin.com/in/srijan-kumar/",
+      "name": "Srijan Kumar",
+      "Timestamp": "2026/06/12 7:03:44 PM GMT+5:30"
+    },
+    {
+      "Timestamp": "2026/06/12 7:03:44 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": -1,
+      "email": "surendrapal_sc@me.iitr.ac.in",
+      "name": "Surendrapal Singh Chouhan",
+      "subsystem": "",
+      "linkedin": "",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 7:08:15 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": -1,
+      "email": "telson_l@me.iitr.ac.in",
+      "name": "Telson Lalichen",
+      "subsystem": "Controls & Vehicle Dynamics",
+      "linkedin": "https://www.linkedin.com/in/telson-lalichen-164ab7387?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 8:37:29 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "siddhi_j@me.iitr.ac.in",
+      "name": "Siddhi Jha",
+      "subsystem": "Perception",
+      "linkedin": "www.linkedin.com/in/siddhi-jha-aa12a5395",
+      "image": "Siddhi Jha.jpeg"
+    },
+    {
+      "Timestamp": "2026/06/12 8:45:59 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "manit_rm@ph.iitr.ac.in",
+      "name": "Manit Raj Marshkole",
+      "subsystem": "Controls & Vehicle Dynamics",
+      "linkedin": "www.linkedin.com/in/manit-raj-a65042325",
+      "image": "Manit Raj Marshkole.jpeg"
+    },
+    {
+      "Timestamp": "2026/06/12 9:02:17 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "armaanmahajanbg@gmail.com",
+      "name": "Armaan Mahajan",
+      "subsystem": "SLAM & Path Planning",
+      "linkedin": "https://www.linkedin.com/in/armaan-m7",
+      "image": "Armaan Mahajan.png"
+    },
+    {
+      "Timestamp": "2026/06/12 9:45:43 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "daksh_g@ece.iitr.ac.in",
+      "name": "Daksh Gupta",
+      "subsystem": "SLAM & Path Planning",
+      "linkedin": "https://www.linkedin.com/in/daksh-gupta-154b303a8/",
+      "image": "Daksh Gupta.png"
+    },
+    {
+      "Timestamp": "2026/06/12 10:51:14 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "soumil_m@me.iitr.ac.in",
+      "name": "Soumil Mittal",
+      "subsystem": "",
+      "linkedin": "https://www.linkedin.com/in/soumil-mittal-8aa52935b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": "Soumil Mittal.png"
     }
   ],
   "Mechanical": [
     {
-      "Name": "Shubham Chittora",
-      "Subsystem": "Structural and Composites",
-      "Post": "Head",
-      "Email id (iitr)": "shubham_c@me.iitr.ac.in",
-      "Photo link": "Shubham Chittora",
-      "FB profile link": "https://www.facebook.com/profile.php?id=100012736608214",
-      "LinkedIn link": "https://www.linkedin.com/in/shubham-chittora-945686201/"
+      "name": "Shubham Chittora",
+      "subsystem": "Structural and Composites",
+      "post": "Head",
+      "email": "shubham_c@me.iitr.ac.in",
+      "image": "Shubham Chittora.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=100012736608214",
+      "linkedin": "https://www.linkedin.com/in/shubham-chittora-945686201/"
     },
     {
-      "Name": "Saish Milind Pednekar",
-      "Subsystem": "Structural and Composites",
-      "Post": "Engineer",
-      "Email id (iitr)": "s_mpednekar@me.iitr.ac.in",
-      "Photo link": "Saish Pednekar",
-      "FB profile link": "https://www.facebook.com/saish.pednekar.71",
-      "LinkedIn link": "https://www.linkedin.com/in/saish-pednekar-55812121a/"
+      "name": "Saish Milind Pednekar",
+      "subsystem": "Structural and Composites",
+      "post": "Engineer",
+      "email": "s_mpednekar@me.iitr.ac.in",
+      "image": "Saish Pednekar.jpg",
+      "facebook": "https://www.facebook.com/saish.pednekar.71",
+      "linkedin": "https://www.linkedin.com/in/saish-pednekar-55812121a/"
     },
     {
-      "Name": "Rahul Kumar Gupta",
-      "Subsystem": "Structural and Composites",
-      "Post": "Engineer",
-      "Email id (iitr)": "r_kgupta@me.iitr.ac.in",
-      "Photo link": "Rahul Kumar Gupta",
-      "FB profile link": "https://www.facebook.com/profile.php?id=100075205545176&mibextid=9R9pXO",
-      "LinkedIn link": "https://www.linkedin.com/in/rahul-kumar-gupta-6bb305236"
+      "name": "Rahul Kumar Gupta",
+      "subsystem": "Structural and Composites",
+      "post": "Engineer",
+      "email": "r_kgupta@me.iitr.ac.in",
+      "image": "Rahul Kumar Gupta.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=100075205545176&mibextid=9R9pXO",
+      "linkedin": "https://www.linkedin.com/in/rahul-kumar-gupta-6bb305236"
     },
     {
-      "Name": "Sahil Saxena",
-      "Subsystem": "Composites",
-      "Post": "Engineer",
-      "Email id (iitr)": "s_saxena@me.iitr.ac.in",
-      "Photo link": "Sahil Saxena",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Sahil Saxena",
+      "subsystem": "Composites",
+      "post": "Engineer",
+      "email": "s_saxena@me.iitr.ac.in",
+      "image": "Sahil Saxena.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Shubham Barahate",
-      "Subsystem": "Structural and Composites",
-      "Post": "Engineer",
-      "Email id (iitr)": "b_sdinkar@me.iitr.ac.in",
-      "Photo link": "Shubham Barahate",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Shubham Barahate",
+      "subsystem": "Structural and Composites",
+      "post": "Engineer",
+      "email": "b_sdinkar@me.iitr.ac.in",
+      "image": "Shubham Barahate.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Yash Khandelwal",
-      "Subsystem": "Structural and Composites",
-      "Post": "Member",
-      "Email id (iitr)": "yash_k@me.iitr.ac.in",
-      "Photo link": "Yash Khandelwal",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/yash-khandelwal-11589525a"
+      "name": "Yash Khandelwal",
+      "subsystem": "Structural and Composites",
+      "post": "Member",
+      "email": "yash_k@me.iitr.ac.in",
+      "image": "Yash Khandelwal.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/yash-khandelwal-11589525a"
     },
     {
-      "Name": "Archit Sharma",
-      "Subsystem": "Structural and Composites",
-      "Post": "Member",
-      "Email id (iitr)": "archit_s@ce.iitr.ac.in",
-      "Photo link": "Archit Sharma",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/archit-sharma-52b832261/"
+      "name": "Archit Sharma",
+      "subsystem": "Structural and Composites",
+      "post": "Member",
+      "email": "archit_s@ce.iitr.ac.in",
+      "image": "Archit Sharma.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/archit-sharma-52b832261/"
     },
     {
-      "Name": "Aryan Khandelwal",
-      "Subsystem": "Structural and Composites",
-      "Post": "Member",
-      "Email id (iitr)": "aryan_k2@me.iitr.ac.in",
-      "Photo link": "Aryan Khandelwal",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/aryan-khandelwal-409576292"
+      "name": "Aryan Khandelwal",
+      "subsystem": "Structural and Composites",
+      "post": "Member",
+      "email": "aryan_k2@me.iitr.ac.in",
+      "image": "Aryan Khandelwal.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/aryan-khandelwal-409576292"
     },
     {
-      "Name": "Maanasi Phanse",
-      "Subsystem": "Structural and Composites",
-      "Post": "Member",
-      "Email id (iitr)": "maanasi_rp@me.iitr.ac.in",
-      "Photo link": "Maansi Phanse",
-      "FB profile link": "https://www.facebook.com/profile.php?id=100092854960317",
-      "LinkedIn link": "https://in.linkedin.com/in/maanasi-phanse-2b1a7a25b"
+      "name": "Maanasi Phanse",
+      "subsystem": "Structural and Composites",
+      "post": "Member",
+      "email": "maanasi_rp@me.iitr.ac.in",
+      "image": "Maansi Phanse.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=100092854960317",
+      "linkedin": "https://in.linkedin.com/in/maanasi-phanse-2b1a7a25b"
     },
     {
-      "Name": "Sumit Kumar Rohan",
-      "Subsystem": "Structural and Composites",
-      "Post": "Member",
-      "Email id (iitr)": "sumit_kr@me.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Sumit Kumar Rohan",
+      "subsystem": "Structural and Composites",
+      "post": "Member",
+      "email": "sumit_kr@me.iitr.ac.in",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Kinshu Kumar",
-      "Subsystem": "Aerodynamics and Thermal Management",
-      "Post": "Head",
-      "Email id (iitr)": "kinshu_k@me.iitr.ac.in",
-      "Photo link": "Kinshu Kumar",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Kinshu Kumar",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "post": "Head",
+      "email": "kinshu_k@me.iitr.ac.in",
+      "image": "Kinshu Kumar.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Shashank Mandaknalli",
-      "Subsystem": "Aerodynamics and Thermal Management",
-      "Post": "Engineer",
-      "Email id (iitr)": "s_mandaknalli@me.iitr.ac.in",
-      "Photo link": "Shashank Mandaknalli",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/shashank-mandaknalli-a92ba3233/"
+      "name": "Shashank Mandaknalli",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "post": "Engineer",
+      "email": "s_mandaknalli@me.iitr.ac.in",
+      "image": "Shashank Mandaknalli.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/shashank-mandaknalli-a92ba3233/"
     },
     {
-      "Name": "Aditya Phadnis",
-      "Subsystem": "Aerodynamics and Thermal Management",
-      "Post": "Engineer",
-      "Email id (iitr)": "a_tphadnis@me.iitr.ac.in",
-      "Photo link": "Aditya Phadnis",
-      "FB profile link": "https://www.facebook.com/aditya.phadnis.777?mibextid=ZbWKwL",
-      "LinkedIn link": "https://www.linkedin.com/in/aditya-phadnis10"
+      "name": "Aditya Phadnis",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "post": "Engineer",
+      "email": "a_tphadnis@me.iitr.ac.in",
+      "image": "Aditya Phadnis.jpg",
+      "facebook": "https://www.facebook.com/aditya.phadnis.777?mibextid=ZbWKwL",
+      "linkedin": "https://www.linkedin.com/in/aditya-phadnis10"
     },
     {
-      "Name": "Dilip Kumar Chaudhary",
-      "Subsystem": "Aerodynamics and Thermal Management",
-      "Post": "Member",
-      "Email id (iitr)": "chaudhary_dkj@me.iitr.ac.in",
-      "Photo link": "Dilip Kumar Chaudhary",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/ds-choudhary-259126250/"
+      "name": "Dilip Kumar Chaudhary",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "post": "Member",
+      "email": "chaudhary_dkj@me.iitr.ac.in",
+      "image": "Dilip Kumar Chaudhary.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/ds-choudhary-259126250/"
     },
     {
-      "Name": "Bhavya Jain",
-      "Subsystem": "Aerodynamics and Thermal Management",
-      "Post": "Member",
-      "Email id (iitr)": "bhavya_j@me.iitr.ac.in",
-      "Photo link": "Bhavya Jain",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Bhavya Jain",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "post": "Member",
+      "email": "bhavya_j@me.iitr.ac.in",
+      "image": "Bhavya Jain.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Naman Maurya",
-      "Subsystem": "Aerodynamics and Thermal Management",
-      "Post": "Member",
-      "Email id (iitr)": "naman_m@me.iitr.ac.in",
-      "Photo link": "Naman Maurya",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/naman-maurya-7a604621a"
+      "name": "Naman Maurya",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "post": "Member",
+      "email": "naman_m@me.iitr.ac.in",
+      "image": "Naman Maurya.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/naman-maurya-7a604621a"
     },
     {
-      "Name": "Pranav Pardeshi",
-      "Subsystem": "Aerodynamics and Thermal Management",
-      "Post": "Member",
-      "Email id (iitr)": "pranav_p@me.iitr.ac.in",
-      "Photo link": "Pranav Pardeshi",
-      "FB profile link": "https://www.facebook.com/profile.php?id=100092506422980&mibextid=avESrC",
-      "LinkedIn link": "https://www.linkedin.com/in/pranav-pardeshi-b39569281"
+      "name": "Pranav Pardeshi",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "post": "Member",
+      "email": "pranav_p@me.iitr.ac.in",
+      "image": "Pranav Pardeshi.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=100092506422980&mibextid=avESrC",
+      "linkedin": "https://www.linkedin.com/in/pranav-pardeshi-b39569281"
     },
     {
-      "Name": "Arul Jain",
-      "Subsystem": "Powertrain and Braking",
-      "Post": "Engineer",
-      "Email id (iitr)": "j_aamit@me.iitr.ac.in",
-      "Photo link": "Arul Jain",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/arul-jain-3971ab114/"
+      "name": "Arul Jain",
+      "subsystem": "Powertrain and Braking",
+      "post": "Engineer",
+      "email": "j_aamit@me.iitr.ac.in",
+      "image": "Arul Jain.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/arul-jain-3971ab114/"
     },
     {
-      "Name": "Ahan Panda",
-      "Subsystem": "Powertrain and Braking",
-      "Post": "Engineer",
-      "Email id (iitr)": "a_panda@me.iitr.ac.in",
-      "Photo link": "Ahan Panda",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/ahan-panda-54a895242"
+      "name": "Ahan Panda",
+      "subsystem": "Powertrain and Braking",
+      "post": "Engineer",
+      "email": "a_panda@me.iitr.ac.in",
+      "image": "Ahan Panda.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/ahan-panda-54a895242"
     },
     {
-      "Name": "Aditya Raj Singh",
-      "Subsystem": "Powertrain and Braking",
-      "Post": "Engineer",
-      "Email id (iitr)": "a_rsingh@me.iitr.ac.in",
-      "Photo link": "Aditya Raj Singh",
-      "FB profile link": "https://www.facebook.com/adityaraj.singh.16121?mibextid=ZbWKwL",
-      "LinkedIn link": "https://www.linkedin.com/in/aditya-raj-singh-b1b19b226"
+      "name": "Aditya Raj Singh",
+      "subsystem": "Powertrain and Braking",
+      "post": "Engineer",
+      "email": "a_rsingh@me.iitr.ac.in",
+      "image": "Aditya Raj Singh.jpg",
+      "facebook": "https://www.facebook.com/adityaraj.singh.16121?mibextid=ZbWKwL",
+      "linkedin": "https://www.linkedin.com/in/aditya-raj-singh-b1b19b226"
     },
     {
-      "Name": "Ritwik Manohar",
-      "Subsystem": "Powertrain and Braking",
-      "Post": "Member",
-      "Email id (iitr)": "ritwik_m@me.iitr.ac.in",
-      "Photo link": "Ritwik Manohar",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/ritwik-manohar-6a1469270"
+      "name": "Ritwik Manohar",
+      "subsystem": "Powertrain and Braking",
+      "post": "Member",
+      "email": "ritwik_m@me.iitr.ac.in",
+      "image": "Ritwik Manohar.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/ritwik-manohar-6a1469270"
     },
     {
-      "Name": "Sachin Verma",
-      "Subsystem": "Powertrain and Braking",
-      "Post": "Member",
-      "Email id (iitr)": "sachin_v@me.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "",
-      "LinkedIn link": "www.linkedin.com/in/sachin-verma-805785256"
+      "name": "Sachin Verma",
+      "subsystem": "Powertrain and Braking",
+      "post": "Member",
+      "email": "sachin_v@me.iitr.ac.in",
+      "image": "",
+      "facebook": "",
+      "linkedin": "www.linkedin.com/in/sachin-verma-805785256"
     },
     {
-      "Name": "Aryan Khewal",
-      "Subsystem": "Powertrain and Braking",
-      "Post": "Member",
-      "Email id (iitr)": "aryan_k1@me.iitr.ac.in",
-      "Photo link": "Aryan Khewal",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/aryan-khewal-60499b280"
+      "name": "Aryan Khewal",
+      "subsystem": "Powertrain and Braking",
+      "post": "Member",
+      "email": "aryan_k1@me.iitr.ac.in",
+      "image": "Aryan Khewal.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/aryan-khewal-60499b280"
     },
     {
-      "Name": "Aryan Singh",
-      "Subsystem": "Powertrain and Braking",
-      "Post": "Member",
-      "Email id (iitr)": "aryan_s@cs.iitr.ac.in",
-      "Photo link": "Aryan Singh",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/aryan-singh-975213252"
+      "name": "Aryan Singh",
+      "subsystem": "Powertrain and Braking",
+      "post": "Member",
+      "email": "aryan_s@cs.iitr.ac.in",
+      "image": "Aryan Singh.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/aryan-singh-975213252"
     },
     {
-      "Name": "Debabrata Chandra",
-      "Subsystem": "Powertrain and Braking",
-      "Post": "Member",
-      "Email id (iitr)": "debabrata_c@me.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/debabrata-chandra-6a156a286/"
+      "name": "Debabrata Chandra",
+      "subsystem": "Powertrain and Braking",
+      "post": "Member",
+      "email": "debabrata_c@me.iitr.ac.in",
+      "image": "",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/debabrata-chandra-6a156a286/"
     },
     {
-      "Name": "Parth Sharma",
-      "Subsystem": "Vehicle Dynamics and Steering",
-      "Post": "Head",
-      "Email id (iitr)": "parth_s@me.iitr.ac.in",
-      "Photo link": "Parth Sharma",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/parth-sharma-756a701b1/"
+      "name": "Parth Sharma",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "post": "Head",
+      "email": "parth_s@me.iitr.ac.in",
+      "image": "Parth Sharma.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/parth-sharma-756a701b1/"
     },
     {
-      "Name": "Param Dalvi",
-      "Subsystem": "Vehicle Dynamics and Steering",
-      "Post": "Engineer",
-      "Email id (iitr)": "param@me.iitr.ac.in",
-      "Photo link": "Param Dalvi",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/param-dalvi-a1967522a"
+      "name": "Param Dalvi",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "post": "Engineer",
+      "email": "param@me.iitr.ac.in",
+      "image": "Param Dalvi.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/param-dalvi-a1967522a"
     },
     {
-      "Name": "Bhawna Mangal",
-      "Subsystem": "Vehicle Dynamics and Steering",
-      "Post": "Engineer",
-      "Email id (iitr)": "bhawna@me.iitr.ac.in",
-      "Photo link": "Bhawna Mangal",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/bhawna-mangal-a34010271"
+      "name": "Bhawna Mangal",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "post": "Engineer",
+      "email": "bhawna@me.iitr.ac.in",
+      "image": "Bhawna Mangal.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/bhawna-mangal-a34010271"
     },
     {
-      "Name": "Parv Bangar",
-      "Subsystem": "Vehicle dynamics and Steering",
-      "Post": "Engineer",
-      "Email id (iitr)": "p_bangar@me.iitr.ac.in",
-      "Photo link": "Parv Bangar",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Parv Bangar",
+      "subsystem": "Vehicle dynamics and Steering",
+      "post": "Engineer",
+      "email": "p_bangar@me.iitr.ac.in",
+      "image": "Parv Bangar.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Syed Tashif Ali",
-      "Subsystem": "Vehicle dynamics and Steering",
-      "Post": "Engineer",
-      "Email id (iitr)": "s_tali@es.iitr.ac.in",
-      "Photo link": "Tashif Syed",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Syed Tashif Ali",
+      "subsystem": "Vehicle dynamics and Steering",
+      "post": "Engineer",
+      "email": "s_tali@es.iitr.ac.in",
+      "image": "Tashif Syed.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Amandeep Singh Gaur",
-      "Subsystem": "Vehicle dynamics and Steering",
-      "Post": "Member",
-      "Email id (iitr)": "aman_dsg@me.iitr.ac.in",
-      "Photo link": "Amandeep Singh",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/amandeep-singh-6a10a5271"
+      "name": "Amandeep Singh Gaur",
+      "subsystem": "Vehicle dynamics and Steering",
+      "post": "Member",
+      "email": "aman_dsg@me.iitr.ac.in",
+      "image": "Amandeep Singh.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/amandeep-singh-6a10a5271"
     },
     {
-      "Name": "Uday prakash dubey",
-      "Subsystem": "Vehicle dynamics and Steering",
-      "Post": "Member",
-      "Email id (iitr)": "uday_pd@me.iitr.ac.in",
-      "Photo link": "Uday Prakash Dubey",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Uday prakash dubey",
+      "subsystem": "Vehicle dynamics and Steering",
+      "post": "Member",
+      "email": "uday_pd@me.iitr.ac.in",
+      "image": "Uday Prakash Dubey.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Shashank Kumar",
-      "Subsystem": "Vehicle dynamics and Steering",
-      "Post": "Member",
-      "Email id (iitr)": "shashank_k@me.iitr.ac.in",
-      "Photo link": "Shashank Kumar",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/shashank-kumar-a30363261"
+      "name": "Shashank Kumar",
+      "subsystem": "Vehicle dynamics and Steering",
+      "post": "Member",
+      "email": "shashank_k@me.iitr.ac.in",
+      "image": "Shashank Kumar.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/shashank-kumar-a30363261"
     },
     {
-      "Name": "Aditya Saurav",
-      "Subsystem": "Vehicle dynamics and Steering",
-      "Post": "Member",
-      "Email id (iitr)": "aditya_ks@me.iitr.ac.in",
-      "Photo link": "Aditya Saurav",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Aditya Saurav",
+      "subsystem": "Vehicle dynamics and Steering",
+      "post": "Member",
+      "email": "aditya_ks@me.iitr.ac.in",
+      "image": "Aditya Saurav.jpg",
+      "facebook": "",
+      "linkedin": ""
+    },
+    {
+      "Timestamp": "2026/06/12 6:56:10 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": -1,
+      "email": "chandan_jm@es.iitr.ac.in",
+      "name": "Chandan Jyoti Mohon",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "https://www.linkedin.com/in/chandan-jyoti-mohon-130747319?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 6:56:58 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": -1,
+      "email": "rishavroy124@gmail.com",
+      "name": "Rishav kumar",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "linkedin": "https://www.linkedin.com/in/rishav-kumar-98a152298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 8:52:23 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "paras_t@me.iitr.ac.in",
+      "name": "Paras Tahilramani",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "linkedin": "https://www.linkedin.com/paras-t",
+      "image": "Paras Tahilramani.jpg"
+    },
+    {
+      "Timestamp": "2026/06/12 7:10:33 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": -1,
+      "email": "rathi_ga@me.iitr.ac.in",
+      "name": "Gaurav Rathi",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "https://www.linkedin.com/in/gaurav-r-397814369?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 7:11:47 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": -1,
+      "email": "vinay_l@me.iitr.ac.in",
+      "name": "Vinay",
+      "subsystem": "Powertrain and Braking",
+      "linkedin": "",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 7:26:13 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "krish_l@me.iitr.ac.in",
+      "name": "Krish lohiya",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "linkedin": "",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 7:39:58 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "akshat_j3@me.iitr.ac.in",
+      "name": "Akshat Jain",
+      "subsystem": "Powertrain and Braking",
+      "linkedin": "",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 7:41:21 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "aditya_p1@me.iitr.ac.in",
+      "name": "Aditya Patara",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "https://www.linkedin.com/in/aditya-patara-aa86b8355?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 7:43:07 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "atharva_gs@me.iitr.ac.in",
+      "name": "Atharva Shastri",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "linkedin": "https://www.linkedin.com/in/atharva-shastri-6657b7373",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 7:43:28 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "aryan_tp@me.iitr.ac.in",
+      "name": "Aryan Phadnis",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "https://www.linkedin.com/in/aryanphadnis",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 7:50:10 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2030,
+      "email": "saurabh_b@es.iitr.ac.in",
+      "name": "Saurabh Bajaj",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "https://www.linkedin.com/in/saurabh-bajaj-621711380?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 8:00:11 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "meghna1@me.iitr.ac.in",
+      "name": "Meghna",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "https://www.linkedin.com/in/meghna-tiwari-252a54275?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 8:20:28 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "harshil@me.iitr.ac.in",
+      "name": "Harshil",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "linkedin": "https://www.linkedin.com/in/harshil-kapooria-780464369?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 8:35:38 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "amlan_a@me.iitr.ac.in",
+      "name": "Amlan Aryab",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "linkedin": "",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 8:40:20 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "vrinda_a@me.iitr.ac.in",
+      "name": "Vrinda Agarwal",
+      "subsystem": "Powertrain and Braking",
+      "linkedin": "www.linkedin.com/in/vrindaagarwal0405",
+      "image": "Vrinda Agarwal.jpg"
+    },
+    {
+      "Timestamp": "2026/06/12 8:46:14 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "parth_j@me.iitr.ac.in",
+      "name": "Parth Jain",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "www.linkedin.com/in/parth-jain-83b21235b",
+      "image": "Parth Jain.jpg"
+    },
+    {
+      "Timestamp": "2026/06/12 9:21:35 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "shikharporwal11@gmail.com",
+      "name": "Shikhar Porwal",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "linkedin": "https://www.linkedin.com/in/shikhar-porwal-53a880368?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "image": "Shikhar Porwal.jpeg"
+    },
+    {
+      "Timestamp": "2026/06/12 9:29:03 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "gurpreet1@me.iitr.ac.in",
+      "name": "Gurpreet",
+      "subsystem": "Structural and Composites",
+      "linkedin": "https://www.linkedin.com/in/gurpreet-dhingra-939334356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "image": "Gurpreet.jpg"
+    },
+    {
+      "Timestamp": "2026/06/12 9:35:51 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2027,
+      "email": "sarvesh_kr@me.iitr.ac.in",
+      "name": "Sarvesh Kumar Rai",
+      "subsystem": "Powertrain and Braking",
+      "linkedin": "https://www.linkedin.com/in/sarvesh-kumar-rai-3a13a9282?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": "Sarvesh Kumar Rai.jpg"
+    },
+    {
+      "Timestamp": "2026/06/12 9:45:50 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2027,
+      "email": "apoorv_b@me.iitr.ac.in",
+      "name": "Apoorv Bhardwaj",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "www.linkedin.com/in/apoorv-bhardwaj-a081a428b",
+      "image": "Apoorv Bhardwaj.png"
+    },
+    {
+      "Timestamp": "2026/06/12 10:03:10 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2027,
+      "email": "aman_p@me.iitr.ac.in",
+      "name": "Aman Prajapati",
+      "subsystem": "Structural and Composites",
+      "linkedin": "https://in.linkedin.com/in/aman-prajapati-019ap",
+      "image": "Aman Prajapati.jpg"
+    },
+    {
+      "Timestamp": "2026/06/12 10:23:02 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "vatsal_m@me.iitr.ac.in",
+      "name": "Madhuram Vatsal",
+      "subsystem": "Structural and Composites",
+      "linkedin": "https://www.linkedin.com/in/madhuram-vatsal-a00b03350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "image": "Madhuram Vatsal.jpg"
+    },
+    {
+      "Timestamp": "2026/06/12 10:27:42 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "gurvansh_s@ch.iitr.ac.in",
+      "name": "Gurvansh y",
+      "subsystem": "Structural and Composites",
+      "linkedin": "",
+      "image": ""
     }
   ],
   "Electrical": [
     {
-      "Name": "Shrey Aggarwal",
-      "Subsystem": "LV Systems",
-      "Post": "Head",
-      "Email id (iitr)": "shrey_a@ee.iitr.ac.in",
-      "Photo link": "Shrey Aggarwal",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Shrey Aggarwal",
+      "subsystem": "LV Systems",
+      "post": "Head",
+      "email": "shrey_a@ee.iitr.ac.in",
+      "image": "Shrey Aggarwal.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Mayukh Ghosh",
-      "Subsystem": "LV Systems",
-      "Post": "Senior Engineer",
-      "Email id (iitr)": "mayukh_g@ee.iitr.ac.in",
-      "Photo link": "Mayukh Ghosh",
-      "FB profile link": "https://www.facebook.com/mayukh.ghosh.944",
-      "LinkedIn link": "https://www.linkedin.com/in/mayukh-ghosh-065080211"
+      "name": "Mayukh Ghosh",
+      "subsystem": "LV Systems",
+      "post": "Senior Engineer",
+      "email": "mayukh_g@ee.iitr.ac.in",
+      "image": "Mayukh Ghosh.jpg",
+      "facebook": "https://www.facebook.com/mayukh.ghosh.944",
+      "linkedin": "https://www.linkedin.com/in/mayukh-ghosh-065080211"
     },
     {
-      "Name": "Yashvardhan Saini",
-      "Subsystem": "LV Systems",
-      "Post": "Engineer",
-      "Email id (iitr)": "y_saini@ee.iitr.ac.in",
-      "Photo link": "Yashvardhan Saini",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/yashvardhan-saini-247309233/"
+      "name": "Yashvardhan Saini",
+      "subsystem": "LV Systems",
+      "post": "Engineer",
+      "email": "y_saini@ee.iitr.ac.in",
+      "image": "Yashvardhan Saini.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/yashvardhan-saini-247309233/"
     },
     {
-      "Name": "Ankit Yadav",
-      "Subsystem": "LV Systems",
-      "Post": "Engineer",
-      "Email id (iitr)": "ankit1@ee.iitr.ac.in",
-      "Photo link": "Ankit Yadav",
-      "FB profile link": "https://m.facebook.com/ankit.yadav.060404",
-      "LinkedIn link": "https://www.linkedin.com/in/ankit-yadav-701419225"
+      "name": "Ankit Yadav",
+      "subsystem": "LV Systems",
+      "post": "Engineer",
+      "email": "ankit1@ee.iitr.ac.in",
+      "image": "Ankit Yadav.jpg",
+      "facebook": "https://m.facebook.com/ankit.yadav.060404",
+      "linkedin": "https://www.linkedin.com/in/ankit-yadav-701419225"
     },
     {
-      "Name": "Sambhav Sharma",
-      "Subsystem": "LV Systems",
-      "Post": "Member",
-      "Email id (iitr)": "sambhav_s@ee.iitr.ac.in",
-      "Photo link": "Sambhav Sharma",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Sambhav Sharma",
+      "subsystem": "LV Systems",
+      "post": "Member",
+      "email": "sambhav_s@ee.iitr.ac.in",
+      "image": "Sambhav Sharma.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Vishwajeet Jadhav",
-      "Subsystem": "LV Systems",
-      "Post": "Member",
-      "Email id (iitr)": "vishwajeet_pj@ece.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Vishwajeet Jadhav",
+      "subsystem": "LV Systems",
+      "post": "Member",
+      "email": "vishwajeet_pj@ece.iitr.ac.in",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Adarsh Singh",
-      "Subsystem": "LV Systems",
-      "Post": "Member",
-      "Email id (iitr)": "adarsh_s@ee.iitr.ac.in",
-      "Photo link": "Adarsh Singh",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/adarsh-singh-9aa252253"
+      "name": "Adarsh Singh",
+      "subsystem": "LV Systems",
+      "post": "Member",
+      "email": "adarsh_s@ee.iitr.ac.in",
+      "image": "Adarsh Singh.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/adarsh-singh-9aa252253"
     },
     {
-      "Name": "Vastu Aggarwal",
-      "Subsystem": "LV Systems",
-      "Post": "Member",
-      "Email id (iitr)": "vastu_a@ee.iitr.ac.in",
-      "Photo link": "Vastu Aggarwal",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/vastu-agarwal-9ba279260"
+      "name": "Vastu Aggarwal",
+      "subsystem": "LV Systems",
+      "post": "Member",
+      "email": "vastu_a@ee.iitr.ac.in",
+      "image": "Vastu Aggarwal.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/vastu-agarwal-9ba279260"
     },
     {
-      "Name": "Dharana Masodkar",
-      "Subsystem": "LV systems",
-      "Post": "Member",
-      "Email id (iitr)": "dharana_m@ee.iitr.ac.in",
-      "Photo link": "Dharana Masodkar",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Dharana Masodkar",
+      "subsystem": "LV systems",
+      "post": "Member",
+      "email": "dharana_m@ee.iitr.ac.in",
+      "image": "Dharana Masodkar.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Priyangsi Dey",
-      "Subsystem": "Accumulator",
-      "Post": "Head",
-      "Email id (iitr)": "priyangsi_d@ee.iitr.ac.in",
-      "Photo link": "Priyangsi Dey",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/priyangsi-dey-71a061223/"
+      "name": "Priyangsi Dey",
+      "subsystem": "Accumulator",
+      "post": "Head",
+      "email": "priyangsi_d@ee.iitr.ac.in",
+      "image": "Priyangsi Dey.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/priyangsi-dey-71a061223/"
     },
     {
-      "Name": "Naman Joshi",
-      "Subsystem": "Accumulator",
-      "Post": "Engineer",
-      "Email id (iitr)": "n_joshi@ee.iitr.ac.in",
-      "Photo link": "Naman Joshi",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Naman Joshi",
+      "subsystem": "Accumulator",
+      "post": "Engineer",
+      "email": "n_joshi@ee.iitr.ac.in",
+      "image": "Naman Joshi.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Jaya Bansal",
-      "Subsystem": "Accumulator",
-      "Post": "Engineer",
-      "Email id (iitr)": "jaya@ece.iitr.ac.in",
-      "Photo link": "Jaya Bansal",
-      "FB profile link": "",
-      "LinkedIn link": "www.linkedin.com/in/bansaljaya"
+      "name": "Jaya Bansal",
+      "subsystem": "Accumulator",
+      "post": "Engineer",
+      "email": "jaya@ece.iitr.ac.in",
+      "image": "Jaya Bansal.jpg",
+      "facebook": "",
+      "linkedin": "www.linkedin.com/in/bansaljaya"
     },
     {
-      "Name": "Garima Chaudhary",
-      "Subsystem": "Accumulator",
-      "Post": "Member",
-      "Email id (iitr)": "garima_c@ee.iitr.ac.in",
-      "Photo link": "Garima Chaudhary",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Garima Chaudhary",
+      "subsystem": "Accumulator",
+      "post": "Member",
+      "email": "garima_c@ee.iitr.ac.in",
+      "image": "Garima Chaudhary.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Amrit Chirania",
-      "Subsystem": "Accumulator",
-      "Post": "Member",
-      "Email id (iitr)": "amrit_c@ece.iitr.ac.in",
-      "Photo link": "Amrit Chirania",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/amrit-chirania-831373260/"
+      "name": "Amrit Chirania",
+      "subsystem": "Accumulator",
+      "post": "Member",
+      "email": "amrit_c@ece.iitr.ac.in",
+      "image": "Amrit Chirania.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/amrit-chirania-831373260/"
     },
     {
-      "Name": "Alya Singh",
-      "Subsystem": "Accumulator",
-      "Post": "Member",
-      "Email id (iitr)": "alya_s@ee.iitr.ac.in",
-      "Photo link": "Alya Singh ",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/alyasingh119"
+      "name": "Alya Singh",
+      "subsystem": "Accumulator",
+      "post": "Member",
+      "email": "alya_s@ee.iitr.ac.in",
+      "image": "Alya Singh .jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/alyasingh119"
     },
     {
-      "Name": "Anubhav Maity",
-      "Subsystem": "Accumulator",
-      "Post": "Member",
-      "Email id (iitr)": "anubhav_m@ee.iitr.ac.in",
-      "Photo link": "Anubhav Maity",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/anubhav-maity-140736261"
+      "name": "Anubhav Maity",
+      "subsystem": "Accumulator",
+      "post": "Member",
+      "email": "anubhav_m@ee.iitr.ac.in",
+      "image": "Anubhav Maity.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/anubhav-maity-140736261"
     },
     {
-      "Name": "Tushar Maini",
-      "Subsystem": "Electrical Powertrain",
-      "Post": "Engineer",
-      "Email id (iitr)": "t_maini@ee.iitr.ac.in",
-      "Photo link": "Tushar Maini",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/tushar-maini-20306a230"
+      "name": "Tushar Maini",
+      "subsystem": "Electrical Powertrain",
+      "post": "Engineer",
+      "email": "t_maini@ee.iitr.ac.in",
+      "image": "Tushar Maini.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/tushar-maini-20306a230"
     },
     {
-      "Name": "Aashish Poonia",
-      "Subsystem": "Electric Powertrain",
-      "Post": "Engineer",
-      "Email id (iitr)": "a_poonia@ee.iitr.ac.in",
-      "Photo link": "Aashish Poonia",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/aashish-poonia-1a7393247"
+      "name": "Aashish Poonia",
+      "subsystem": "Electric Powertrain",
+      "post": "Engineer",
+      "email": "a_poonia@ee.iitr.ac.in",
+      "image": "Aashish Poonia.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/aashish-poonia-1a7393247"
     },
     {
-      "Name": "Yashvardhan Saini",
-      "Subsystem": "Electric Powertrain",
-      "Post": "Engineer",
-      "Email id (iitr)": "y_saini@ee.iitr.ac.in",
-      "Photo link": "Yashvardhan Saini",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/yashvardhan-saini-247309233/"
+      "name": "Yashvardhan Saini",
+      "subsystem": "Electric Powertrain",
+      "post": "Engineer",
+      "email": "y_saini@ee.iitr.ac.in",
+      "image": "Yashvardhan Saini.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/yashvardhan-saini-247309233/"
     },
     {
-      "Name": "Aryan Gupta",
-      "Subsystem": "Electrical Powertrain",
-      "Post": "Member",
-      "Email id (iitr)": "aryan_g@ee.iitr.ac.in",
-      "Photo link": "Aryan Gupta",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/aryan-gupta-466156263"
+      "name": "Aryan Gupta",
+      "subsystem": "Electrical Powertrain",
+      "post": "Member",
+      "email": "aryan_g@ee.iitr.ac.in",
+      "image": "Aryan Gupta.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/aryan-gupta-466156263"
     },
     {
-      "Name": "Kuneh Shah",
-      "Subsystem": "Electrical Powertrain",
-      "Post": "Member",
-      "Email id (iitr)": "shah_kp@ph.iitr.ac.in",
-      "Photo link": "Kuneh Shah",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Kuneh Shah",
+      "subsystem": "Electrical Powertrain",
+      "post": "Member",
+      "email": "shah_kp@ph.iitr.ac.in",
+      "image": "Kuneh Shah.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Paramveer Singh",
-      "Subsystem": "Electrical Powertrain",
-      "Post": "Member",
-      "Email id (iitr)": "paramveer_s@ee.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Paramveer Singh",
+      "subsystem": "Electrical Powertrain",
+      "post": "Member",
+      "email": "paramveer_s@ee.iitr.ac.in",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Aakash Ramesh",
-      "Subsystem": "Electrical Powertrain",
-      "Post": "Member",
-      "Email id (iitr)": "aakash_r@ee.iitr.ac.in",
-      "Photo link": "Aakash Ramesh",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/aakash-ramesh-a683b2253"
+      "name": "Aakash Ramesh",
+      "subsystem": "Electrical Powertrain",
+      "post": "Member",
+      "email": "aakash_r@ee.iitr.ac.in",
+      "image": "Aakash Ramesh.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/aakash-ramesh-a683b2253"
+    },
+    {
+      "Timestamp": "2026/06/12 7:07:11 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": -1,
+      "email": "arya_p@ee.iitr.ac.in",
+      "name": "Arya Patel",
+      "subsystem": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/arya-patel-029966331/",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 7:08:48 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": -1,
+      "email": "swarnam_nv@ph.iitr.ac.in",
+      "name": "Swarnam",
+      "subsystem": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/swarnamn?trk=contact-info",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 7:33:39 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "agastya_n@ph.iitr.ac.in",
+      "name": "Agastya Nadubailu",
+      "subsystem": "",
+      "linkedin": "https://www.linkedin.com/in/agastya-nadubailu",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 7:38:37 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "baibhaba_m@ee.iitr.ac.in",
+      "name": "Baibhaba Moharana",
+      "subsystem": "",
+      "linkedin": "https://www.linkedin.com/in/baibhab-moharana-852033378?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 7:59:14 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "arighna_r@ee.iitr.ac.in",
+      "name": "Arighna Roy",
+      "subsystem": "Electronics",
+      "linkedin": "",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 8:14:28 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "devank_s@ece.iitr.ac.in",
+      "name": "Devank Saini",
+      "subsystem": "",
+      "linkedin": "https://www.linkedin.com/in/devank-saini-72458236a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 8:31:32 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "nischal_t@ch.iitr.ac.in",
+      "name": "Nischal Teeka",
+      "subsystem": "",
+      "linkedin": "https://www.linkedin.com/in/nischal-teeka-02369b291/",
+      "image": "Nischal Teeka.png"
+    },
+    {
+      "Timestamp": "2026/06/12 8:52:43 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "abhinav_s1@ee.iitr.ac.in",
+      "name": "Abhinav Sharma",
+      "subsystem": "Electrical Powertrain",
+      "linkedin": "",
+      "image": "Abhinav Sharma.jpeg"
+    },
+    {
+      "Timestamp": "2026/06/12 8:59:51 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "misisipimud@gmail.com",
+      "name": "Sreya Ramji",
+      "subsystem": "",
+      "linkedin": "",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 9:02:16 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "samarth_g@ece.iitr.ac.in",
+      "name": "Samarth Gupta",
+      "subsystem": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/samarth-gupta-g128/",
+      "image": "Samarth Gupta.png"
+    },
+    {
+      "Timestamp": "2026/06/12 9:25:12 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "anant_j@hre.iitr.ac.in",
+      "name": "Anant Jain",
+      "subsystem": "",
+      "linkedin": "https://www.linkedin.com/in/anant-jain-88643b3a2?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": "Anant Jain.png"
+    },
+    {
+      "Timestamp": "2026/06/12 9:58:02 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "tarun_p@ee.iitr.ac.in",
+      "name": "Tarun Patel",
+      "subsystem": "Electrical Powertrain",
+      "linkedin": "https://www.linkedin.com/in/tarun-patel-117567324/",
+      "image": "Tarun Patel.jpg"
+    },
+    {
+      "Timestamp": "2026/06/12 11:18:46 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "yashasvi_s@ee.iitr.ac.in",
+      "name": "Yashasvi",
+      "subsystem": "",
+      "linkedin": "https://www.linkedin.com/in/yashasvi-sharma-59745a379?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": ""
     }
   ],
-  "Marketing ": [
+  "Marketing": [
     {
-      "Name": "Ansh Saini",
-      "Subsystem": "Marketing",
-      "Post": "Head",
-      "Email id (iitr)": "ansh_s@me.iitr.ac.in",
-      "Photo link": "Ansh Saini",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/ansh25saini/"
+      "name": "Ansh Saini",
+      "subsystem": "Marketing",
+      "post": "Head",
+      "email": "ansh_s@me.iitr.ac.in",
+      "image": "Ansh Saini.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/ansh25saini/"
     },
     {
-      "Name": "Harshit Agarwal",
-      "Subsystem": "Marketing",
-      "Post": "Senior Manager",
-      "Email id (iitr)": "harshit_a@me.iitr.ac.in",
-      "Photo link": "Harshit Agarwal",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Harshit Agarwal",
+      "subsystem": "Marketing",
+      "post": "Senior Manager",
+      "email": "harshit_a@me.iitr.ac.in",
+      "image": "Harshit Agarwal.jpg",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Aadit Goel",
-      "Subsystem": "Marketing",
-      "Post": "Manager",
-      "Email id (iitr)": "a_goel1@me.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/aadit-goel-046248226"
+      "name": "Aadit Goel",
+      "subsystem": "Marketing",
+      "post": "Manager",
+      "email": "a_goel1@me.iitr.ac.in",
+      "image": "",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/aadit-goel-046248226"
     },
     {
-      "Name": "Aryan Porwal",
-      "Subsystem": "Marketing",
-      "Post": "Manager",
-      "Email id (iitr)": "a_porwal@me.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Aryan Porwal",
+      "subsystem": "Marketing",
+      "post": "Manager",
+      "email": "a_porwal@me.iitr.ac.in",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Aashi Jain",
-      "Subsystem": "Marketing",
-      "Post": "Executive",
-      "Email id (iitr)": "aashi_j1@me.iitr.ac.in",
-      "Photo link": "Aashi Jain",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/aashi-jain-33bb63216"
+      "name": "Aashi Jain",
+      "subsystem": "Marketing",
+      "post": "Executive",
+      "email": "aashi_j1@me.iitr.ac.in",
+      "image": "Aashi Jain.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/aashi-jain-33bb63216"
     },
     {
-      "Name": "Saksham Jain",
-      "Subsystem": "Marketing",
-      "Post": "Executive",
-      "Email id (iitr)": "saksham_j@ar.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Saksham Jain",
+      "subsystem": "Marketing",
+      "post": "Executive",
+      "email": "saksham_j@ar.iitr.ac.in",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
     },
     {
-      "Name": "Aryan Kumar",
-      "Subsystem": "Marketing",
-      "Post": "Executive",
-      "Email id (iitr)": "aryan_k@mt.iitr.ac.in",
-      "Photo link": "Aryan Kumar",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/aryan-kumar-59968b177"
+      "name": "Aryan Kumar",
+      "subsystem": "Marketing",
+      "post": "Executive",
+      "email": "aryan_k@mt.iitr.ac.in",
+      "image": "Aryan Kumar.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/aryan-kumar-59968b177"
     },
     {
-      "Name": "VAIBHAV KAVDIA",
-      "Subsystem": "Marketing",
-      "Post": "Executive",
-      "Email id (iitr)": "vaibhav_k2@ce.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/vaibhav-kavdia-a1a217253"
+      "name": "VAIBHAV KAVDIA",
+      "subsystem": "Marketing",
+      "post": "Executive",
+      "email": "vaibhav_k2@ce.iitr.ac.in",
+      "image": "",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/vaibhav-kavdia-a1a217253"
     },
     {
-      "Name": "Utsav Goyal",
-      "Subsystem": "Marketing",
-      "Post": "Executive",
-      "Email id (iitr)": "utsav@ce.iitr.ac.in",
-      "Photo link": "Utsav Goyal",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/utsav-goyal-iit"
+      "name": "Utsav Goyal",
+      "subsystem": "Marketing",
+      "post": "Executive",
+      "email": "utsav@ce.iitr.ac.in",
+      "image": "Utsav Goyal.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/utsav-goyal-iit"
     },
     {
-      "Name": "Aayushi Choudhary",
-      "Subsystem": "Marketing",
-      "Post": "Executive",
-      "Email id (iitr)": "aayushi_c@me.iitr.ac.in",
-      "Photo link": "Aayushi Choudhary",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/aayushi-choudhary-2b0a38247/"
+      "name": "Aayushi Choudhary",
+      "subsystem": "Marketing",
+      "post": "Executive",
+      "email": "aayushi_c@me.iitr.ac.in",
+      "image": "Aayushi Choudhary.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/aayushi-choudhary-2b0a38247/"
+    },
+    {
+      "Timestamp": "2026/06/12 11:15:14 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "daksh_m@me.iitr.ac.in",
+      "name": "Daksh Malik",
+      "subsystem": "Marketing",
+      "linkedin": "https://www.linkedin.com/in/daksh-malik-0aa7b7373?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": "Daksh Malik.jpg"
     }
   ],
   "Media": [
     {
-      "Name": "Rajita Naik",
-      "Subsystem": "Media",
-      "Post": "Executive",
-      "Email id (iitr)": "rajita_n@me.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "https://www.facebook.com/ramitsingh.rathod.7",
-      "LinkedIn link": "https://www.linkedin.com/in/rajita-naik-985302210"
+      "name": "Rajita Naik",
+      "subsystem": "Media",
+      "post": "Executive",
+      "email": "rajita_n@me.iitr.ac.in",
+      "image": "",
+      "facebook": "https://www.facebook.com/ramitsingh.rathod.7",
+      "linkedin": "https://www.linkedin.com/in/rajita-naik-985302210"
     },
     {
-      "Name": "Mukul Dhiman",
-      "Subsystem": "Media",
-      "Post": "Executive",
-      "Email id (iitr)": "mukul_d@ar.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "https://www.facebook.com/mukul.dhiman.12532",
-      "LinkedIn link": "linkedin.com/in/mukul-dhiman-794766205"
+      "name": "Mukul Dhiman",
+      "subsystem": "Media",
+      "post": "Executive",
+      "email": "mukul_d@ar.iitr.ac.in",
+      "image": "",
+      "facebook": "https://www.facebook.com/mukul.dhiman.12532",
+      "linkedin": "linkedin.com/in/mukul-dhiman-794766205"
     },
     {
-      "Name": "Sejal Singh",
-      "Subsystem": "Media",
-      "Post": "Executive",
-      "Email id (iitr)": "sejal_s@me.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/sejal-singh-65063123a"
+      "name": "Sejal Singh",
+      "subsystem": "Media",
+      "post": "Executive",
+      "email": "sejal_s@me.iitr.ac.in",
+      "image": "",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/sejal-singh-65063123a"
+    },
+    {
+      "Timestamp": "2026/06/12 7:49:59 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "nandini_a@ee.iitr.ac.in",
+      "name": "Nandini Agarwal",
+      "subsystem": "Media",
+      "linkedin": "https://www.linkedin.com/in/nandini-agarwal0987/",
+      "image": ""
+    },
+    {
+      "Timestamp": "2026/06/12 11:26:11 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2027,
+      "email": "utkarsh_k@me.iitr.ac.in",
+      "name": "Utkarsh Kumar",
+      "subsystem": "Media",
+      "linkedin": "https://in.linkedin.com/in/utkarsh-singh-774a94273",
+      "image": "Utkarsh Kumar.jpg"
+    },
+    {
+      "Timestamp": "2026/06/12 11:41:24 PM GMT+5:30",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "sweta_s@ee.iitr.ac.in",
+      "name": "Sweta Singh",
+      "subsystem": "Media",
+      "linkedin": "",
+      "image": "Sweta Singh.jpeg"
     }
   ],
   "Videograpy": [
     {
-      "Name": "Abhiudit Sharma",
-      "Subsystem": "Videography",
-      "Post": "",
-      "Email id (iitr)": "abhiudit_s@ar.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "",
-      "LinkedIn link": "https://www.linkedin.com/in/abhiudit-sharma-379807258"
+      "name": "Abhiudit Sharma",
+      "subsystem": "Videography",
+      "post": "",
+      "email": "abhiudit_s@ar.iitr.ac.in",
+      "image": "",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/abhiudit-sharma-379807258"
     },
     {
-      "Name": "Harshwardhan Memne",
-      "Subsystem": "Videography",
-      "Post": "",
-      "Email id (iitr)": "harshwardhan_m@bt.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "",
-      "LinkedIn link": ""
+      "name": "Harshwardhan Memne",
+      "subsystem": "Videography",
+      "post": "",
+      "email": "harshwardhan_m@bt.iitr.ac.in",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
     }
   ],
   "Web Development": [
     {
-      "Name": "Ashwin Korade",
-      "Subsystem": "Web Developer",
-      "Post": "Member",
-      "Email id (iitr)": "ashwin@me.iitr.ac.in",
-      "Photo link": "Ashwin Korade",
-      "FB profile link": "https://www.facebook.com/ashwin.korade.7/",
-      "LinkedIn link": "https://www.linkedin.com/in/ashwin-korade-7a7ba120a/"
+      "name": "Ashwin Korade",
+      "subsystem": "Web Developer",
+      "post": "Member",
+      "email": "ashwin@me.iitr.ac.in",
+      "image": "Ashwin Korade.jpg",
+      "facebook": "https://www.facebook.com/ashwin.korade.7/",
+      "linkedin": "https://www.linkedin.com/in/ashwin-korade-7a7ba120a/"
     },
     {
-      "Name": "Nitesh Jangid",
-      "Subsystem": "Web Developer",
-      "Post": "Member",
-      "Email id (iitr)": "nitesh_j@ee.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "https://www.facebook.com/niteshjangid29",
-      "LinkedIn link": "https://www.linkedin.com/in/nitesh-jangid-bb6673205"
+      "name": "Nitesh Jangid",
+      "subsystem": "Web Developer",
+      "post": "Member",
+      "email": "nitesh_j@ee.iitr.ac.in",
+      "image": "",
+      "facebook": "https://www.facebook.com/niteshjangid29",
+      "linkedin": "https://www.linkedin.com/in/nitesh-jangid-bb6673205"
     },
     {
-      "Name": "Anand Chourasia",
-      "Subsystem": "Web Developer",
-      "Post": "Member",
-      "Email id (iitr)": "anand_c@cs.iitr.ac.in",
-      "Photo link": "",
-      "FB profile link": "https://www.facebook.com/anand.chaurasiya.1485537",
-      "LinkedIn link": "https://www.linkedin.com/in/anand-chourasia-826160220"
+      "name": "Anand Chourasia",
+      "subsystem": "Web Developer",
+      "post": "Member",
+      "email": "anand_c@cs.iitr.ac.in",
+      "image": "",
+      "facebook": "https://www.facebook.com/anand.chaurasiya.1485537",
+      "linkedin": "https://www.linkedin.com/in/anand-chourasia-826160220"
     }
   ]
 }
