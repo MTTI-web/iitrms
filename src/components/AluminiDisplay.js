@@ -216,14 +216,9 @@ export default function AluminiDisplay({ team }) {
 
                   if (hasValidImage) {
                     const cleanLink = rawPhotoLink.trim();
-                    if (
-                      cleanLink.startsWith("/") ||
-                      cleanLink.startsWith("http")
-                    ) {
-                      imageSrc = cleanLink;
-                    } else {
-                      imageSrc = "/team/" + cleanLink + ".jpg";
-                    }
+
+                    imageSrc = cleanLink;
+                    console.log(cleanLink);
                   }
 
                   const imageStyle = {

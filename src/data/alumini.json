@@ -1,9 +1,58 @@
 {
+  "Year 2026": [
+    {
+      "name": "Chaudhary Dilip Kumar ",
+      "por_held": "Technical head ",
+      "position": "GTE",
+      "company": "Bajaj automobile ",
+      "image": "/alumini/2026/IMG_20260520_094114 - CHAUDHARY DILIP KUMAR JASARAM 22117042.jpg",
+      "links": {
+        "facebook": "",
+        "linkedin": ""
+      }
+    }
+  ],
+  "Year 2025": [
+    {
+      "name": "Saish Pednekar",
+      "por_held": "Structural and Composites Head",
+      "position": "Systems Engineer",
+      "company": "Sedemac Mechatronics",
+      "image": "/alumini/2025/IMG-20231205-WA0010 - SAISH MILIND PEDNEKAR 21117108.jpg",
+      "links": {
+        "facebook": "",
+        "linkedin": "https://www.linkedin.com/in/saish-pednekar-55812121a"
+      }
+    },
+    {
+      "name": "Yashvardhan Saini",
+      "por_held": "Electrical Head",
+      "position": "Power Electronics Engineer",
+      "company": "JLR",
+      "image": "/alumini/2025/YASHVARDHAN SAINI.jpg",
+      "links": {
+        "facebook": "",
+        "linkedin": "https://www.linkedin.com/in/yashvardhan-saini-247309233?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+      }
+    },
+    {
+      "name": "Aditya Raj Singh",
+      "por_held": "Powertrain & Braking Head",
+      "position": "Sr. Officer",
+      "company": "Petronet LNG Ltd ",
+      "image": "/alumini/2025/IMG_20250424_070831 - Aditya Raj Singh.jpg",
+      "links": {
+        "facebook": "",
+        "linkedin": "https://www.linkedin.com/in/aditya-raj-singh10"
+      }
+    }
+  ],
   "Year 2023": [
     {
       "id": "1",
       "image": "",
       "name": "Shubham Raut",
+      "por_held": "",
       "position": "",
       "company": "",
       "links": {
@@ -15,6 +64,7 @@
       "id": "2",
       "image": "",
       "name": "Shreyam Bansal",
+      "por_held": "",
       "position": "Executive Trainee",
       "company": "Tata Projects limited",
       "links": {
@@ -26,6 +76,7 @@
       "id": "3",
       "image": "",
       "name": "Arjav Jain",
+      "por_held": "",
       "position": "GET EV Powertrain",
       "company": "Jaguar Land Rover",
       "links": {
@@ -37,6 +88,7 @@
       "id": "4",
       "image": "",
       "name": "Gautam Shetty",
+      "por_held": "",
       "position": "",
       "company": "",
       "links": {
@@ -48,6 +100,7 @@
       "id": "5",
       "image": "",
       "name": "Sujaan Kumar",
+      "por_held": "",
       "position": "",
       "company": "",
       "links": {
@@ -59,6 +112,7 @@
       "id": "6",
       "image": "",
       "name": "Rijuta Singh",
+      "por_held": "",
       "position": "",
       "company": "",
       "links": {
@@ -70,6 +124,7 @@
       "id": "7",
       "image": "",
       "name": "Aditya Sharma",
+      "por_held": "",
       "position": "Associate Engineer",
       "company": "Qualcomm India Pvt. Ltd.",
       "links": {
@@ -81,6 +136,7 @@
       "id": "8",
       "image": "",
       "name": "Jaswant Singh",
+      "por_held": "",
       "position": "",
       "company": "",
       "links": {
@@ -92,6 +148,7 @@
       "id": "9",
       "image": "",
       "name": "Anurag Patra",
+      "por_held": "",
       "position": "",
       "company": "",
       "links": {
@@ -103,6 +160,7 @@
       "id": "10",
       "image": "",
       "name": "Rajat Raj",
+      "por_held": "",
       "position": "",
       "company": "",
       "links": {
@@ -114,6 +172,7 @@
       "id": "11",
       "image": "",
       "name": "Aditi Dubey",
+      "por_held": "",
       "position": "",
       "company": "",
       "links": {
@@ -125,6 +184,7 @@
       "id": "12",
       "image": "",
       "name": "Harsiddh Desai",
+      "por_held": "",
       "position": "",
       "company": "",
       "links": {
@@ -1187,8 +1247,8 @@
     },
     {
       "name": "Shirish Kumbhar",
-      "position": " ATPA Edventures Pvt Ltd",
-      "company": "CTO & Cofounder",
+      "position": " CTO & Cofounder",
+      "company": "ATPA Edventures Pvt Ltd",
       "image": "/alumini/2015/Shirish Kumbhar-LinkedIn.jpg",
       "links": {
         "facebook": "https://www.facebook.com/kool.sjk?fref=gm&dti=254475861357258&hc_location=group",
@@ -1211,8 +1271,8 @@
       "company": "Iotrek",
       "image": "/alumini/2015/Piyush Kumar-fb(2014).JPG",
       "links": {
-        "facebook": "https://www.facebook.com/",
-        "linkedin": "https://www.linkedin.com/"
+        "facebook": "https://www.facebook.",
+        "linkedin": "https://www.linkedin."
       }
     },
     {
@@ -1221,7 +1281,7 @@
       "company": "Aptiv",
       "image": "/alumini/2015/Vipul Kumbhar-LinkedIn.jpg",
       "links": {
-        "facebook": "https://www.facebook.com/",
+        "facebook": "https://www.facebook.",
         "linkedin": "https://www.linkedin.com/in/kumbharvipul"
       }
     }
@@ -1318,7 +1378,6 @@
       }
     }
   ],
-
   "Year 2013": [
     {
       "name": "Akshay Sarin",
