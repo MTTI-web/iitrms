@@ -86,11 +86,20 @@ export default function TeamDisplay({ team }) {
       const activeElement = navMenuRef.current.querySelector(
         `.${styles.active}`,
       );
+
       if (activeElement) {
-        activeElement.scrollIntoView({
+        const container = navMenuRef.current;
+
+        // Calculate the exact pixel offset to center the active item in the horizontal menu
+        const scrollPosition =
+          activeElement.offsetLeft -
+          container.clientWidth / 2 +
+          activeElement.clientWidth / 2;
+
+        // Scroll ONLY the container horizontally, ignoring vertical window layout
+        container.scrollTo({
+          left: scrollPosition,
           behavior: "smooth",
-          inline: "center",
-          block: "nearest",
         });
       }
     }

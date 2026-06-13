@@ -1,62 +1,82 @@
 [
   {
-    "name": "/sponsors/enepaq.png",
+    "image": "infineon.png",
     "id": "1",
-    "link": "https://enepaq.com"
+    "link": "https://www.infineon.com/"
   },
   {
-    "name": "/sponsors/carigar.png",
+    "image": "carigar.png",
     "id": "2",
     "link": "https://carigartools.com/"
   },
   {
-    "name": "/sponsors/goodluck.png",
+    "image": "goodluck.png",
     "id": "3",
     "link": "https://www.goodluckindia.com/"
   },
   {
-    "name": "/sponsors/infineon.png",
+    "image": "lapp.png",
     "id": "4",
-    "link": "https://www.infineon.com/"
-  },
-  {
-    "name": "/sponsors/lapp.png",
-    "id": "5",
     "link": "https://e.lapp.com/in/"
   },
   {
-    "name": "/sponsors/lifeaugmented.png",
+    "image": "tesla.png",
+    "id": "5",
+    "link": "https://www.tesla.com/"
+  },
+  {
+    "image": "reliancecomposites.png",
     "id": "6",
-    "link": "https://www.st.com/content/st_com/en.html"
+    "link": "https://www.reliancecomposites.com/"
   },
   {
-    "name": "/sponsors/littelfuse.png",
+    "image": "vishay.png",
     "id": "7",
-    "link": "https://www.littelfuse.com/"
+    "link": "https://www.vishay.com/"
   },
   {
-    "name": "/sponsors/norton.png",
+    "image": "norton.png",
     "id": "8",
     "link": "https://www.nortonabrasives.com/en-in"
   },
   {
-    "name": "/sponsors/pcbpower.png",
+    "image": "enepaq.png",
     "id": "9",
+    "link": "https://enepaq.com"
+  },
+  {
+    "image": "pcbpower.png",
+    "id": "10",
     "link": "https://www.pcbpower.com/"
   },
   {
-    "name": "/sponsors/relx.png",
-    "id": "10",
-    "link": "https://www.reliancecomposites.com/"
+    "image": "littelfuse.png",
+    "id": "11",
+    "link": "https://www.littelfuse.com/"
   },
   {
-    "name": "/sponsors/vicor.png",
-    "id": "11",
+    "image": "vicor.png",
+    "id": "12",
     "link": "https://www.vicorpower.com/"
   },
   {
-    "name": "/sponsors/vishay.png",
-    "id": "12",
-    "link": "https://www.vishay.com/"
+    "image": "altium.png",
+    "id": "13",
+    "link": "https://www.altium.com/"
+  },
+  {
+    "image": "relinforce.png",
+    "id": "14",
+    "link": "https://www.relinforce.com/"
+  },
+  {
+    "image": "tatasteel.png",
+    "id": "15",
+    "link": "https://www.tatasteel.com/"
+  },
+  {
+    "image": "ansys.png",
+    "id": "16",
+    "link": "https://www.ansys.com/"
   }
 ]

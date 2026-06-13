@@ -16,6 +16,7 @@
   margin: 0 auto;
   padding: 40px 24px;
   gap: 48px;
+  padding-top: 80px !important;
   align-items: flex-start;
 }
 

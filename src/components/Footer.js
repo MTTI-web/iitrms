@@ -25,7 +25,13 @@ export default function Footer() {
           <div className={styles.socialGroup}>
             <p className={styles.socialLabel}>Follow us on</p>
             <div className={styles.socialLinks}>
-              <a href="#" aria-label="Facebook" className={styles.iconLink}>
+              <a
+                href="https://www.facebook.com/iitrms.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className={styles.iconLink}
+              >
                 <svg
                   width="20"
                   height="20"
@@ -39,7 +45,13 @@ export default function Footer() {
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                 </svg>
               </a>
-              <a href="#" aria-label="Instagram" className={styles.iconLink}>
+              <a
+                href="https://www.instagram.com/iitroorkeemotorsports/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className={styles.iconLink}
+              >
                 <svg
                   width="20"
                   height="20"
@@ -55,21 +67,13 @@ export default function Footer() {
                   <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                 </svg>
               </a>
-              <a href="#" aria-label="Twitter" className={styles.iconLink}>
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
-                </svg>
-              </a>
-              <a href="#" aria-label="LinkedIn" className={styles.iconLink}>
+              <a
+                href="https://www.linkedin.com/company/iitrms/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className={styles.iconLink}
+              >
                 <svg
                   width="20"
                   height="20"
@@ -85,7 +89,13 @@ export default function Footer() {
                   <circle cx="4" cy="4" r="2"></circle>
                 </svg>
               </a>
-              <a href="#" aria-label="YouTube" className={styles.iconLink}>
+              <a
+                href="https://www.youtube.com/channel/UCX5M-zh5cSpROSOE2ciV1yQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube"
+                className={styles.iconLink}
+              >
                 <svg
                   width="20"
                   height="20"

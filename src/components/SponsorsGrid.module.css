@@ -20,16 +20,14 @@
     filter 0.4s ease,
     opacity 0.4s ease;
   opacity: 0.55; /* Dims the logos natively */
-  filter: grayscale(
-    100%
-  ); /* Strips original brand colors to match your aesthetic */
+  filter: brightness(0) invert(1);
 }
 
 /* Restores full brand prestige natively on hover */
 .sponsorItem:hover {
   transform: scale(1.08);
   opacity: 1;
-  filter: grayscale(0%);
+  /* filter: grayscale(0%); */
 }
 
 .logoImage {

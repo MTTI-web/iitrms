@@ -39,17 +39,12 @@ export default function Autonomous() {
 
   const verticalsData = [
     {
-      name: "Perception",
+      name: "Perception & SLAM",
       description:
-        "Perception forms the core of our autonomous system, catering to LiDAR and Camera Inputs",
+        "Perception forms the core of our autonomous system, catering to LiDAR and Camera Inputs. SLAM is the brain of the car. This is where all the thinking happens.",
     },
     {
-      name: "SLAM & Path Planning",
-      description:
-        "The brain of the car. This is where all the thinking happens.",
-    },
-    {
-      name: "Controls & Vehicle Dynamics",
+      name: "Path Planning and Controls",
       description:
         "This is where it all comes into play. From managing controllers to commands, this is how the car drives.",
     },

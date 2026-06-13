@@ -2,22 +2,22 @@
   "Faculty Advisors": [
     {
       "name": "Prof. Arup Kumar Das",
-      "image": "1.jpg",
+      "image": "Arup Kumar Das.jpg",
       "Faculty Profile": "https://www.iitr.ac.in/~ME/Das_Arup_Kumar"
     },
     {
       "name": "Prof. Amit Choudhary",
-      "image": "2.jpg",
+      "image": "Amit Choudhary.jpg",
       "Faculty Profile": "https://iitr.ac.in/Departments/Mechanical%20and%20Industrial%20Engineering%20Department/People/Faculty/100943.html"
     },
     {
       "name": "Prof. Ajit Kumar Dubey",
-      "image": "3.jpg",
+      "image": "Ajit Kumar Dubey.jpg",
       "Faculty Profile": "https://iitr.ac.in/Departments/Mechanical%20and%20Industrial%20Engineering%20Department/People/Faculty/100961.html"
     },
     {
       "name": "Prof. Pramod Agarwal",
-      "image": "4.jpg",
+      "image": "Pramod Agarwal.jpg",
       "Faculty Profile": "https://www.iitr.ac.in/~EE/pramgfee"
     }
   ],
@@ -29,7 +29,7 @@
       "post": "",
       "Phone": "",
       "email": "apoorv_b@me.iitr.ac.in",
-      "image": "Apoorv Bhardwaj.png",
+      "image": "Apoorv Bhardwaj.png.jpg",
       "facebook": "",
       "linkedin": "www.linkedin.com/in/apoorv-bhardwaj-a081a428b"
     },
@@ -230,22 +230,20 @@
   ],
   "Autonomous": [
     {
-      "name": "Aditya Saurav",
-      "subsystem": ""
-    },
-    {
+      "Timestamp": "6/13/2026 17:13:34",
+      "Email Address": "srijan_k@ece.iitr.ac.in",
       "post": "Member",
       "grad_year": 2029,
-      "image": "Srijan Kumar.png",
       "email": "srijan_k@ece.iitr.ac.in",
+      "name": "Srijan Kumar",
       "subsystem": "Controls & Vehicle Dynamics",
       "linkedin": "https://www.linkedin.com/in/srijan-kumar/",
-      "name": "Srijan Kumar",
-      "Timestamp": "2026/06/12 7:03:44 PM GMT+5:30"
+      "image": "Srijan Kumar.png"
     },
     {
-      "Timestamp": "2026/06/12 7:03:44 PM GMT+5:30",
-      "post": "Autonomous Head",
+      "Timestamp": "6/12/2026 19:03:45",
+      "Email Address": "",
+      "post": "Member",
       "grad_year": -1,
       "email": "surendrapal_sc@me.iitr.ac.in",
       "name": "Surendrapal Singh Chouhan",
@@ -254,7 +252,8 @@
       "image": ""
     },
     {
-      "Timestamp": "2026/06/12 7:08:15 PM GMT+5:30",
+      "Timestamp": "6/12/2026 19:08:15",
+      "Email Address": "",
       "post": "Member",
       "grad_year": -1,
       "email": "telson_l@me.iitr.ac.in",
@@ -264,17 +263,8 @@
       "image": ""
     },
     {
-      "Timestamp": "2026/06/12 8:37:29 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "siddhi_j@me.iitr.ac.in",
-      "name": "Siddhi Jha",
-      "subsystem": "Perception",
-      "linkedin": "www.linkedin.com/in/siddhi-jha-aa12a5395",
-      "image": "Siddhi Jha.jpeg"
-    },
-    {
-      "Timestamp": "2026/06/12 8:45:59 PM GMT+5:30",
+      "Timestamp": "6/12/2026 20:45:59",
+      "Email Address": "manit_rm@ph.iitr.ac.in",
       "post": "Member",
       "grad_year": 2028,
       "email": "manit_rm@ph.iitr.ac.in",
@@ -284,7 +274,19 @@
       "image": "Manit Raj Marshkole.jpeg"
     },
     {
-      "Timestamp": "2026/06/12 9:02:17 PM GMT+5:30",
+      "Timestamp": "6/12/2026 20:37:29",
+      "Email Address": "siddhi_j@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "siddhi_j@me.iitr.ac.in",
+      "name": "Siddhi Jha",
+      "subsystem": "Perception",
+      "linkedin": "www.linkedin.com/in/siddhi-jha-aa12a5395",
+      "image": "Siddhi Jha.jpeg"
+    },
+    {
+      "Timestamp": "6/12/2026 21:02:18",
+      "Email Address": "armaan_m@me.iitr.ac.in",
       "post": "Member",
       "grad_year": 2028,
       "email": "armaanmahajanbg@gmail.com",
@@ -294,7 +296,8 @@
       "image": "Armaan Mahajan.png"
     },
     {
-      "Timestamp": "2026/06/12 9:45:43 PM GMT+5:30",
+      "Timestamp": "6/12/2026 21:45:43",
+      "Email Address": "daksh_g@ece.iitr.ac.in",
       "post": "Member",
       "grad_year": 2029,
       "email": "daksh_g@ece.iitr.ac.in",
@@ -304,17 +307,363 @@
       "image": "Daksh Gupta.png"
     },
     {
-      "Timestamp": "2026/06/12 10:51:14 PM GMT+5:30",
+      "Timestamp": "6/12/2026 22:51:14",
+      "Email Address": "soumil_m@me.iitr.ac.in",
       "post": "Member",
       "grad_year": 2029,
       "email": "soumil_m@me.iitr.ac.in",
       "name": "Soumil Mittal",
-      "subsystem": "",
+      "subsystem": "Controls & Vehicle Dynamics",
       "linkedin": "https://www.linkedin.com/in/soumil-mittal-8aa52935b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       "image": "Soumil Mittal.png"
+    },
+    {
+      "name": "Aditya Saurav",
+      "subsystem": ""
     }
   ],
   "Mechanical": [
+    {
+      "Timestamp": "6/12/2026 18:56:11",
+      "Email Address": "",
+      "post": "Member",
+      "grad_year": -1,
+      "email": "chandan_jm@es.iitr.ac.in",
+      "name": "Chandan Jyoti Mohon",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "https://www.linkedin.com/in/chandan-jyoti-mohon-130747319?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/13/2026 16:13:51",
+      "Email Address": "rishav_k@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2027,
+      "email": "rishavroy124@gmail.com",
+      "name": "Rishav kumar",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "linkedin": "https://www.linkedin.com/in/rishav-kumar-98a152298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "image": "Rishav Kumar.jpg"
+    },
+    {
+      "Timestamp": "6/12/2026 20:52:24",
+      "Email Address": "paras_t@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "paras_t@me.iitr.ac.in",
+      "name": "Paras Tahilramani",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "linkedin": "https://www.linkedin.com/paras-t",
+      "image": "Paras Tahilramani.jpg"
+    },
+    {
+      "Timestamp": "6/12/2026 19:10:34",
+      "Email Address": "",
+      "post": "Member",
+      "grad_year": -1,
+      "email": "rathi_ga@me.iitr.ac.in",
+      "name": "Gaurav Rathi",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "https://www.linkedin.com/in/gaurav-r-397814369?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/12/2026 19:11:47",
+      "Email Address": "",
+      "post": "Member",
+      "grad_year": -1,
+      "email": "vinay_l@me.iitr.ac.in",
+      "name": "Vinay",
+      "subsystem": "Powertrain and Braking",
+      "linkedin": "",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/12/2026 19:43:29",
+      "Email Address": "aryan_tp@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "aryan_tp@me.iitr.ac.in",
+      "name": "Aryan Phadnis",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "https://www.linkedin.com/in/aryanphadnis",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/12/2026 19:26:14",
+      "Email Address": "krish_l@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "krish_l@me.iitr.ac.in",
+      "name": "Krish lohiya",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "linkedin": "",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/12/2026 19:39:59",
+      "Email Address": "akshat_j3@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "akshat_j3@me.iitr.ac.in",
+      "name": "Akshat Jain",
+      "subsystem": "Powertrain and Braking",
+      "linkedin": "",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/13/2026 16:49:07",
+      "Email Address": "aditya_p1@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "aditya_p1@me.iitr.ac.in",
+      "name": "Aditya Patara",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "https://www.linkedin.com/in/aditya-patara-aa86b8355?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": "Aditya Patara.png"
+    },
+    {
+      "Timestamp": "6/13/2026 16:05:27",
+      "Email Address": "atharva_gs@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "atharva_gs@me.iitr.ac.in",
+      "name": "Atharva Shastri",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "linkedin": "https://www.linkedin.com/in/atharva-shastri-6657b7373",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/12/2026 19:50:10",
+      "Email Address": "saurabh_b@es.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2030,
+      "email": "saurabh_b@es.iitr.ac.in",
+      "name": "Saurabh Bajaj",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "https://www.linkedin.com/in/saurabh-bajaj-621711380?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/12/2026 20:00:11",
+      "Email Address": "meghna1@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "meghna1@me.iitr.ac.in",
+      "name": "Meghna",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "https://www.linkedin.com/in/meghna-tiwari-252a54275?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/12/2026 20:20:28",
+      "Email Address": "harshil@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "harshil@me.iitr.ac.in",
+      "name": "Harshil",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "linkedin": "https://www.linkedin.com/in/harshil-kapooria-780464369?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/12/2026 20:35:39",
+      "Email Address": "amlan_a@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "amlan_a@me.iitr.ac.in",
+      "name": "Amlan Aryab",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "linkedin": "",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/12/2026 20:40:20",
+      "Email Address": "vrinda_a@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "vrinda_a@me.iitr.ac.in",
+      "name": "Vrinda Agarwal",
+      "subsystem": "Powertrain and Braking",
+      "linkedin": "www.linkedin.com/in/vrindaagarwal0405",
+      "image": "Vrinda Agarwal.jpg"
+    },
+    {
+      "Timestamp": "6/12/2026 20:46:15",
+      "Email Address": "parth_j@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "parth_j@me.iitr.ac.in",
+      "name": "Parth Jain",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "www.linkedin.com/in/parth-jain-83b21235b",
+      "image": "Parth Jain.jpg"
+    },
+    {
+      "Timestamp": "6/12/2026 21:21:35",
+      "Email Address": "shikhar_p@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "shikharporwal11@gmail.com",
+      "name": "Shikhar Porwal",
+      "subsystem": "Aerodynamics and Thermal Management",
+      "linkedin": "https://www.linkedin.com/in/shikhar-porwal-53a880368?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "image": "Shikhar Porwal.jpeg"
+    },
+    {
+      "Timestamp": "6/12/2026 21:29:04",
+      "Email Address": "gurpreet1@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "gurpreet1@me.iitr.ac.in",
+      "name": "Gurpreet",
+      "subsystem": "Structural and Composites",
+      "linkedin": "https://www.linkedin.com/in/gurpreet-dhingra-939334356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "image": "Gurpreet.jpg"
+    },
+    {
+      "Timestamp": "6/12/2026 21:35:52",
+      "Email Address": "sarvesh_kr@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2027,
+      "email": "sarvesh_kr@me.iitr.ac.in",
+      "name": "Sarvesh Kumar Rai",
+      "subsystem": "Powertrain and Braking",
+      "linkedin": "https://www.linkedin.com/in/sarvesh-kumar-rai-3a13a9282?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": "Sarvesh Kumar Rai.jpg"
+    },
+    {
+      "Timestamp": "6/12/2026 21:45:50",
+      "Email Address": "apoorv_b@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2027,
+      "email": "apoorv_b@me.iitr.ac.in",
+      "name": "Apoorv Bhardwaj",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "www.linkedin.com/in/apoorv-bhardwaj-a081a428b",
+      "image": "Apoorv Bhardwaj.png"
+    },
+    {
+      "Timestamp": "6/12/2026 22:03:10",
+      "Email Address": "aman_p@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2027,
+      "email": "aman_p@me.iitr.ac.in",
+      "name": "Aman Prajapati",
+      "subsystem": "Structural and Composites",
+      "linkedin": "https://in.linkedin.com/in/aman-prajapati-019ap",
+      "image": "Aman Prajapati.jpg"
+    },
+    {
+      "Timestamp": "6/12/2026 22:23:02",
+      "Email Address": "vatsal_m@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "vatsal_m@me.iitr.ac.in",
+      "name": "Madhuram Vatsal",
+      "subsystem": "Structural and Composites",
+      "linkedin": "https://www.linkedin.com/in/madhuram-vatsal-a00b03350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "image": "Madhuram Vatsal.jpg"
+    },
+    {
+      "Timestamp": "6/12/2026 22:27:43",
+      "Email Address": "gurvansh_s@ch.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "gurvansh_s@ch.iitr.ac.in",
+      "name": "Gurvansh y",
+      "subsystem": "Structural and Composites",
+      "linkedin": "",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/13/2026 0:02:56",
+      "Email Address": "shiva_s@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "shiva_s@me.iitr.ac.in",
+      "name": "Shiva Singh",
+      "subsystem": "Powertrain and Braking",
+      "linkedin": "https://www.linkedin.com/in/shiva-singh-a854b736a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "image": "Shiva Singh.jpg"
+    },
+    {
+      "Timestamp": "6/13/2026 0:35:46",
+      "Email Address": "priyanshu_a@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "priyanshu_a@me.iitr.ac.in",
+      "name": "Priyanshu Arya",
+      "subsystem": "Structural and Composites",
+      "linkedin": "https://www.linkedin.com/in/priyanshu-arya-79b8113a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "image": "Priyanshu Arya.png"
+    },
+    {
+      "Timestamp": "6/13/2026 9:08:07",
+      "Email Address": "shivang_j@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2027,
+      "email": "shivang_j@me.iitr.ac.in",
+      "name": "Shivang Joshi",
+      "subsystem": "Powertrain and Braking",
+      "linkedin": "",
+      "image": "Shivang Joshi.jpg"
+    },
+    {
+      "Timestamp": "6/13/2026 14:58:29",
+      "Email Address": "darshil_m@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "darshil_m@me.iitr.ac.in",
+      "name": "Darshil Mahajan",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "https://www.linkedin.com/in/darshil-mahajan-63b36836a?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/13/2026 15:45:12",
+      "Email Address": "abhisar_g@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2027,
+      "email": "abhisar_g@me.iitr.ac.in",
+      "name": "Abhisar Gupta",
+      "subsystem": "Powertrain and Braking",
+      "linkedin": "https://www.linkedin.com/in/abhisar-gupta-linkdin?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": "Abhisar Gupta.png"
+    },
+    {
+      "Timestamp": "6/13/2026 15:54:04",
+      "Email Address": "aghara_pj@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2027,
+      "email": "aghara_pj@me.iitr.ac.in",
+      "name": "PARTH AGHARA",
+      "subsystem": "Vehicle Dynamics and Steering",
+      "linkedin": "www.linkedin.com/in/parth-aghara-b7167b28b",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/13/2026 16:24:39",
+      "Email Address": "satyam_k@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "satyam_k@me.iitr.ac.in",
+      "name": "Satyam Kaushik",
+      "subsystem": "Powertrain and Braking",
+      "linkedin": "https://www.linkedin.com/in/satyam-kaushik-5011bb397?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": "Satyam Kaushik.png"
+    },
+    {
+      "Timestamp": "6/13/2026 16:26:00",
+      "Email Address": "priyansh_ks@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "priyansh_ks@me.iitr.ac.in",
+      "name": "Priyansh Kumar Singh",
+      "subsystem": "Structural and Composites",
+      "linkedin": "https://www.linkedin.com/in/priyansh-kumar-singh-7b3406373?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": "Priyansh Kumar Singh.jpg"
+    },
     {
       "name": "Shubham Chittora",
       "subsystem": "Structural and Composites",
@@ -620,239 +969,240 @@
       "image": "Aditya Saurav.jpg",
       "facebook": "",
       "linkedin": ""
-    },
-    {
-      "Timestamp": "2026/06/12 6:56:10 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": -1,
-      "email": "chandan_jm@es.iitr.ac.in",
-      "name": "Chandan Jyoti Mohon",
-      "subsystem": "Vehicle Dynamics and Steering",
-      "linkedin": "https://www.linkedin.com/in/chandan-jyoti-mohon-130747319?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 6:56:58 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": -1,
-      "email": "rishavroy124@gmail.com",
-      "name": "Rishav kumar",
-      "subsystem": "Aerodynamics and Thermal Management",
-      "linkedin": "https://www.linkedin.com/in/rishav-kumar-98a152298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 8:52:23 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2028,
-      "email": "paras_t@me.iitr.ac.in",
-      "name": "Paras Tahilramani",
-      "subsystem": "Aerodynamics and Thermal Management",
-      "linkedin": "https://www.linkedin.com/paras-t",
-      "image": "Paras Tahilramani.jpg"
-    },
-    {
-      "Timestamp": "2026/06/12 7:10:33 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": -1,
-      "email": "rathi_ga@me.iitr.ac.in",
-      "name": "Gaurav Rathi",
-      "subsystem": "Vehicle Dynamics and Steering",
-      "linkedin": "https://www.linkedin.com/in/gaurav-r-397814369?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 7:11:47 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": -1,
-      "email": "vinay_l@me.iitr.ac.in",
-      "name": "Vinay",
-      "subsystem": "Powertrain and Braking",
-      "linkedin": "",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 7:26:13 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2028,
-      "email": "krish_l@me.iitr.ac.in",
-      "name": "Krish lohiya",
-      "subsystem": "Aerodynamics and Thermal Management",
-      "linkedin": "",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 7:39:58 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "akshat_j3@me.iitr.ac.in",
-      "name": "Akshat Jain",
-      "subsystem": "Powertrain and Braking",
-      "linkedin": "",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 7:41:21 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "aditya_p1@me.iitr.ac.in",
-      "name": "Aditya Patara",
-      "subsystem": "Vehicle Dynamics and Steering",
-      "linkedin": "https://www.linkedin.com/in/aditya-patara-aa86b8355?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 7:43:07 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "atharva_gs@me.iitr.ac.in",
-      "name": "Atharva Shastri",
-      "subsystem": "Aerodynamics and Thermal Management",
-      "linkedin": "https://www.linkedin.com/in/atharva-shastri-6657b7373",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 7:43:28 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "aryan_tp@me.iitr.ac.in",
-      "name": "Aryan Phadnis",
-      "subsystem": "Vehicle Dynamics and Steering",
-      "linkedin": "https://www.linkedin.com/in/aryanphadnis",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 7:50:10 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2030,
-      "email": "saurabh_b@es.iitr.ac.in",
-      "name": "Saurabh Bajaj",
-      "subsystem": "Vehicle Dynamics and Steering",
-      "linkedin": "https://www.linkedin.com/in/saurabh-bajaj-621711380?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 8:00:11 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2028,
-      "email": "meghna1@me.iitr.ac.in",
-      "name": "Meghna",
-      "subsystem": "Vehicle Dynamics and Steering",
-      "linkedin": "https://www.linkedin.com/in/meghna-tiwari-252a54275?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 8:20:28 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "harshil@me.iitr.ac.in",
-      "name": "Harshil",
-      "subsystem": "Aerodynamics and Thermal Management",
-      "linkedin": "https://www.linkedin.com/in/harshil-kapooria-780464369?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 8:35:38 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "amlan_a@me.iitr.ac.in",
-      "name": "Amlan Aryab",
-      "subsystem": "Aerodynamics and Thermal Management",
-      "linkedin": "",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 8:40:20 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2028,
-      "email": "vrinda_a@me.iitr.ac.in",
-      "name": "Vrinda Agarwal",
-      "subsystem": "Powertrain and Braking",
-      "linkedin": "www.linkedin.com/in/vrindaagarwal0405",
-      "image": "Vrinda Agarwal.jpg"
-    },
-    {
-      "Timestamp": "2026/06/12 8:46:14 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2028,
-      "email": "parth_j@me.iitr.ac.in",
-      "name": "Parth Jain",
-      "subsystem": "Vehicle Dynamics and Steering",
-      "linkedin": "www.linkedin.com/in/parth-jain-83b21235b",
-      "image": "Parth Jain.jpg"
-    },
-    {
-      "Timestamp": "2026/06/12 9:21:35 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2028,
-      "email": "shikharporwal11@gmail.com",
-      "name": "Shikhar Porwal",
-      "subsystem": "Aerodynamics and Thermal Management",
-      "linkedin": "https://www.linkedin.com/in/shikhar-porwal-53a880368?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
-      "image": "Shikhar Porwal.jpeg"
-    },
-    {
-      "Timestamp": "2026/06/12 9:29:03 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2028,
-      "email": "gurpreet1@me.iitr.ac.in",
-      "name": "Gurpreet",
-      "subsystem": "Structural and Composites",
-      "linkedin": "https://www.linkedin.com/in/gurpreet-dhingra-939334356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "image": "Gurpreet.jpg"
-    },
-    {
-      "Timestamp": "2026/06/12 9:35:51 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2027,
-      "email": "sarvesh_kr@me.iitr.ac.in",
-      "name": "Sarvesh Kumar Rai",
-      "subsystem": "Powertrain and Braking",
-      "linkedin": "https://www.linkedin.com/in/sarvesh-kumar-rai-3a13a9282?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-      "image": "Sarvesh Kumar Rai.jpg"
-    },
-    {
-      "Timestamp": "2026/06/12 9:45:50 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2027,
-      "email": "apoorv_b@me.iitr.ac.in",
-      "name": "Apoorv Bhardwaj",
-      "subsystem": "Vehicle Dynamics and Steering",
-      "linkedin": "www.linkedin.com/in/apoorv-bhardwaj-a081a428b",
-      "image": "Apoorv Bhardwaj.png"
-    },
-    {
-      "Timestamp": "2026/06/12 10:03:10 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2027,
-      "email": "aman_p@me.iitr.ac.in",
-      "name": "Aman Prajapati",
-      "subsystem": "Structural and Composites",
-      "linkedin": "https://in.linkedin.com/in/aman-prajapati-019ap",
-      "image": "Aman Prajapati.jpg"
-    },
-    {
-      "Timestamp": "2026/06/12 10:23:02 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2028,
-      "email": "vatsal_m@me.iitr.ac.in",
-      "name": "Madhuram Vatsal",
-      "subsystem": "Structural and Composites",
-      "linkedin": "https://www.linkedin.com/in/madhuram-vatsal-a00b03350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "image": "Madhuram Vatsal.jpg"
-    },
-    {
-      "Timestamp": "2026/06/12 10:27:42 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "gurvansh_s@ch.iitr.ac.in",
-      "name": "Gurvansh y",
-      "subsystem": "Structural and Composites",
-      "linkedin": "",
-      "image": ""
     }
   ],
   "Electrical": [
+    {
+      "Timestamp": "6/13/2026 15:56:33",
+      "Email Address": "arya_p@ee.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "arya_p@ee.iitr.ac.in",
+      "name": "Arya Patel",
+      "subsystem": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/arya-patel-029966331/",
+      "image": "Arya Patel.jpeg"
+    },
+    {
+      "Timestamp": "6/12/2026 19:08:49",
+      "Email Address": "",
+      "post": "Member",
+      "grad_year": -1,
+      "email": "swarnam_nv@ph.iitr.ac.in",
+      "name": "Swarnam",
+      "subsystem": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/swarnamn?trk=contact-info",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/12/2026 19:33:40",
+      "Email Address": "agastya_n@ph.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "agastya_n@ph.iitr.ac.in",
+      "name": "Agastya Nadubailu",
+      "subsystem": "",
+      "linkedin": "https://www.linkedin.com/in/agastya-nadubailu",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/12/2026 19:38:38",
+      "Email Address": "baibhaba_m@ee.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "baibhaba_m@ee.iitr.ac.in",
+      "name": "Baibhaba Moharana",
+      "subsystem": "",
+      "linkedin": "https://www.linkedin.com/in/baibhab-moharana-852033378?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/12/2026 19:59:14",
+      "Email Address": "arighna_r@ee.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "arighna_r@ee.iitr.ac.in",
+      "name": "Arighna Roy",
+      "subsystem": "Electronics",
+      "linkedin": "",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/12/2026 20:14:28",
+      "Email Address": "devank_s@ece.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "devank_s@ece.iitr.ac.in",
+      "name": "Devank Saini",
+      "subsystem": "",
+      "linkedin": "https://www.linkedin.com/in/devank-saini-72458236a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/13/2026 16:50:32",
+      "Email Address": "nischal_t@ch.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "nischal_t@ch.iitr.ac.in",
+      "name": "Nischal Teeka",
+      "subsystem": "",
+      "linkedin": "https://www.linkedin.com/in/nischal-teeka-02369b291/",
+      "image": "Nischal Teeka.png"
+    },
+    {
+      "Timestamp": "6/12/2026 20:52:44",
+      "Email Address": "abhinav_s1@ee.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "abhinav_s1@ee.iitr.ac.in",
+      "name": "Abhinav Sharma",
+      "subsystem": "Electrical Powertrain",
+      "linkedin": "",
+      "image": "Abhinav Sharma.jpeg"
+    },
+    {
+      "Timestamp": "6/12/2026 20:59:52",
+      "Email Address": "sreya_r@ece.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "misisipimud@gmail.com",
+      "name": "Sreya Ramji",
+      "subsystem": "",
+      "linkedin": "",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/12/2026 21:02:16",
+      "Email Address": "samarth_g@ece.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "samarth_g@ece.iitr.ac.in",
+      "name": "Samarth Gupta",
+      "subsystem": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/samarth-gupta-g128/",
+      "image": "Samarth Gupta.png"
+    },
+    {
+      "Timestamp": "6/12/2026 21:25:12",
+      "Email Address": "anant_j@hre.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "anant_j@hre.iitr.ac.in",
+      "name": "Anant Jain",
+      "subsystem": "",
+      "linkedin": "https://www.linkedin.com/in/anant-jain-88643b3a2?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": "Anant Jain.png"
+    },
+    {
+      "Timestamp": "6/12/2026 21:58:02",
+      "Email Address": "tarun_p@ee.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "tarun_p@ee.iitr.ac.in",
+      "name": "Tarun Patel",
+      "subsystem": "Electrical Powertrain",
+      "linkedin": "https://www.linkedin.com/in/tarun-patel-117567324/",
+      "image": "Tarun Patel.jpg"
+    },
+    {
+      "Timestamp": "6/12/2026 23:18:47",
+      "Email Address": "yashasvi_s@ee.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "yashasvi_s@ee.iitr.ac.in",
+      "name": "Yashasvi",
+      "subsystem": "",
+      "linkedin": "https://www.linkedin.com/in/yashasvi-sharma-59745a379?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/13/2026 15:45:44",
+      "Email Address": "anurag_m@ee.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "anurag_m@ee.iitr.ac.in",
+      "name": "Anurag Mehta",
+      "subsystem": "Electrical Powertrain",
+      "linkedin": "https://www.linkedin.com/in/anurag-mehta-23463a200?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "image": "Anurag Mehta.jpg"
+    },
+    {
+      "Timestamp": "6/13/2026 15:46:33",
+      "Email Address": "swarnam_nv@ph.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "swarnam_nv@ph.iitr.ac.in",
+      "name": "Swarnam Nitnaware",
+      "subsystem": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/swarnamn",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/13/2026 15:54:53",
+      "Email Address": "prateeksha_b@ee.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "Prateeksha_b@ee.iitr.ac.in",
+      "name": "Prateeksha B",
+      "subsystem": "",
+      "linkedin": "https://www.linkedin.com/in/prateeksha-b-00b1263a7/",
+      "image": "Prateeksha B.jpeg"
+    },
+    {
+      "Timestamp": "6/13/2026 16:08:13",
+      "Email Address": "shantanu_s@ee.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2027,
+      "email": "mshantanusingh@gmail.com",
+      "name": "Shantanu Singh",
+      "subsystem": "Electrical Powertrain",
+      "linkedin": "https://www.linkedin.com/in/shantanu-singh-482b90211?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": "Shantanu Singh.jpg"
+    },
+    {
+      "Timestamp": "6/13/2026 16:14:23",
+      "Email Address": "arjit_s@ee.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "activearjit@gmail.com",
+      "name": "Arjit Singhal",
+      "subsystem": "",
+      "linkedin": "",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/13/2026 16:15:36",
+      "Email Address": "arjun_p@ee.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "arjun_p@ee.iitr.ac.in",
+      "name": "Arjun Patil",
+      "subsystem": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/arjun-patil-028326351",
+      "image": "Arjun Patil.jpeg"
+    },
+    {
+      "Timestamp": "6/13/2026 16:58:33",
+      "Email Address": "satwik_d@ee.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2027,
+      "email": "dashsatwik30@gmail.com",
+      "name": "Satwik Dash",
+      "subsystem": "Electrical Powertrain",
+      "linkedin": "https://www.linkedin.com/in/satwik-dash-7a8132288?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": "Satwik Dash.png"
+    },
+    {
+      "Timestamp": "6/13/2026 17:01:51",
+      "Email Address": "priyanshi_m@ee.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2027,
+      "email": "menghanipriyanshi2005@gmail.com",
+      "name": "Priyanshi Menghani",
+      "subsystem": "Electronics",
+      "linkedin": "www.linkedin.com/in/priyanshimenghani",
+      "image": "Priyanshi Menghani.png"
+    },
     {
       "name": "Shrey Aggarwal",
       "subsystem": "LV Systems",
@@ -1016,15 +1366,6 @@
       "linkedin": "https://www.linkedin.com/in/aashish-poonia-1a7393247"
     },
     {
-      "name": "Yashvardhan Saini",
-      "subsystem": "Electric Powertrain",
-      "post": "Engineer",
-      "email": "y_saini@ee.iitr.ac.in",
-      "image": "Yashvardhan Saini.jpg",
-      "facebook": "",
-      "linkedin": "https://www.linkedin.com/in/yashvardhan-saini-247309233/"
-    },
-    {
       "name": "Aryan Gupta",
       "subsystem": "Electrical Powertrain",
       "post": "Member",
@@ -1059,139 +1400,75 @@
       "image": "Aakash Ramesh.jpg",
       "facebook": "",
       "linkedin": "https://www.linkedin.com/in/aakash-ramesh-a683b2253"
-    },
-    {
-      "Timestamp": "2026/06/12 7:07:11 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": -1,
-      "email": "arya_p@ee.iitr.ac.in",
-      "name": "Arya Patel",
-      "subsystem": "Electronics",
-      "linkedin": "https://www.linkedin.com/in/arya-patel-029966331/",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 7:08:48 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": -1,
-      "email": "swarnam_nv@ph.iitr.ac.in",
-      "name": "Swarnam",
-      "subsystem": "Electronics",
-      "linkedin": "https://www.linkedin.com/in/swarnamn?trk=contact-info",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 7:33:39 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "agastya_n@ph.iitr.ac.in",
-      "name": "Agastya Nadubailu",
-      "subsystem": "",
-      "linkedin": "https://www.linkedin.com/in/agastya-nadubailu",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 7:38:37 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "baibhaba_m@ee.iitr.ac.in",
-      "name": "Baibhaba Moharana",
-      "subsystem": "",
-      "linkedin": "https://www.linkedin.com/in/baibhab-moharana-852033378?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 7:59:14 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "arighna_r@ee.iitr.ac.in",
-      "name": "Arighna Roy",
-      "subsystem": "Electronics",
-      "linkedin": "",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 8:14:28 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "devank_s@ece.iitr.ac.in",
-      "name": "Devank Saini",
-      "subsystem": "",
-      "linkedin": "https://www.linkedin.com/in/devank-saini-72458236a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 8:31:32 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "nischal_t@ch.iitr.ac.in",
-      "name": "Nischal Teeka",
-      "subsystem": "",
-      "linkedin": "https://www.linkedin.com/in/nischal-teeka-02369b291/",
-      "image": "Nischal Teeka.png"
-    },
-    {
-      "Timestamp": "2026/06/12 8:52:43 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2028,
-      "email": "abhinav_s1@ee.iitr.ac.in",
-      "name": "Abhinav Sharma",
-      "subsystem": "Electrical Powertrain",
-      "linkedin": "",
-      "image": "Abhinav Sharma.jpeg"
-    },
-    {
-      "Timestamp": "2026/06/12 8:59:51 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "misisipimud@gmail.com",
-      "name": "Sreya Ramji",
-      "subsystem": "",
-      "linkedin": "",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 9:02:16 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "samarth_g@ece.iitr.ac.in",
-      "name": "Samarth Gupta",
-      "subsystem": "Electronics",
-      "linkedin": "https://www.linkedin.com/in/samarth-gupta-g128/",
-      "image": "Samarth Gupta.png"
-    },
-    {
-      "Timestamp": "2026/06/12 9:25:12 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "anant_j@hre.iitr.ac.in",
-      "name": "Anant Jain",
-      "subsystem": "",
-      "linkedin": "https://www.linkedin.com/in/anant-jain-88643b3a2?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-      "image": "Anant Jain.png"
-    },
-    {
-      "Timestamp": "2026/06/12 9:58:02 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2028,
-      "email": "tarun_p@ee.iitr.ac.in",
-      "name": "Tarun Patel",
-      "subsystem": "Electrical Powertrain",
-      "linkedin": "https://www.linkedin.com/in/tarun-patel-117567324/",
-      "image": "Tarun Patel.jpg"
-    },
-    {
-      "Timestamp": "2026/06/12 11:18:46 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "yashasvi_s@ee.iitr.ac.in",
-      "name": "Yashasvi",
-      "subsystem": "",
-      "linkedin": "https://www.linkedin.com/in/yashasvi-sharma-59745a379?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-      "image": ""
     }
   ],
   "Marketing": [
+    {
+      "Timestamp": "6/12/2026 23:15:14",
+      "Email Address": "daksh_m@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "daksh_m@me.iitr.ac.in",
+      "name": "Daksh Malik",
+      "subsystem": "Marketing",
+      "linkedin": "https://www.linkedin.com/in/daksh-malik-0aa7b7373?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": "Daksh Malik.jpg"
+    },
+    {
+      "Timestamp": "6/13/2026 0:56:43",
+      "Email Address": "pulkit_k@hre.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "pulkit_k@hre.iitr.ac.in",
+      "name": "Pulkit Kapoor",
+      "subsystem": "Marketing",
+      "linkedin": "https://www.linkedin.com/in/pulkit-kapoor-b38a87321",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/13/2026 15:45:54",
+      "Email Address": "hitansh_ss@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "hitansh_ss@me.iitr.ac.in",
+      "name": "Hitansh Sheth",
+      "subsystem": "Marketing",
+      "linkedin": "https://www.linkedin.com/in/hitansh-sheth-1477a1316?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/13/2026 15:49:14",
+      "Email Address": "rishi_k@ch.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2029,
+      "email": "rishi_k@ch.iitr.ac.in",
+      "name": "Rishi Kashyap",
+      "subsystem": "Marketing",
+      "linkedin": "https://www.linkedin.com/in/rishi-kashyap-862610413",
+      "image": "Rishi Kashyap.jpg"
+    },
+    {
+      "Timestamp": "6/13/2026 17:03:11",
+      "Email Address": "suhani_j@es.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "suhani_j@es.iitr.ac.in",
+      "name": "Suhani Jain",
+      "subsystem": "Marketing",
+      "linkedin": "linkedin.com/in/suhaniijaiin",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/13/2026 17:15:11",
+      "Email Address": "arpita_j@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "arpita_j@me.iitr.ac.in",
+      "name": "Arpita Jain",
+      "subsystem": "Marketing",
+      "linkedin": "",
+      "image": ""
+    },
     {
       "name": "Ansh Saini",
       "subsystem": "Marketing",
@@ -1281,19 +1558,42 @@
       "image": "Aayushi Choudhary.jpg",
       "facebook": "",
       "linkedin": "https://www.linkedin.com/in/aayushi-choudhary-2b0a38247/"
-    },
-    {
-      "Timestamp": "2026/06/12 11:15:14 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2029,
-      "email": "daksh_m@me.iitr.ac.in",
-      "name": "Daksh Malik",
-      "subsystem": "Marketing",
-      "linkedin": "https://www.linkedin.com/in/daksh-malik-0aa7b7373?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-      "image": "Daksh Malik.jpg"
     }
   ],
   "Media": [
+    {
+      "Timestamp": "6/12/2026 19:50:00",
+      "Email Address": "nandini_a@ee.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "nandini_a@ee.iitr.ac.in",
+      "name": "Nandini Agarwal",
+      "subsystem": "Media",
+      "linkedin": "https://www.linkedin.com/in/nandini-agarwal0987/",
+      "image": ""
+    },
+    {
+      "Timestamp": "6/12/2026 23:26:11",
+      "Email Address": "utkarsh_k@me.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2027,
+      "email": "utkarsh_k@me.iitr.ac.in",
+      "name": "Utkarsh Kumar",
+      "subsystem": "Media",
+      "linkedin": "https://in.linkedin.com/in/utkarsh-singh-774a94273",
+      "image": "Utkarsh Kumar.jpg"
+    },
+    {
+      "Timestamp": "6/12/2026 23:41:25",
+      "Email Address": "sweta_s@ee.iitr.ac.in",
+      "post": "Member",
+      "grad_year": 2028,
+      "email": "sweta_s@ee.iitr.ac.in",
+      "name": "Sweta Singh",
+      "subsystem": "Media",
+      "linkedin": "",
+      "image": "Sweta Singh.jpeg"
+    },
     {
       "name": "Rajita Naik",
       "subsystem": "Media",
@@ -1320,36 +1620,6 @@
       "image": "",
       "facebook": "",
       "linkedin": "https://www.linkedin.com/in/sejal-singh-65063123a"
-    },
-    {
-      "Timestamp": "2026/06/12 7:49:59 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2028,
-      "email": "nandini_a@ee.iitr.ac.in",
-      "name": "Nandini Agarwal",
-      "subsystem": "Media",
-      "linkedin": "https://www.linkedin.com/in/nandini-agarwal0987/",
-      "image": ""
-    },
-    {
-      "Timestamp": "2026/06/12 11:26:11 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2027,
-      "email": "utkarsh_k@me.iitr.ac.in",
-      "name": "Utkarsh Kumar",
-      "subsystem": "Media",
-      "linkedin": "https://in.linkedin.com/in/utkarsh-singh-774a94273",
-      "image": "Utkarsh Kumar.jpg"
-    },
-    {
-      "Timestamp": "2026/06/12 11:41:24 PM GMT+5:30",
-      "post": "Member",
-      "grad_year": 2028,
-      "email": "sweta_s@ee.iitr.ac.in",
-      "name": "Sweta Singh",
-      "subsystem": "Media",
-      "linkedin": "",
-      "image": "Sweta Singh.jpeg"
     }
   ],
   "Videograpy": [

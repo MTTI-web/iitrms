@@ -2,7 +2,12 @@
   {
     "id": "1",
     "image": "/cars/rmse25.png",
-    "about": [],
+    "about": [
+      {
+        "heading": "FB-2025",
+        "desc": ""
+      }
+    ],
     "rank": [
       {
         "position": "1st",
@@ -19,13 +24,26 @@
       {
         "position": "6th",
         "desc": "Overall among all teams"
+      },
+      {
+        "position": "1st",
+        "desc": "MathWorks Simulation Challenge"
+      },
+      {
+        "position": "1st",
+        "desc": "Winner of Altair Simulation Challenge"
       }
     ]
   },
   {
     "id": "2",
     "image": "/cars/rmse24.png",
-    "about": [],
+    "about": [
+      {
+        "heading": "FB-2024",
+        "desc": ""
+      }
+    ],
     "rank": [
       {
         "position": "1st",
@@ -38,13 +56,30 @@
       {
         "position": "11th",
         "desc": "Overall among all the Teams"
+      },
+      {
+        "position": "1st",
+        "desc": "Engineering Design (VED) Event"
+      },
+      {
+        "position": "3rd",
+        "desc": "MathWorks Modelling Competition"
+      },
+      {
+        "position": "6th",
+        "desc": "Business Plan Presentation"
       }
     ]
   },
   {
     "id": "3",
     "image": "/cars/rsme23.jpeg",
-    "about": [],
+    "about": [
+      {
+        "heading": "FSUK 2023",
+        "desc": ""
+      }
+    ],
     "rank": [
       {
         "position": "1st",

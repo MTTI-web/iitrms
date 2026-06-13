@@ -1,10 +1,6 @@
 .home {
   background-color: #050505;
   color: #ffffff;
-  font-family:
-    system-ui,
-    -apple-system,
-    sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -68,6 +64,32 @@
   letter-spacing: 0.01em;
   opacity: 0.9;
   padding: 0 1rem;
+}
+
+/* --- HERO SOCIALS --- */
+.heroSocials {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroIconLink {
+  color: #ffffff;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.85;
+}
+
+.heroIconLink:hover {
+  color: #bc1c1c;
+  transform: translateY(-3px);
+  opacity: 1;
 }
 
 /* --- CAROUSEL SECTIONS --- */
@@ -145,11 +167,18 @@
     padding: 0;
   }
 
+  .heroSocials {
+    gap: 2rem;
+    margin-top: 2.5rem;
+  }
+
+  .heroIconLink svg {
+    width: 28px;
+    height: 28px;
+  }
+
   .eventsSection {
     padding: 6rem 0 2.5rem 0;
-    /* FIX: Changed from absolute height to min-height. This keeps the look
-       clean on standard viewports, but allows the container to stretch fluidly 
-       downward if a card contains an exceptionally long description. */
     min-height: min(100vh, 880px);
     height: auto;
     scroll-snap-align: start;

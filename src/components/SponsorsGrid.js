@@ -19,8 +19,8 @@ export default function SponsorsGrid() {
           title={`Visit Partner`}
         >
           <Image
-            src={sponsor.name}
-            alt="Corporate Partner Logo"
+            src={"/sponsors/" + sponsor.image}
+            alt={sponsor.image}
             width={240}
             height={120}
             className={styles.logoImage}

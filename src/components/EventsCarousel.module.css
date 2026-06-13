@@ -1,6 +1,6 @@
 .carouselWrapper {
   position: relative;
-  width: 100%;
+  margin: 3rem;
   /* Establish fluid baselines allowing full downward expansion for massive text blocks */
   min-height: 600px;
   height: auto;
@@ -88,6 +88,9 @@
 @media (max-width: 767px) {
   .navButton {
     display: none !important;
+  }
+  .carouselWrapper {
+    margin: 0;
   }
 }
 
