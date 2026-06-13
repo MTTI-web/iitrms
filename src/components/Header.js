@@ -5,9 +5,21 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./Header.module.css";
 
+const NAV_LINKS = [
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/cars", label: "Cars" },
+  { href: "/autonomous", label: "Autonomous" },
+  { href: "/", label: "Sponsors" },
+  { href: "/team", label: "Team" },
+  { href: "/alumini", label: "Alumni" },
+];
+
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  // ── Existing scroll-tracking logic (untouched) ──────────────────────────
   useEffect(() => {
     const handleScroll = () => {
       // If we are on the home page, read its scrollTop. Otherwise, fallback to window.scrollY (for /cars)
@@ -30,44 +42,94 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll, true);
   }, []);
 
-  return (
-    <header className={`${styles.header} ${isScrolled ? styles.scrolled : ""}`}>
-      <div className={styles.logoContainer}>
-        <Link href="/">
-          <Image
-            src="/logo.png"
-            alt="IIT Roorkee Motorsports Logo"
-            width={160}
-            height={50}
-            className={styles.logoImage}
-            priority
-          />
-        </Link>
-      </div>
+  // ── Lock body scroll while mobile menu is open ───────────────────────────
+  useEffect(() => {
+    document.body.style.overflow = isMenuOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isMenuOpen]);
 
-      <nav className={styles.navigation}>
-        <Link href="/" className={styles.navLink}>
-          Home
-        </Link>
-        <Link href="/about" className={styles.navLink}>
-          About
-        </Link>
-        <Link href="/cars" className={styles.navLink}>
-          Cars
-        </Link>
-        <Link href="/autonomous" className={styles.navLink}>
-          Autonomous
-        </Link>
-        <Link href="/" className={styles.navLink}>
-          Sponsors
-        </Link>
-        <Link href="/team" className={styles.navLink}>
-          Team
-        </Link>
-        <Link href="/alumini" className={styles.navLink}>
-          Alumni
-        </Link>
-      </nav>
-    </header>
+  // ── Close menu on Escape key ─────────────────────────────────────────────
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape") setIsMenuOpen(false);
+    };
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, []);
+
+  const toggleMenu = () => setIsMenuOpen((prev) => !prev);
+  const closeMenu = () => setIsMenuOpen(false);
+
+  return (
+    <>
+      {/* ── Header bar ──────────────────────────────────────────────────── */}
+      <header
+        className={[
+          styles.header,
+          isScrolled ? styles.scrolled : "",
+          isMenuOpen ? styles.menuOpen : "",
+        ]
+          .filter(Boolean)
+          .join(" ")}
+      >
+        {/* Logo */}
+        <div className={styles.logoContainer}>
+          <Link href="/" onClick={closeMenu}>
+            <Image
+              src="/logo.png"
+              alt="IIT Roorkee Motorsports Logo"
+              width={160}
+              height={50}
+              className={styles.logoImage}
+              priority
+            />
+          </Link>
+        </div>
+
+        {/* Desktop navigation */}
+        <nav className={styles.navigation}>
+          {NAV_LINKS.map(({ href, label }) => (
+            <Link key={label} href={href} className={styles.navLink}>
+              {label}
+            </Link>
+          ))}
+        </nav>
+
+        {/* Hamburger / close button — visible only on mobile */}
+        <button
+          className={`${styles.hamburger} ${isMenuOpen ? styles.open : ""}`}
+          onClick={toggleMenu}
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={isMenuOpen}
+          aria-controls="mobile-nav"
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+      </header>
+
+      {/* ── Full-screen mobile overlay ───────────────────────────────────── */}
+      <div
+        id="mobile-nav"
+        className={`${styles.mobileMenu} ${isMenuOpen ? styles.mobileMenuOpen : ""}`}
+        aria-hidden={!isMenuOpen}
+      >
+        <nav className={styles.mobileNav}>
+          {NAV_LINKS.map(({ href, label }) => (
+            <Link
+              key={label}
+              href={href}
+              className={styles.mobileNavLink}
+              onClick={closeMenu}
+            >
+              {label}
+            </Link>
+          ))}
+        </nav>
+      </div>
+    </>
   );
 }

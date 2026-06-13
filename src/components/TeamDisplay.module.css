@@ -125,6 +125,7 @@
   padding-left: 2rem;
   border-bottom: 1px solid #141414;
   box-sizing: border-box;
+  scroll-margin-top: 100px; /* Accounts for fixed headers when smooth scrolling */
 }
 
 .deptSection:last-child {
@@ -198,6 +199,7 @@
   flex-direction: column;
   gap: 0.4rem;
   background-color: #0a0a0a;
+  flex-grow: 1;
 }
 
 .memberName {
@@ -219,9 +221,7 @@
 .socialBar {
   display: flex;
   gap: 1rem;
-  /* margin-top: 0rem; */
   border-top: 1px solid #141414;
-  /* padding-top: 0.8rem; */
 }
 
 .socialLink {
@@ -244,25 +244,35 @@
   color: #666;
 }
 
-/* --- MOBILE RESPONSIVE ADAPTATIONS --- */
+/* --- TABLET RESPONSIVE ADAPTATIONS --- */
 @media (max-width: 1200px) {
+  .layoutContainer {
+    padding: 40px 16px;
+  }
   .deptSection {
     padding: 4rem 3rem;
   }
 }
 
+/* --- MOBILE RESPONSIVE ADAPTATIONS --- */
 @media (max-width: 768px) {
   .layoutContainer {
     flex-direction: column;
+    padding: 0;
+    gap: 0;
   }
+
   .sidebar {
-    position: relative;
-    top: 0;
+    position: sticky;
+    top: 60px; /* Adjust this value if you have a top global header (e.g., matching its height) */
     width: 100%;
     height: auto;
     border-right: none;
-    border-bottom: 1px solid #141414;
-    padding: 2rem 1.5rem;
+    border-bottom: 1px solid #222;
+    padding: 1rem 1.5rem;
+    background-color: rgba(5, 5, 5, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 50;
   }
 
   /* Reset hidden parameters on mobile screens so header navigation options function natively */
@@ -272,24 +282,94 @@
     pointer-events: auto !important;
   }
 
+  .sidebarTitle {
+    display: none; /* Hide title on mobile to save vertical space */
+  }
+
   .navMenu {
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 1.5rem;
+    padding-bottom: 0.5rem;
+    /* Hide scrollbar for a cleaner swipeable tab look */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
   }
+
+  .navMenu::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
+
+  .navLink {
+    font-size: 0.95rem;
+    white-space: nowrap; /* Prevents text wrapping inside scrollable ribbon */
+  }
+
   .navLink.active {
     padding-left: 0;
   }
+
   .navLink.active::before {
-    display: none;
+    display: none; /* Hide vertical desktop active marker */
   }
+
+  .navLink.active::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #bc1c1c; /* Horizontal active marker for mobile */
+  }
+
   .contentArea {
     margin-left: 0;
+    width: 100%;
   }
+
   .deptSection {
     padding: 3rem 1.5rem;
+    scroll-margin-top: 140px; /* Provides extra offset padding for the mobile sticky nav */
   }
+
+  .deptSection:last-child {
+    padding-bottom: 6rem; /* Scale down the extreme desktop bottom padding */
+  }
+
   .deptHeading {
     font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .membersGrid {
+    /* Compress min-width so 2 cards can still typically fit side-by-side on mobile */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .metaZone {
+    padding: 1rem;
+  }
+
+  .memberName {
+    font-size: 1rem;
+  }
+
+  .memberRole {
+    font-size: 0.75rem;
+  }
+}
+
+/* --- EXTRA SMALL MOBILE ADAPTATIONS --- */
+@media (max-width: 480px) {
+  .deptSection {
+    padding: 2.5rem 1rem;
+  }
+
+  .membersGrid {
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   }
 }

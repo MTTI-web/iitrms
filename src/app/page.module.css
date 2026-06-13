@@ -5,13 +5,10 @@
     system-ui,
     -apple-system,
     sans-serif;
-
-  /* --- Full Screen Scroll Snapping --- */
-  scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }
 
-/* --- HERO DISPLAY CANVAS --- */
+/* --- HERO --- */
 .heroSection {
   position: relative;
   height: 100vh;
@@ -24,7 +21,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  scroll-snap-align: start;
 }
 
 .overlay {
@@ -37,7 +33,7 @@
     circle at center,
     rgba(0, 0, 0, 0.2) 0%,
     rgba(0, 0, 0, 0.8) 75%,
-    rgba(0, 0, 0, 1) 100%
+    rgba(0, 0, 0, 0.9) 90%
   );
   z-index: 1;
 }
@@ -49,67 +45,68 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 0 1rem;
+  padding: 0;
   width: 100%;
   max-width: 64rem;
   box-sizing: border-box;
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: 0.03em;
   color: #fff;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
 }
 
 .subtitle {
-  font-size: 1.35rem;
+  font-size: 1.1rem;
   color: #fff;
   font-style: italic;
   font-weight: 500;
   letter-spacing: 0.01em;
   opacity: 0.9;
+  padding: 0 1rem;
 }
 
-/* --- CAROUSEL DISPLAY SECTIONS (100vh) --- */
+/* --- CAROUSEL SECTIONS --- */
 .eventsSection {
   background-color: #050505;
-  padding: 6rem 2rem 2rem 2rem;
-  width: 100%;
-  max-width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  scroll-snap-align: start;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-/* --- DENSE DISPLAY SECTIONS (AUTO HEIGHT) --- */
-.sponsorsSection {
-  background-color: #050505;
-  padding: 6rem 2rem 6rem 2rem;
+  padding: 3.5rem 0 1.5rem 0;
   width: 100%;
   max-width: 100vw;
   height: auto;
   display: flex;
   flex-direction: column;
-  scroll-snap-align: start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* --- DENSE SECTIONS --- */
+.sponsorsSection {
+  background-color: #050505;
+  padding: 4rem 0;
+  width: 100%;
+  max-width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
 }
 
+/* --- SECTION HEADER --- */
 .sectionHeaderWrapper {
   flex: 0 0 auto;
   margin-bottom: 1.5rem;
   position: relative;
   display: inline-block;
   align-self: flex-start;
+  margin-left: 1.5rem;
 }
 
 .sectionHeader {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -129,20 +126,44 @@
   background-color: #bc1c1c;
 }
 
-/* --- RESPONSIVE TYPOGRAPHY ADJUSTMENTS --- */
+/* --- DESKTOP & LARGE SCREENS --- */
 @media (min-width: 768px) {
+  .home {
+    scroll-snap-type: y mandatory;
+  }
+
+  .heroSection {
+    scroll-snap-align: start;
+  }
+
   .title {
     font-size: 4.25rem;
   }
+
   .subtitle {
     font-size: 1.75rem;
+    padding: 0;
   }
+
   .eventsSection {
-    padding: 7rem 4rem 3rem 4rem;
+    padding: 6rem 0 2.5rem 0;
+    /* FIX: Changed from absolute height to min-height. This keeps the look
+       clean on standard viewports, but allows the container to stretch fluidly 
+       downward if a card contains an exceptionally long description. */
+    min-height: min(100vh, 880px);
+    height: auto;
+    scroll-snap-align: start;
   }
+
   .sponsorsSection {
-    padding: 7rem 4rem 6rem 4rem;
+    padding: 7rem 0 6rem 0;
+    scroll-snap-align: start;
   }
+
+  .sectionHeaderWrapper {
+    margin-left: 4rem;
+  }
+
   .sectionHeader {
     font-size: 2.5rem;
   }

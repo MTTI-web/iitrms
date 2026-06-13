@@ -9,16 +9,18 @@ export default function AchievementsList() {
   const scrollContainerRef = useRef(null);
 
   const scroll = (direction) => {
-    if (scrollContainerRef.current) {
-      // Approximate scroll amount: a card width (400px) + gap
-      const scrollAmount =
-        window.innerWidth > 768 ? 432 : window.innerWidth * 0.85;
+    if (!scrollContainerRef.current) return;
 
-      scrollContainerRef.current.scrollBy({
-        left: direction === "left" ? -scrollAmount : scrollAmount,
-        behavior: "smooth",
-      });
-    }
+    // Mobile: card is 88vw + 1rem gap  →  window.innerWidth * 0.88 + 16
+    // Desktop: card is capped at 400px + 2rem gap  →  432px
+    // Note: scroll-snap-type will correct any minor inaccuracy automatically.
+    const isMobile = window.innerWidth < 768;
+    const scrollAmount = isMobile ? window.innerWidth * 0.88 + 16 : 432;
+
+    scrollContainerRef.current.scrollBy({
+      left: direction === "left" ? -scrollAmount : scrollAmount,
+      behavior: "smooth",
+    });
   };
 
   if (!achievementsData || achievementsData.length === 0) return null;
@@ -32,8 +34,8 @@ export default function AchievementsList() {
         aria-label="Scroll left"
       >
         <svg
-          width="24"
-          height="24"
+          width="20"
+          height="20"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -41,7 +43,7 @@ export default function AchievementsList() {
           strokeLinecap="round"
           strokeLinejoin="round"
         >
-          <polyline points="15 18 9 12 15 6"></polyline>
+          <polyline points="15 18 9 12 15 6" />
         </svg>
       </button>
 
@@ -59,8 +61,8 @@ export default function AchievementsList() {
         aria-label="Scroll right"
       >
         <svg
-          width="24"
-          height="24"
+          width="20"
+          height="20"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -68,7 +70,7 @@ export default function AchievementsList() {
           strokeLinecap="round"
           strokeLinejoin="round"
         >
-          <polyline points="9 18 15 12 9 6"></polyline>
+          <polyline points="9 18 15 12 9 6" />
         </svg>
       </button>
     </div>

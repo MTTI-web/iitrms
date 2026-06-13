@@ -144,10 +144,10 @@ export default function Footer() {
             </div>
             <div className={styles.contactTextGroup}>
               <span className={styles.contactName}>
-                Aditya Phadnis (Team Leader)
+                Apoorv Bhardwaj (Team Leader)
               </span>
               <a href="tel:+919975789570" className={styles.contactText}>
-                +91 99757 89570
+                +91 7983290252
               </a>
             </div>
           </div>

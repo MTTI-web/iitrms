@@ -1,33 +1,40 @@
 .carouselWrapper {
   position: relative;
   width: 100%;
-  flex: 1;
-  min-height: 0;
+  /* Establish fluid baselines allowing full downward expansion for massive text blocks */
+  min-height: 600px;
+  height: auto;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .carouselViewport {
   width: 100%;
-  height: 100%;
+  /* FIX: Switch from height: 100% to flex-grow to pass variable height safely down the tree */
+  flex: 1;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .carouselTrack {
   display: flex;
   width: 100%;
-  height: 100%;
+  /* FIX: Let the track size itself dynamically based on the tallest card slide container */
+  flex: 1;
+  align-items: stretch;
   box-sizing: border-box;
 }
 
 .carouselSlide {
   flex: 0 0 100%;
   width: 100%;
-  height: 100%;
   box-sizing: border-box;
-  /* Creates a 6px safety gap around the card so hover borders are never cut off by the viewport */
   padding: 6px;
+  display: flex; /* Vital: Forces the internal card to stretch to match track height */
 }
 
 /* --- Navigation Controls --- */
@@ -60,7 +67,6 @@
   display: block;
 }
 
-/* Tucked slightly outwards over the slide safety padding area */
 .prevButton {
   left: -10px;
 }
@@ -75,5 +81,20 @@
   }
   .nextButton {
     right: 10px;
+  }
+}
+
+/* Hide navigation buttons cleanly on mobile touch viewports */
+@media (max-width: 767px) {
+  .navButton {
+    display: none !important;
+  }
+}
+
+/* --- Desktop Presentation Sizing Adjustments --- */
+@media (min-width: 1024px) {
+  .carouselWrapper {
+    min-height: 520px;
+    height: auto;
   }
 }

@@ -19,6 +19,11 @@ export default function EventsCarousel() {
   const [isHovered, setIsHovered] = useState(false);
   const jumpResetRef = useRef(false);
 
+  // --- SWIPE GESTURE TRACKING STATE ---
+  const [touchStart, setTouchStart] = useState(null);
+  const [touchEnd, setTouchEnd] = useState(null);
+  const minSwipeDistance = 50;
+
   const handleNext = () => {
     if (jumpResetRef.current) return;
     setIsTransitioning(true);
@@ -29,6 +34,29 @@ export default function EventsCarousel() {
     if (jumpResetRef.current) return;
     setIsTransitioning(true);
     setCurrentIndex((prev) => prev - 1);
+  };
+
+  // --- SWIPE GESTURE INTERACTION HANDLERS ---
+  const onTouchStart = (e) => {
+    setTouchEnd(null);
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const onTouchMove = (e) => {
+    setTouchEnd(e.targetTouches[0].clientX);
+  };
+
+  const onTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    const distance = touchStart - touchEnd;
+    const isLeftSwipe = distance > minSwipeDistance;
+    const isRightSwipe = distance < -minSwipeDistance;
+
+    if (isLeftSwipe) {
+      handleNext();
+    } else if (isRightSwipe) {
+      handlePrev();
+    }
   };
 
   useEffect(() => {
@@ -66,6 +94,9 @@ export default function EventsCarousel() {
       className={styles.carouselWrapper}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      onTouchStart={onTouchStart}
+      onTouchMove={onTouchMove}
+      onTouchEnd={onTouchEnd}
     >
       <button
         className={`${styles.navButton} ${styles.prevButton}`}

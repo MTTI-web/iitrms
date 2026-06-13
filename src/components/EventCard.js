@@ -10,8 +10,10 @@ export default function EventCard({ items }) {
 
   return (
     <div className={styles.cardContainer}>
-      {/* Left Media Column */}
-      <div className={styles.mediaStage}>
+      {/* Left Media Column - Appends split-height structural classes when 2 items exist */}
+      <div
+        className={`${styles.mediaStage} ${hasMultiple ? styles.mediaStageMultiple : ""}`}
+      >
         {items.map((item, idx) => (
           <div
             key={item.id || idx}

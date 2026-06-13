@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import styles from "./TeamDisplay.module.css";
 
@@ -12,23 +12,22 @@ const createSafeId = (name) =>
     .replace(/(^-|-$)/g, "");
 
 export default function TeamDisplay({ team }) {
-  // Dynamically extract categories directly from your JSON root keys
   const departments = team ? Object.keys(team) : [];
 
   const [activeDept, setActiveDept] = useState(
     departments[0] ? createSafeId(departments[0]) : "",
   );
 
-  // State tracking whether the sidebar should fade out and slide left
   const [isSidebarHidden, setIsSidebarHidden] = useState(false);
+  const navMenuRef = useRef(null);
 
   // EFFECT 1: Tracks current section for active navigation states
   useEffect(() => {
     if (departments.length === 0) return;
 
     const observerOptions = {
-      root: null, // Tracks global window viewport scrolling
-      rootMargin: "-30% 0px -50% 0px",
+      root: null,
+      rootMargin: "-20% 0px -60% 0px", // Adjusted slightly for better mobile triggering
       threshold: 0,
     };
 
@@ -61,34 +60,41 @@ export default function TeamDisplay({ team }) {
       const currentScrollY = window.scrollY;
       const scrollHeight = document.documentElement.scrollHeight;
       const clientHeight = document.documentElement.clientHeight;
-
-      // Calculate the distance in pixels to the absolute bottom of the page
       const distanceFromBottom = scrollHeight - clientHeight - currentScrollY;
-
-      // Distance threshold from the bottom (e.g., 650px) where the sidebar hides.
-      // Increase this value if you have a very tall Footer at the bottom.
       const bottomThreshold = 650;
 
       if (distanceFromBottom < bottomThreshold) {
         if (currentScrollY < lastScrollY) {
-          // Scrolling UP near the bottom: reappear immediately
           setIsSidebarHidden(false);
         } else {
-          // Scrolling DOWN near the bottom: fade and slide out left
           setIsSidebarHidden(true);
         }
       } else {
-        // Anywhere else high up on the page: remain fully visible
         setIsSidebarHidden(false);
       }
 
       lastScrollY = currentScrollY;
     };
 
-    // Use passive listener for optimized scrolling performance
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // EFFECT 3: Auto-scroll the mobile horizontal nav to keep the active item visible
+  useEffect(() => {
+    if (window.innerWidth <= 768 && navMenuRef.current) {
+      const activeElement = navMenuRef.current.querySelector(
+        `.${styles.active}`,
+      );
+      if (activeElement) {
+        activeElement.scrollIntoView({
+          behavior: "smooth",
+          inline: "center",
+          block: "nearest",
+        });
+      }
+    }
+  }, [activeDept]);
 
   const scrollToDept = (e, deptName) => {
     e.preventDefault();
@@ -173,7 +179,7 @@ export default function TeamDisplay({ team }) {
         className={`${styles.sidebar} ${isSidebarHidden ? styles.sidebarHidden : ""}`}
       >
         <h2 className={styles.sidebarTitle}>The Team</h2>
-        <nav className={styles.navMenu}>
+        <nav className={styles.navMenu} ref={navMenuRef}>
           {departments.map((dept) => {
             const safeId = createSafeId(dept);
             return (
@@ -219,6 +225,8 @@ export default function TeamDisplay({ team }) {
                         : member.subsystem;
                   } else if (isFacultyDept) {
                     role = "Faculty Advisor";
+                  } else if (member.post && member.post !== "Member") {
+                    role = member.post;
                   }
 
                   let imageSrc = null;
@@ -287,7 +295,7 @@ export default function TeamDisplay({ team }) {
                             src={imageSrc}
                             alt={`${name} Profile`}
                             fill
-                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 20vw"
+                            sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
                             className={styles.avatarImage}
                             style={imageStyle}
                             priority={index < 4}
