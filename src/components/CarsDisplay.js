@@ -5,9 +5,7 @@ import Image from "next/image";
 import styles from "./CarsDisplay.module.css";
 
 export default function CarsDisplay({ cars }) {
-  const carEntries = Object.entries(cars).sort(
-    (a, b) => parseInt(a[1].id) - parseInt(b[1].id),
-  );
+  const carEntries = Object.entries(cars);
   const [activeId, setActiveId] = useState("");
   const [expandedSpecs, setExpandedSpecs] = useState({});
   const [hideSidebar, setHideSidebar] = useState(false); // Track footer visibility
@@ -32,8 +30,8 @@ export default function CarsDisplay({ cars }) {
       observerOptions,
     );
 
-    carEntries.forEach(([_, carData]) => {
-      const el = document.getElementById(`car-${carData.id}`);
+    carEntries.forEach(([carName, carData]) => {
+      const el = document.getElementById(`car-${carName}`);
       if (el) observer.observe(el);
     });
 
@@ -84,12 +82,12 @@ export default function CarsDisplay({ cars }) {
       >
         <h2 className={styles.sidebarTitle}>Our Fleet</h2>
         <nav className={styles.navMenu}>
-          {carEntries.map(([carName, carData]) => (
+          {carEntries.map(([carName, carData], i) => (
             <a
-              key={`nav-${carData.id}`}
-              href={`#car-${carData.id}`}
-              onClick={(e) => scrollToCar(e, carData.id)}
-              className={`${styles.navLink} ${activeId === carData.id ? styles.active : ""}`}
+              key={`nav-${i}`}
+              href={`#car-${carName}`}
+              onClick={(e) => scrollToCar(e, carName)}
+              className={`${styles.navLink} ${activeId === carName ? styles.active : ""}`}
             >
               {carName}
             </a>
@@ -99,7 +97,7 @@ export default function CarsDisplay({ cars }) {
 
       {/* RIGHT COLUMN: Main scrolling content */}
       <div className={styles.contentArea}>
-        {carEntries.map(([carName, carData]) => {
+        {carEntries.map(([carName, carData], i) => {
           const specs = carData.technicalspecifications || [];
           const isExpanded = expandedSpecs[carData.id];
           const visibleSpecs = isExpanded ? specs : specs.slice(0, 5);
@@ -107,8 +105,8 @@ export default function CarsDisplay({ cars }) {
 
           return (
             <section
-              key={carData.id}
-              id={`car-${carData.id}`}
+              key={carName}
+              id={`car-${carName}`}
               className={styles.carSection}
             >
               {/* TOP BLOCK: Image and description */}

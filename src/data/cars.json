@@ -1,4 +1,30 @@
 {
+  "RMSE 24": {
+    "image": "/cars/rmse24.png",
+    "desc": "Designed for the Formula Bharat 2025 competition, the RMSE 24 powertrain and accumulator system focuses on high reliability, optimized thermal management, and structural weight reduction.",
+    "id": "1",
+    "achievements": [
+      "1st position in MATLAB modelling award",
+      "1st position in Altair Simulation challenge",
+      "11th position Overall among all the Teams",
+      "1st position in Engineering Design (VED) Event",
+      "3rd position in MathWorks Modelling Competition",
+      "6th position in Business Plan Presentation"
+    ],
+    "technicalspecifications": [
+      "Traction System Voltage: 400-600 V",
+      "Motor: EMRAX 228 MV",
+      "Motor Controller Unit: Bamocar D3",
+      "Accumulator Cells: 126 modules of Energus Power Solutions 1s6p Sony VTC6",
+      "Accumulator Container: Fabricated from AL-6061, achieving a 5 kg weight reduction",
+      "Cooling Duct: Fabricated from Carbon Fibre Reinforced Plastic (CFRP) to reduce weight",
+      "Accumulator Cooling: Air-Based cooling system featuring three parallel fans",
+      "Master BMS: Teensy 4.1 microcontroller managing 9 slave BMS modules",
+      "Cell Balancing: Passive cell balancing circuit utilizing internal NMOS",
+      "Thermal Loop Radiator: Cross-flow single-pass radiator from a Bajaj Pulsar NS 200",
+      "Total Pressure Drop: 0.228 bar for the MCU loop and 1.054 bar for the Motor loop"
+    ]
+  },
   "RMSE 23": {
     "image": "/cars/rsme23.jpeg",
     "desc": "We aim to build a faster, lighter, and more reliable car this year compared to our previous projects. The primary goals to focus on this year were Reliability, Competitiveness, Improved Manufacturability, and Components Reusability. With RMS23, the team participated in Formula Student UK held at Silverstone Circuit, United Kingdom, in July 2023.",
