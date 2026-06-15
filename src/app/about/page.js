@@ -2,6 +2,8 @@ import Image from "next/image";
 import styles from "./About.module.css";
 
 export default function About() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <main className={styles.mainContainer}>
       {/* HERO SECTION */}
@@ -44,7 +46,7 @@ export default function About() {
             fully Electric car, Formula Green in 2017, Formula Green 2020 at
             Coimbatore, and Formula Bharat 2020, which was conducted remotely
             due to the pandemic. The Team is now aiming to participate in
-            Formula Bharat, 2023, to be held in Coimbatore.
+            Formula Bharat, {currentYear}.
           </p>
           <p className={styles.description}>
             Led by three faculty advisors, the team has now evolved into a group

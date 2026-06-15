@@ -251,21 +251,15 @@ export default function TeamDisplay({ team }) {
                     ) {
                       imageSrc = cleanLink;
                     } else {
-                      imageSrc =
-                        (member.Timestamp ? "/team/new/" : "/team/old/") +
-                        cleanLink;
+                      imageSrc = "/team/" + cleanLink;
                     }
                   }
+                  console.log(imageSrc);
 
-                  const imageStyle =
-                    isFacultyDept || member.Timestamp
-                      ? { objectFit: "cover", objectPosition: "50% 30%" }
-                      : {
-                          objectFit: "cover",
-                          objectPosition: "70% 50%",
-                          transform: "rotate(-90deg) scale(1.25)",
-                          transformOrigin: "center",
-                        };
+                  const imageStyle = {
+                    objectFit: "cover",
+                    objectPosition: "50% 30%",
+                  };
 
                   const socials = {};
                   if (member.linkedin?.trim()) {

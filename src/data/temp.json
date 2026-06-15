@@ -1,0 +1,231 @@
+{
+  "Faculty Advisors": [
+    {
+      "name": "Prof. Anuj Bisht",
+      "image": "Anuj Bisht.jpg",
+      "Faculty Profile": "https://www.iitr.ac.in/Departments/Mechanical%20and%20Industrial%20Engineering%20Department/People/Faculty/101032.html"
+    },
+    {
+      "name": "Prof. Saurabh Sharma",
+      "image": "Saurabh Sharma.jpg",
+      "Faculty Profile": "https://www.iitr.ac.in/Departments/Mechanical%20and%20Industrial%20Engineering%20Department/People/Faculty/101028.html"
+    },
+    {
+      "name": "Prof. Apurv Kumar Yadav",
+      "image": "Apurv Kumar Yadav.jpg",
+      "Faculty Profile": "https://iitr.ac.in/~EE/Apurv_Kumar_Yadav"
+    },
+    {
+      "name": "Prof. Tharun Kumar Reddy Bollu",
+      "image": "Tharun Kumar Reddy Bollu.jpg",
+      "Faculty Profile": "https://www.iitr.ac.in/Departments/Electronics%20and%20Communication%20Engineering%20Department/People/Faculty/100953.html"
+    }
+  ],
+  "Management": [
+    {
+      "Timestamp": "x",
+      "name": "Apoorv Bhardwaj",
+      "subsystem": "Team Leader",
+      "post": "",
+      "Phone": "",
+      "email": "apoorv_b@me.iitr.ac.in",
+      "image": "Apoorv Bhardwaj.png",
+      "facebook": "",
+      "linkedin": "www.linkedin.com/in/apoorv-bhardwaj-a081a428b"
+    },
+    {
+      "name": "Karan Bhalla",
+      "subsystem": "Deputy Team Leader",
+      "post": "",
+      "Phone": "",
+      "email": "",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
+    },
+    {
+      "name": "Abhisar Gupta",
+      "subsystem": "Mechanical Head",
+      "post": "",
+      "Phone": "",
+      "email": "",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
+    },
+    {
+      "name": "Mayank Raj",
+      "subsystem": "Electrical Head",
+      "post": "",
+      "Phone": "",
+      "email": "",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
+    },
+    {
+      "name": "Surendrapal Singh Chouhan",
+      "subsystem": "",
+      "email": "surendrapal_sc@me.iitr.ac.in",
+      "facebook": "",
+      "Timestamp": "2026/06/12 7:03:44 PM GMT+5:30",
+      "post": "Autonomous Head",
+      "grad_year": -1,
+      "linkedin": "",
+      "image": ""
+    },
+    {
+      "name": "Rishav Kumar",
+      "subsystem": "Aero and Thermal Head",
+      "post": "",
+      "Phone": "",
+      "email": "rishavroy124@gmail.com",
+      "image": "",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/rishav-kumar-98a152298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+      "name": "Gunjan Shah",
+      "subsystem": "Aero and Thermal Senior Engineer",
+      "post": "",
+      "Phone": "",
+      "email": "",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
+    },
+    {
+      "name": "Prakhar Mehta",
+      "subsystem": "Aero and Thermal Senior Engineer",
+      "post": "",
+      "Phone": "",
+      "email": "",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
+    },
+    {
+      "Timestamp": "x",
+      "name": "Sarvesh Kumar Rai",
+      "subsystem": "Powertrain Head",
+      "post": "",
+      "Phone": "",
+      "email": "sarvesh_kr@me.iitr.ac.in",
+      "image": "Sarvesh Kumar Rai.jpg",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/sarvesh-kumar-rai-3a13a9282?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+    },
+    {
+      "name": "Amit Kumar Jangid",
+      "subsystem": "Powertrain Senior Engineer",
+      "post": "",
+      "Phone": "",
+      "email": "",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
+    },
+    {
+      "name": "Shivang Joshi",
+      "subsystem": "Powertrain Senior Engineer",
+      "post": "",
+      "Phone": "",
+      "email": "",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
+    },
+    {
+      "name": "Parth Aghara",
+      "subsystem": "VD Head",
+      "post": "",
+      "Phone": "",
+      "email": "",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
+    },
+    {
+      "Timestamp": "x",
+      "name": "Aman Prajapati",
+      "subsystem": "Structural Head",
+      "post": "",
+      "Phone": "",
+      "email": "aman_p@me.iitr.ac.in",
+      "image": "Aman Prajapati.jpg",
+      "facebook": "",
+      "linkedin": "https://in.linkedin.com/in/aman-prajapati-019ap"
+    },
+    {
+      "name": "Riya Barna",
+      "subsystem": "Structural Senior Engineer",
+      "post": "",
+      "Phone": "",
+      "email": "",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
+    },
+    {
+      "name": "Satwik Dash",
+      "subsystem": "E-powertrain Head",
+      "post": "",
+      "Phone": "",
+      "email": "",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
+    },
+    {
+      "name": "Shantanu Singh",
+      "subsystem": "E-powertrain Senior Engineer",
+      "post": "",
+      "Phone": "",
+      "email": "",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
+    },
+    {
+      "name": "Priyanshi M",
+      "subsystem": "Electronics Head",
+      "post": "",
+      "Phone": "",
+      "email": "",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
+    },
+    {
+      "name": "Pranav Taliwal",
+      "subsystem": "Electronics Senior Engineer",
+      "post": "",
+      "Phone": "",
+      "email": "",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
+    },
+    {
+      "name": "Suhani Jain",
+      "subsystem": "Marketing Head",
+      "post": "",
+      "Phone": "",
+      "email": "",
+      "image": "",
+      "facebook": "",
+      "linkedin": ""
+    },
+    {
+      "Timestamp": "x",
+      "name": "Utkarsh Kumar",
+      "subsystem": "Media Head",
+      "post": "",
+      "Phone": "",
+      "email": "utkarsh_k@me.iitr.ac.in",
+      "image": "Utkarsh Kumar.jpg",
+      "facebook": "",
+      "linkedin": "https://in.linkedin.com/in/utkarsh-singh-774a94273"
+    }
+  ]
+}
